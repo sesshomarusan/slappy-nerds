@@ -5,6 +5,8 @@ Objects {
   Name: "Sandbox"
   Transform {
     Location {
+      X: -44
+      Y: -200
     }
     Rotation {
     }
