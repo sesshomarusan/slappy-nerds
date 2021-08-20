@@ -1,5 +1,5 @@
 --[[
-Copyright 2019 Manticore Games, Inc. 
+Copyright 2021 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -16,25 +16,37 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 
 -- Internal custom properties
-local ABGS = require(script:GetCustomProperty("API"))
-local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
-
--- int GetGameState()
--- Gets the current state. Passed to API
-function GetGameState()
-	return SERVER_SCRIPT:GetCustomProperty("State")
+local VEHICLE = script:FindAncestorByType('Vehicle')
+if not VEHICLE:IsA('Vehicle') then
+    error(script.name .. " should be part of Vehicle object hierarchy.")
 end
 
--- <float> GetTimeRemainingInState()
--- Gets time remaining in state, or nil. Passed to API
-function GetTimeRemainingInState()
-	if not SERVER_SCRIPT:GetCustomProperty("StateHasDuration") then
-		return nil
-	end
-	
-	local endTime = SERVER_SCRIPT:GetCustomProperty("StateEndTime")
-	return math.max(endTime - time(), 0.0)
+-- User exposed cutom property
+local ENTER_SOUND_TEMPLATE = script:GetCustomProperty("EnterSoundTemplate")
+local EXIT_SOUND_TEMPLATE = script:GetCustomProperty("ExitSoundTemplate")
+
+-- Constant variables
+local DEFAULT_LIFESPAN = 1.5
+
+function OnDriverEntered(vehicle, player)
+    if not Object.IsValid(VEHICLE) then return end
+    SpawnTemplate(ENTER_SOUND_TEMPLATE)
 end
 
--- Initialize
-ABGS.RegisterGameStateManagerClient(GetGameState, GetTimeRemainingInState)
+function OnDriverExited(vehicle, player)
+    if not Object.IsValid(VEHICLE) then return end
+    SpawnTemplate(EXIT_SOUND_TEMPLATE)
+end
+
+function SpawnTemplate(template)
+    if template then
+        local instance = World.SpawnAsset(template, {parent = VEHICLE})
+        if instance.lifeSpan == 0 then
+            instance.lifeSpan = DEFAULT_LIFESPAN
+        end
+    end
+end
+
+--Initialize
+VEHICLE.driverEnteredEvent:Connect(OnDriverEntered)
+VEHICLE.driverExitedEvent:Connect(OnDriverExited)
