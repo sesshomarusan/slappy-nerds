@@ -101,6 +101,8 @@ Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
+    Location {
+    }
     Scale {
       X: 1
       Y: 1
@@ -248,13 +250,13 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 6000
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:lookrelative"
+        Value: "mc:emovementcontrolmode:fixedaxes"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
-        Value: "mc:efacingmode:faceaimwhenactive"
+        Value: "mc:efacingmode:facemovement"
       }
       DefaultRotationRate: 540
       SlideRotationRate: 20
