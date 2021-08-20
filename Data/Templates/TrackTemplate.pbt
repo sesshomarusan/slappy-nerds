@@ -7,7 +7,7 @@ Assets {
       RootId: 17389400447245475449
       Objects {
         Id: 17389400447245475449
-        Name: "Track 1"
+        Name: "TrackTemplate"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8303090357388869899
+        ParentId: 2133296978865689223
         ChildIds: 15086843744217513827
         ChildIds: 8743162478415194489
         Collidable_v2 {
@@ -53,7 +53,6 @@ Assets {
         ChildIds: 8069930912057658585
         ChildIds: 7924801326222668818
         ChildIds: 13373610311618860751
-        ChildIds: 13777264095987780358
         UnregisteredParameters {
           Overrides {
             Name: "cs:Waypoints"
@@ -68,12 +67,6 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:Vehicles"
-            ObjectReference {
-              SubObjectId: 13777264095987780358
-            }
-          }
-          Overrides {
             Name: "cs:Name"
             String: "Track 1"
           }
@@ -84,12 +77,6 @@ Assets {
           Overrides {
             Name: "cs:RoundTime"
             Float: 300
-          }
-          Overrides {
-            Name: "cs:DefaultVehicle"
-            AssetReference {
-              Id: 17655265101728568550
-            }
           }
           Overrides {
             Name: "cs:AssignRandomVehicles"
@@ -126,10 +113,6 @@ Assets {
           Overrides {
             Name: "cs:DEBUG_DrawPath:tooltip"
             String: "Draw the waypoints debug lines for this track."
-          }
-          Overrides {
-            Name: "cs:DefaultVehicle:tooltip"
-            String: "Set the default vehicle for this track. This will be asigned regardless of player\'s vehicle choice. If AssignRandomVehicle is selected, then this property will be ignored."
           }
         }
         Collidable_v2 {
@@ -2571,199 +2554,6 @@ Assets {
           TriggerShape_v2 {
             Value: "mc:etriggershape:box"
           }
-        }
-      }
-      Objects {
-        Id: 13777264095987780358
-        Name: "Vehicles"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15086843744217513827
-        ChildIds: 17504818493811159209
-        ChildIds: 11002092621830024691
-        ChildIds: 7424487799627485672
-        ChildIds: 5875414375646040406
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17504818493811159209
-        Name: "Vehicle Reference"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13777264095987780358
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Vehicle"
-            AssetReference {
-              Id: 17655265101728568550
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11002092621830024691
-        Name: "Vehicle Reference"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13777264095987780358
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Vehicle"
-            AssetReference {
-              Id: 9812805254859464304
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7424487799627485672
-        Name: "Vehicle Reference"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13777264095987780358
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Vehicle"
-            AssetReference {
-              Id: 7251884829137708299
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5875414375646040406
-        Name: "Vehicle Reference"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13777264095987780358
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Vehicle"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
         }
       }
       Objects {
