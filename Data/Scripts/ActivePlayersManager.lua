@@ -36,7 +36,7 @@ end
 
 function OnPlayerJoined(player)
 	player.resourceChangedEvent:Connect(OnPlayerResourceChanged)
-
+	
     if API.IsPlayerActive(player) then
         Events.Broadcast(PLAYER_ACTIVE_EVENT, player)
     end

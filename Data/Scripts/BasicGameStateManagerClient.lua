@@ -31,7 +31,7 @@ function GetTimeRemainingInState()
 	if not SERVER_SCRIPT:GetCustomProperty("StateHasDuration") then
 		return nil
 	end
-
+	
 	local endTime = SERVER_SCRIPT:GetCustomProperty("StateEndTime")
 	return math.max(endTime - time(), 0.0)
 end
