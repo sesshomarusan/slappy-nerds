@@ -19,7 +19,6 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 2470757819339974563
   ChildIds: 11471538778038788490
-  ChildIds: 13130032069791603243
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,65 +31,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 13130032069791603243
-  Name: "UI Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-      ContentType {
-        Value: "mc:ecanvascontenttype:dynamic"
-      }
-      Opacity: 1
-      IsHUD: true
-      CanvasWorldSize {
-        X: 1024
-        Y: 1024
-      }
-      RedrawTime: 30
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
   }
 }
 Objects {
@@ -161,8 +101,6 @@ Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
-    Location {
-    }
     Scale {
       X: 1
       Y: 1
@@ -310,13 +248,13 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 6000
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:fixedaxes"
+        Value: "mc:emovementcontrolmode:lookrelative"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
-        Value: "mc:efacingmode:facemovement"
+        Value: "mc:efacingmode:faceaimwhenactive"
       }
       DefaultRotationRate: 540
       SlideRotationRate: 20

@@ -37,8 +37,6 @@ Objects {
   Name: "Nancy"
   Transform {
     Location {
-      X: -114676
-      Y: -241259
     }
     Rotation {
     }

@@ -1,350 +1,6 @@
 Name: "Nancy_1"
 RootId: 11878903719356710500
 Objects {
-  Id: 11652304169408668752
-  Name: "Flower Pot"
-  Transform {
-    Location {
-      X: -167624
-      Y: -276942
-      Z: 293
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 50
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5033184760075631004
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Flower Pot"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -167624
-            Y: -100983
-            Z: 293
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 50
-            Y: 50
-            Z: 50
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2910700212179532242
-    }
-  }
-}
-Objects {
-  Id: 3221238125017031074
-  Name: "Flower Pot"
-  Transform {
-    Location {
-      X: -167624
-      Y: -276942
-      Z: 293
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 50
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5033184760075631004
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Flower Pot"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -201020
-            Y: -95627
-            Z: 4959
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 50
-            Y: 50
-            Z: 50
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2910700212179532242
-    }
-  }
-}
-Objects {
-  Id: 2254306618411661251
-  Name: "FlowerPots"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "FlowerPots"
-  }
-}
-Objects {
-  Id: 9837671275923933624
-  Name: "Trees"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Trees"
-  }
-}
-Objects {
-  Id: 16241697940018840139
-  Name: "Grass"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Grass"
-  }
-}
-Objects {
-  Id: 275335269011762248
-  Name: "IvyTrellis"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "IvyTrellis"
-  }
-}
-Objects {
-  Id: 9574626707591532345
-  Name: "Fences"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Fences"
-  }
-}
-Objects {
-  Id: 16222917289124445435
-  Name: "Floor(Tiles)"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Floor(Tiles)"
-  }
-}
-Objects {
-  Id: 7827438937952483113
-  Name: "Floor(Grass)"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Floor(Grass)"
-  }
-}
-Objects {
   Id: 2564217371790169741
   Name: "Craftsman Part - Exterior Foundation Trim 01"
   Transform {
@@ -392,6 +48,59 @@ Objects {
   }
 }
 Objects {
+  Id: 3660428320839060986
+  Name: "KCs_LushGrass_HQ"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4954585853130349306
+      value {
+        Overrides {
+          Name: "Name"
+          String: "KCs_LushGrass_HQ"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1457
+            Y: -68127
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5937216559040150495
+    }
+  }
+}
+Objects {
   Id: 15389227799834723144
   Name: "Patio Table 1"
   Transform {
@@ -419,9 +128,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -215663
-            Y: -86237
-            Z: 4964
+            X: -1452
+            Y: -70660
+            Z: 25
           }
         }
         Overrides {
@@ -432,9 +141,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 30
-            Y: 30
-            Z: 30
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -472,23 +181,22 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -169466
-            Y: -52245
-            Z: 319
+            X: -1248
+            Y: -69872
+            Z: 25
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -110
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 50
-            Y: 50
-            Z: 50
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -526,9 +234,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -171576
-            Y: -44252
-            Z: 260
+            X: -1384
+            Y: -69886
+            Z: 25
           }
         }
         Overrides {
@@ -539,9 +247,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 50
-            Y: 50
-            Z: 50
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -685,9 +393,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -114358
-            Y: -85388
-            Z: 302
+            X: -2072
+            Y: -72529
+            Z: 276
           }
         }
         Overrides {
@@ -698,9 +406,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 20
-            Y: 20
-            Z: 20
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -883,6 +591,59 @@ Objects {
   }
 }
 Objects {
+  Id: 15311703941541518264
+  Name: "Ivy Trellis"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10229238016999262703
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ivy Trellis"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2785
+            Y: -68476
+            Z: 37
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4585963134442057320
+    }
+  }
+}
+Objects {
   Id: 11589988453871071559
   Name: "Gardening Trowel"
   Transform {
@@ -999,6 +760,112 @@ Objects {
   }
 }
 Objects {
+  Id: 4481427591111493913
+  Name: "Flower Pot"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5033184760075631004
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Flower Pot"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1899
+            Y: -68480
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2910700212179532242
+    }
+  }
+}
+Objects {
+  Id: 3386747268152020820
+  Name: "Fence Segment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2613302385022587225
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fence Segment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2123
+            Y: -69178
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 208879154582546567
+    }
+  }
+}
+Objects {
   Id: 5026637138573820122
   Name: "Deck"
   Transform {
@@ -1036,7 +903,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -204761
+            X: -4137
             Y: -69840
             Z: 124
           }
@@ -1049,9 +916,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 35
-            Y: 35
-            Z: 35
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -1142,23 +1009,22 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -130720
-            Y: -42738
-            Z: 373
+            X: -1515
+            Y: -67715
+            Z: 25
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 50
-            Y: 50
-            Z: 50
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -1196,9 +1062,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -148480
-            Y: -51935
-            Z: 339
+            X: -1761
+            Y: -67849
+            Z: 25
           }
         }
         Overrides {
@@ -1209,9 +1075,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 50
-            Y: 50
-            Z: 50
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -1249,8 +1115,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -123708
-            Y: -40388
+            X: -2022
+            Y: -68339
             Z: 172
           }
         }
@@ -1262,9 +1128,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 50
-            Y: 50
-            Z: 50
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -1302,23 +1168,22 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -120792
-            Y: -52274
-            Z: 280
+            X: -1751
+            Y: -68277
+            Z: 25
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 50
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 5
-            Y: 5
-            Z: 5
+            X: 0.185640782
+            Y: 0.185640782
+            Z: 0.185640782
           }
         }
       }
@@ -1356,23 +1221,22 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -188884
-            Y: -44523
-            Z: 4995
+            X: -1280
+            Y: -67597
+            Z: 25
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 40
-            Y: 40
-            Z: 40
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }

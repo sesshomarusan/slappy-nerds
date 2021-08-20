@@ -5,8 +5,8 @@ Objects {
   Name: "Course 3"
   Transform {
     Location {
-      X: 2715
-      Y: 31040
+      X: -61005
+      Y: 52140
       Z: 135
     }
     Rotation {
