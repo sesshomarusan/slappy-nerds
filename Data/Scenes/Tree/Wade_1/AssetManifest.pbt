@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10945309974547744497
+  Name: "Tree Sakura Hero Bare 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_sakura_hero_01_bare_ref"
+  }
+}
+Assets {
   Id: 10241439001263725146
   Name: "Flower Wild Lily 01"
   PlatformAssetType: 1
