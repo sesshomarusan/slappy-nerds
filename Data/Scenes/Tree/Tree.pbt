@@ -251,7 +251,7 @@ Objects {
         Value: "mc:emovementcontrolmode:lookrelative"
       }
       LookControlMode {
-        Value: "mc:elookcontrolmode:relative"
+        Value: "mc:elookcontrolmode:none"
       }
       FacingMode {
         Value: "mc:efacingmode:faceaimwhenactive"
@@ -269,8 +269,6 @@ Objects {
       IsSlideEnabled: true
       IsCrouchEnabled: true
       IsJumpEnabled: true
-      CanMoveForward: true
-      CanMoveBackward: true
       CanMoveLeft: true
       CanMoveRight: true
       AbilityAimMode {
