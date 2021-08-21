@@ -1,13 +1,4 @@
 Assets {
-  Id: 15764772989683159019
-  Name: "Crescent - 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_003"
-  }
-}
-Assets {
   Id: 14031147348977058477
   Name: "Bricks Wall Flat 01"
   PlatformAssetType: 2
