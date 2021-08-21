@@ -1,8 +1,8 @@
-Name: "Kenny"
-RootId: 9828666197326952249
+Name: "PlayerMovement"
+RootId: 10936958771376747236
 Objects {
-  Id: 10936958771376747236
-  Name: "PlayerMovement"
+  Id: 16092898203478915014
+  Name: "ClientContext"
   Transform {
     Location {
     }
@@ -14,9 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9828666197326952249
+  ParentId: 10936958771376747236
+  ChildIds: 9999516461472652828
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -27,14 +28,12 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "PlayerMovement"
+  NetworkContext {
   }
 }
 Objects {
-  Id: 2133296978865689223
-  Name: "Track Settings"
+  Id: 9999516461472652828
+  Name: "CameraDirectrionManagerClient"
   Transform {
     Location {
     }
@@ -46,7 +45,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9828666197326952249
+  ParentId: 16092898203478915014
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,14 +58,15 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Track Settings"
+  Script {
+    ScriptAsset {
+      Id: 4473947240293519996
+    }
   }
 }
 Objects {
-  Id: 13950955026941845982
-  Name: "UI"
+  Id: 13117142684875300331
+  Name: "ServerContext"
   Transform {
     Location {
     }
@@ -78,7 +78,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9828666197326952249
+  ParentId: 10936958771376747236
+  ChildIds: 9795696643893872878
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -91,14 +92,13 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "UI"
+  NetworkContext {
+    Type: Server
   }
 }
 Objects {
-  Id: 548049258941612638
-  Name: "Game State Settings"
+  Id: 9795696643893872878
+  Name: "CameraDirectionManagerServer"
   Transform {
     Location {
     }
@@ -110,7 +110,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9828666197326952249
+  ParentId: 13117142684875300331
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIActivePlayers"
+      AssetReference {
+        Id: 6537610196753662918
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -123,8 +131,9 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Game State Settings"
+  Script {
+    ScriptAsset {
+      Id: 2180139432437597122
+    }
   }
 }

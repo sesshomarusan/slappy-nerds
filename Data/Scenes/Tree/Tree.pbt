@@ -268,7 +268,6 @@ Objects {
       HeadVisibleToSelf: true
       IsSlideEnabled: true
       IsCrouchEnabled: true
-      IsJumpEnabled: true
       CanMoveLeft: true
       CanMoveRight: true
       AbilityAimMode {
