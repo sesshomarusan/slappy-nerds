@@ -1,0 +1,8 @@
+-- local propCubeTemplate = script:GetCustomProperty("Sphere")
+-- local movingCube = World.SpawnAsset(propCubeTemplate, {position = Vector3.New(500, -200, 100)})
+-- movingCube:MoveContinuous(Vector3.UP * 100)
+-- function SetUpPlayer(player)
+--     print(player.name)
+--     player:SetVelocity(Vector3.FORWARD * 100)
+-- end
+-- Game.playerJoinedEvent:Connect(SetUpPlayer)
