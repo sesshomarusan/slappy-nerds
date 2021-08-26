@@ -79,5 +79,5 @@ Assets {
     Version: "1.1.0"
     Description: "This Survival Kit Props CC contains:\r\n\342\200\242Electrical poles (normal, crooked, and broken)\r\n\342\200\242Radio antenna\r\n\342\200\242Shelters (various states of campers & RVs)\r\n\342\200\242Trash pile\r\n\342\200\242Crafting pickups (cloth, metal, wood, gun parts, and duct tape)\r\n\342\200\242Ammo pickups (bolts, shells, .45mm, 5.56mm, 9mm)\r\n\342\200\242Consumable pickups (water bottle & jug, canned & jarred food, first aid, bandages)\r\n\342\200\242Backpack props (styles: military, hiking, child)\r\n\r\nEnjoy!"
   }
-  SerializationVersion: 95
+  SerializationVersion: 97
 }

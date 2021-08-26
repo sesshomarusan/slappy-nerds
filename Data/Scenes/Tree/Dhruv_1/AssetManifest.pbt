@@ -241,3 +241,12 @@ Assets {
     AssetId: "sm_rocks_small_002"
   }
 }
+Assets {
+  Id: 20253322222348443
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
+  }
+}
