@@ -1,6 +1,38 @@
 Name: "Nancy_1"
 RootId: 11878903719356710500
 Objects {
+  Id: 11761464789884187341
+  Name: "Hills"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Hills"
+  }
+}
+Objects {
   Id: 4550222880013336821
   Name: "Sprinkler Head"
   Transform {
