@@ -2,7 +2,7 @@ Assets {
   Id: 5478334684374950869
   Name: "Custom Metal Basic 01"
   PlatformAssetType: 13
-  SerializationVersion: 95
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 15830158872210521569
     ParameterOverrides {

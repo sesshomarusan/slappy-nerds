@@ -787,7 +787,6 @@ Objects {
   ChildIds: 865448104863528864
   ChildIds: 5020046648371236512
   ChildIds: 3143137605119187372
-  ChildIds: 17945549438319623010
   ChildIds: 13998951533745744402
   ChildIds: 6779425970224563969
   ChildIds: 12598939762645003006
@@ -1379,85 +1378,23 @@ Objects {
   }
 }
 Objects {
-  Id: 17945549438319623010
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: -79.2997437
-      Y: -278.311432
-      Z: 79.0817566
-    }
-    Rotation {
-      Pitch: 28.2889271
-      Yaw: 3.55136037
-      Roll: 7.46079111
-    }
-    Scale {
-      X: 0.569819033
-      Y: 0.569819033
-      Z: 0.569819033
-    }
-  }
-  ParentId: 4830794180248494565
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.122138798
-        G: 0.187820792
-        B: 0.0176419523
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5339156504341877641
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 2015003837173520831
-    SubobjectId: 4544441604404084804
-    InstanceId: 10576098972628656863
-    TemplateId: 2487132522568403095
-  }
-}
-Objects {
   Id: 3143137605119187372
   Name: "Grass Tall"
   Transform {
     Location {
-      X: 47.6784668
+      X: 47.6785
       Y: -207.444153
-      Z: 83.2155762
+      Z: 79.3392334
     }
     Rotation {
-      Roll: 24.0714588
+      Pitch: -0.499145508
+      Yaw: 0.0884913653
+      Roll: 14.0188112
     }
     Scale {
-      X: 0.550267518
-      Y: 0.550267518
-      Z: 0.550267518
+      X: 1.37645829
+      Y: 1.37646925
+      Z: 2.02362
     }
   }
   ParentId: 4830794180248494565
@@ -3391,9 +3328,9 @@ Objects {
   Name: "Bush 01"
   Transform {
     Location {
-      X: -590.151489
-      Y: 933.439453
-      Z: -107.94207
+      X: -670.11145
+      Y: 931.351685
+      Z: -112.943214
     }
     Rotation {
       Pitch: 1.38112569
@@ -3401,9 +3338,9 @@ Objects {
       Roll: -3.43026733
     }
     Scale {
-      X: 3.23985887
-      Y: 3.23985887
-      Z: 3.23985887
+      X: 4.54576778
+      Y: 4.54576778
+      Z: 4.54576778
     }
   }
   ParentId: 16562670705013769167
@@ -3444,16 +3381,16 @@ Objects {
   Name: "Bush 01"
   Transform {
     Location {
-      X: 453.295746
-      Y: 960.467
-      Z: -42.6772842
+      X: 491.591888
+      Y: 961.426331
+      Z: -40.2805443
     }
     Rotation {
     }
     Scale {
-      X: 3.23985887
-      Y: 3.23985887
-      Z: 3.23985887
+      X: 4.33669043
+      Y: 4.33669043
+      Z: 4.33669043
     }
   }
   ParentId: 16562670705013769167

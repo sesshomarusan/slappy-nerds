@@ -2,7 +2,7 @@ Assets {
   Id: 2916528229307102659
   Name: "Custom Leaves from Bush Leafy Tall 01_shelter"
   PlatformAssetType: 13
-  SerializationVersion: 95
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 8090134993493081224
     ParameterOverrides {

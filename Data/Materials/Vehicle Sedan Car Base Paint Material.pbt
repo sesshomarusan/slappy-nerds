@@ -2,7 +2,7 @@ Assets {
   Id: 17268304575125483088
   Name: "Vehicle Sedan Car Base Paint Material"
   PlatformAssetType: 13
-  SerializationVersion: 95
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 2161032696548825298
     ParameterOverrides {

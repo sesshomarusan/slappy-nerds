@@ -3983,6 +3983,6 @@ Assets {
   Marketplace {
     Description: "Fully Animated 3 Bugs for your game using Fox Sockets. You will need to script it or replace model of your AI unit. They are using fox sockets + fox animations.\r\n\r\nHope you like it.\r\n\r\nThanks to Fuddy for CC content of Fox Sockets"
   }
-  SerializationVersion: 95
+  SerializationVersion: 97
   DirectlyPublished: true
 }
