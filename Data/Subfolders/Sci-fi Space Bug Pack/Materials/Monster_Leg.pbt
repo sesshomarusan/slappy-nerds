@@ -2,7 +2,7 @@ Assets {
   Id: 15933410893864559963
   Name: "Monster_Leg"
   PlatformAssetType: 13
-  SerializationVersion: 95
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 2581331632535591398
   Name: "Custom Advanced Material_window"
   PlatformAssetType: 13
-  SerializationVersion: 95
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 4470423922269588744
     ParameterOverrides {

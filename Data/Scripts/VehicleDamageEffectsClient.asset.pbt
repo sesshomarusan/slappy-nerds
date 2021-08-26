@@ -45,5 +45,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 95
+  SerializationVersion: 97
 }
