@@ -335,7 +335,7 @@ Objects {
       Y: 16280
     }
     Rotation {
-      Yaw: -24.999979
+      Yaw: -24.9999695
     }
     Scale {
       X: 4
