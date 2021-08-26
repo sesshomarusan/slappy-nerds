@@ -1,5 +1,5 @@
 function SetUpPlayer(player)
-    Task.Wait(1)
+    Task.Wait(3)
     player:SetMounted(true)
     player.canMount = false
 end

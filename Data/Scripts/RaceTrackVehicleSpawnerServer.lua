@@ -120,6 +120,10 @@ function OnStartRace()
             player:SetWorldPosition(startPosition)
             player:SetWorldRotation(startRotation)
 
+            Events.BroadcastToPlayer(player, "LookRotation", startRotation)
+
+            -- player:GetLookWorldRotation()
+            -- player:SetLookWorldRotation(player:GetLookWorldRotation())
 
             -- Ensures the player has a valid vehicle
             -- CheckPlayerVehicleSelection(player)

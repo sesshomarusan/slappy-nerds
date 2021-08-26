@@ -322,6 +322,7 @@ Objects {
   ChildIds: 17499574996232532876
   ChildIds: 2790241477958013265
   ChildIds: 2311150200807017624
+  ChildIds: 4912727482407868828
   UnregisteredParameters {
     Overrides {
       Name: "cs:Waypoints"
@@ -410,6 +411,349 @@ Objects {
     SubobjectId: 15086843744217513827
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
+  }
+}
+Objects {
+  Id: 4912727482407868828
+  Name: "DirectionReferences"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5656321142132848893
+  ChildIds: 13650726097750224285
+  ChildIds: 18119473939750672419
+  ChildIds: 16654930683215385301
+  ChildIds: 1488176639284597369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1488176639284597369
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: -60444.7578
+      Y: -4936.12549
+      Z: 150.331055
+    }
+    Rotation {
+      Yaw: 161.643463
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4912727482407868828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10988480121742497007
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -51.5258141
+            Y: 312.959961
+            Z: 246.155273
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -106.492584
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16941818904727126150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "DirectionReference"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1336.80859
+            Y: -2223.60425
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 178.956238
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 630574988887766525
+    }
+  }
+}
+Objects {
+  Id: 16654930683215385301
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: -59867.4688
+      Y: -6278.61719
+      Z: 150.331055
+    }
+    Rotation {
+      Yaw: 127.963943
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4912727482407868828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10988480121742497007
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 92.3981628
+            Y: 502.515411
+            Z: 246.155273
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -114.28215
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16941818904727126150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "DirectionReference"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -825.265625
+            Y: -2468.06274
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 161.643478
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 630574988887766525
+    }
+  }
+}
+Objects {
+  Id: 18119473939750672419
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: -59687.4727
+      Y: -7290.42822
+      Z: 150.331055
+    }
+    Rotation {
+      Yaw: 109.184914
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4912727482407868828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10988480121742497007
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -117.239029
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -147.561676
+            Y: 463.006165
+            Z: 246.155273
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16941818904727126150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "DirectionReference"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -555.607422
+            Y: -2982.64233
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 136.783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 630574988887766525
+    }
+  }
+}
+Objects {
+  Id: 13650726097750224285
+  Name: "DirectionReference"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4912727482407868828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10988480121742497007
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -108.850113
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 289.72168
+            Y: 39.3486328
+            Z: 246.155273
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16941818904727126150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "DirectionReference"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -440.248047
+            Y: -3663.53345
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 109.184914
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 630574988887766525
+    }
   }
 }
 Objects {

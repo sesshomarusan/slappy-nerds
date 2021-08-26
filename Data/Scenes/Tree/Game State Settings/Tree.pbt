@@ -163,7 +163,7 @@ Objects {
     }
   }
   ParentId: 548049258941612638
-  ChildIds: 4115261104096186658
+  ChildIds: 10139722596879261732
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -190,8 +190,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4115261104096186658
-  Name: "RaceTrackVehicleSpawnerServer"
+  Id: 10139722596879261732
+  Name: "ServerContext"
   Transform {
     Location {
       X: -12.3291016
@@ -199,7 +199,6 @@ Objects {
       Z: 4.93328857
     }
     Rotation {
-      Yaw: 89.9999771
     }
     Scale {
       X: 1
@@ -208,6 +207,39 @@ Objects {
     }
   }
   ParentId: 15229842853793103131
+  ChildIds: 4115261104096186658
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 4115261104096186658
+  Name: "RaceTrackVehicleSpawnerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10139722596879261732
   UnregisteredParameters {
     Overrides {
       Name: "cs:APIRaceTrack"
