@@ -122,7 +122,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ImpulseForce"
-      Int: 20000
+      Int: 5000
     }
     Overrides {
       Name: "cs:VelocityBoost"

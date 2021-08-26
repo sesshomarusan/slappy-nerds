@@ -10,12 +10,12 @@ function Tick()
             playerDirections[player] = "None"
         end
         if playerDirections[player] == "Left" then
-            -- AddPulseOnPlayer(player, "Left")
-            AddVelocityOnPlayer(player, "Left")
+            AddPulseOnPlayer(player, "Left")
+            -- AddVelocityOnPlayer(player, "Left")
         end
         if playerDirections[player] == "Right" then
-            -- AddPulseOnPlayer(player, "Right")
-            AddVelocityOnPlayer(player, "Right")
+            AddPulseOnPlayer(player, "Right")
+            -- AddVelocityOnPlayer(player, "Right")
         end
     end
 end
