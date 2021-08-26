@@ -1,6 +1,6 @@
 Assets {
-  Id: 17230919292661101697
-  Name: "Players"
+  Id: 112560476502417284
+  Name: "EquipmentStanceServer"
   PlatformAssetType: 3
   TextAsset {
   }

@@ -1,6 +1,6 @@
 Assets {
-  Id: 17230919292661101697
-  Name: "Players"
+  Id: 3589000551477768577
+  Name: "EquipmentSetIconClient"
   PlatformAssetType: 3
   TextAsset {
   }

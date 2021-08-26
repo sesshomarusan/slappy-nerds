@@ -1,6 +1,6 @@
 Assets {
-  Id: 17230919292661101697
-  Name: "Players"
+  Id: 5727188270999939981
+  Name: "APIObjectIcon"
   PlatformAssetType: 3
   TextAsset {
   }
