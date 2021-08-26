@@ -120,6 +120,14 @@ Objects {
         Id: 6537610196753662918
       }
     }
+    Overrides {
+      Name: "cs:ImpulseForce"
+      Int: 20000
+    }
+    Overrides {
+      Name: "cs:VelocityBoost"
+      Int: 200
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

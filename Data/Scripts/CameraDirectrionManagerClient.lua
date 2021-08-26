@@ -8,18 +8,8 @@ end
 
 function SlerpToTargetRotation() 
     player:SetLookWorldRotation(
-        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/50):GetRotation()
+        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/20):GetRotation()
     )
-end
-
-function UpdateVelocityDirection()
-    local currentVelocity = player:GetVelocity()
-    local velocityMagnitude = currentVelocity.size
-    local normalizedVelocity = currentVelocity:GetNormalized()
-    local currentCameraLookDirection = player:GetLookWorldRotation()
-    local normalizedLookDirection = Quaternion.New(currentCameraLookDirection):GetForwardVector():GetNormalized()
-    local newVelocity = Vector3.New(normalizedVelocity.x, normalizedLookDirection.y, normalizedLookDirection.z) * velocityMagnitude
-    Events.BroadcastToServer("SetVelocity", newVelocity)
 end
 
 function SetCameraLookRotation(rotation) 
@@ -27,3 +17,26 @@ function SetCameraLookRotation(rotation)
 end
 
 Events.Connect("LookRotation", SetCameraLookRotation)
+
+local PLAYER = Game.GetLocalPlayer()
+
+function OnKeyPressed(player, binding)
+    if binding == "ability_extra_30" then
+        Events.BroadcastToServer("LeftPressed")
+    end
+    if binding == "ability_extra_32" then
+        Events.BroadcastToServer("RightPressed")
+    end
+end
+
+function OnKeyReleased(player, binding)
+    if binding == "ability_extra_30" then
+        Events.BroadcastToServer("LeftReleased")
+    end
+    if binding == "ability_extra_32" then
+        Events.BroadcastToServer("RightReleased")
+    end
+end
+
+PLAYER.bindingPressedEvent:Connect(OnKeyPressed)
+PLAYER.bindingReleasedEvent:Connect(OnKeyReleased)
