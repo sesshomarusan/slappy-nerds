@@ -116,12 +116,30 @@ Assets {
   }
 }
 Assets {
+  Id: 10460612142605072783
+  Name: "Rock Block 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_007"
+  }
+}
+Assets {
   Id: 10241439001263725146
   Name: "Flower Wild Lily 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_wild_lily_001_ref"
+  }
+}
+Assets {
+  Id: 10023103259255167070
+  Name: "Ball - Golf 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_ball_golf_01_ref"
   }
 }
 Assets {
@@ -221,6 +239,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_004"
+  }
+}
+Assets {
+  Id: 1238923570480650483
+  Name: "Ball - Tennis 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_ball_tennis_01_ref"
   }
 }
 Assets {
