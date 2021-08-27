@@ -1,0 +1,10 @@
+# Set the default behavior, in lieu of the core.autocrlf client setting.
+* text=auto
+
+# PBT files for some reason use LF and should be checked-in and -out as such.
+# This appears to be behaviour related to Core's game engine.
+*.pbt text eol=lf
+
+# Plan B to resolve massive commits of *.pbt files: Declare them untouchable,
+# as binary files (even though they are clearly not ;)
+#*.png binary
