@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 990911385634647100
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
   Id: 869121827906674661
   Name: "Flower Daisy Patch 01"
   PlatformAssetType: 1
