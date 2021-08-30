@@ -5,8 +5,12 @@ Objects {
   Name: "Lobby"
   Transform {
     Location {
+      X: 737.763
+      Y: 233.807495
+      Z: 95032.1641
     }
     Rotation {
+      Yaw: 178.685455
     }
     Scale {
       X: 1
