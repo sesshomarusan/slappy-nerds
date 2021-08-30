@@ -428,10 +428,7 @@ Objects {
     }
   }
   ParentId: 5656321142132848893
-  ChildIds: 13650726097750224285
-  ChildIds: 18119473939750672419
-  ChildIds: 16654930683215385301
-  ChildIds: 1488176639284597369
+  ChildIds: 10496451806581967944
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -449,311 +446,599 @@ Objects {
   }
 }
 Objects {
-  Id: 1488176639284597369
-  Name: "DirectionReference"
+  Id: 10496451806581967944
+  Name: "Curve1"
   Transform {
     Location {
-      X: -60444.7578
-      Y: -4936.12549
-      Z: 150.331055
+      X: 23928.332
+      Y: -10428.5977
+      Z: 1659.06299
     }
     Rotation {
-      Yaw: 161.643463
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 0.99999994
     }
   }
   ParentId: 4912727482407868828
+  ChildIds: 1984123310577080577
+  ChildIds: 3973885952989051925
+  ChildIds: 1499504174340176536
+  ChildIds: 6185180290509781608
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10988480121742497007
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -51.5258141
-            Y: 312.959961
-            Z: 246.155273
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -106.492584
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16941818904727126150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "DirectionReference"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1336.80859
-            Y: -2223.60425
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 178.956238
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 630574988887766525
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {
-  Id: 16654930683215385301
+  Id: 6185180290509781608
   Name: "DirectionReference"
   Transform {
     Location {
-      X: -59867.4688
-      Y: -6278.61719
-      Z: 150.331055
+      X: -1220.64453
+      Y: 3364.00342
+      Z: 0.00195312523
     }
     Rotation {
-      Yaw: 127.963943
+      Yaw: 90.8176498
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.00000012
     }
   }
-  ParentId: 4912727482407868828
+  ParentId: 10496451806581967944
+  ChildIds: 7586987724974836370
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10988480121742497007
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 92.3981628
-            Y: 502.515411
-            Z: 246.155273
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -114.28215
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16941818904727126150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "DirectionReference"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -825.265625
-            Y: -2468.06274
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 161.643478
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 630574988887766525
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
   }
 }
 Objects {
-  Id: 18119473939750672419
+  Id: 7586987724974836370
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -1648.28589
+      Y: -140.083984
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -79.0101929
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 6185180290509781608
+  ChildIds: 10542874163719103106
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 10542874163719103106
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 7586987724974836370
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 1499504174340176536
   Name: "DirectionReference"
   Transform {
     Location {
-      X: -59687.4727
-      Y: -7290.42822
-      Z: 150.331055
+      X: -783.619141
+      Y: 1431.90039
+      Z: 0.00195312523
     }
     Rotation {
-      Yaw: 109.184914
+      Yaw: 111.570984
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.00000012
     }
   }
-  ParentId: 4912727482407868828
+  ParentId: 10496451806581967944
+  ChildIds: 12287461023438686777
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10988480121742497007
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -117.239029
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -147.561676
-            Y: 463.006165
-            Z: 246.155273
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16941818904727126150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "DirectionReference"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -555.607422
-            Y: -2982.64233
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 136.783
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 630574988887766525
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
   }
 }
 Objects {
-  Id: 13650726097750224285
-  Name: "DirectionReference"
+  Id: 12287461023438686777
+  Name: "Trigger"
   Transform {
+    Location {
+      X: -1619.71448
+      Y: -202.292236
+      Z: -0.001953125
+    }
+    Rotation {
+      Yaw: -78.1850891
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
     }
   }
-  ParentId: 4912727482407868828
+  ParentId: 1499504174340176536
+  ChildIds: 12964746079449897974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10988480121742497007
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -108.850113
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 289.72168
-            Y: 39.3486328
-            Z: 246.155273
-          }
-        }
-      }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    ParameterOverrideMap {
-      key: 16941818904727126150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "DirectionReference"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -440.248047
-            Y: -3663.53345
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 109.184914
-          }
-        }
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
-    TemplateAsset {
-      Id: 630574988887766525
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 12964746079449897974
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
     }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 12287461023438686777
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 3973885952989051925
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 385.283203
+      Y: -558.542969
+    }
+    Rotation {
+      Yaw: 134.040985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.00000012
+    }
+  }
+  ParentId: 10496451806581967944
+  ChildIds: 2234843176351778409
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 2234843176351778409
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -1306.91931
+      Y: -50.0148926
+    }
+    Rotation {
+      Yaw: -77.7669373
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 3973885952989051925
+  ChildIds: 13691975754883746145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 13691975754883746145
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 2234843176351778409
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 1984123310577080577
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 1782.29102
+      Y: -1689.19336
+      Z: 0.00195312523
+    }
+    Rotation {
+      Yaw: 148.356964
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.00000012
+    }
+  }
+  ParentId: 10496451806581967944
+  ChildIds: 8672635240102085480
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 8672635240102085480
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -2078.9436
+      Y: -628.620605
+      Z: -0.005859375
+    }
+    Rotation {
+      Yaw: -62.9178162
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 1984123310577080577
+  ChildIds: 2948274776385279661
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 2948274776385279661
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 8672635240102085480
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -995,17 +1280,21 @@ Objects {
   }
   ParentId: 5656321142132848893
   ChildIds: 3700195338491030589
-  ChildIds: 508878636493401165
-  ChildIds: 3674605611849421695
-  ChildIds: 13642903602624988200
-  ChildIds: 12702783689782142470
-  ChildIds: 17532679374837505195
-  ChildIds: 10236665020820550611
-  ChildIds: 6491164198895693552
-  ChildIds: 2267166721066196141
-  ChildIds: 12583784641749445884
-  ChildIds: 17525131952649568323
-  ChildIds: 12903272770444007185
+  ChildIds: 15672925292089160503
+  ChildIds: 5516746185995223983
+  ChildIds: 12206357675491545044
+  ChildIds: 3980846096685607618
+  ChildIds: 13257906392601237150
+  ChildIds: 16609272992977841481
+  ChildIds: 3293993165794458848
+  ChildIds: 871879721997204988
+  ChildIds: 4000001834130118317
+  ChildIds: 344192020731084882
+  ChildIds: 17974051874691475825
+  ChildIds: 13750682106736950983
+  ChildIds: 7652509906890683626
+  ChildIds: 3631062850384702503
+  ChildIds: 6176993204866371259
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1029,20 +1318,21 @@ Objects {
   }
 }
 Objects {
-  Id: 12903272770444007185
+  Id: 6176993204866371259
   Name: "Trigger"
   Transform {
     Location {
-      X: -575.646484
-      Y: -8968.8457
-      Z: 128.07959
+      X: 71965.2578
+      Y: -13221.2441
+      Z: 3138.34619
     }
     Rotation {
+      Yaw: 87.1781693
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 142.568
+      Y: 4.26853704
+      Z: 152.934372
     }
   }
   ParentId: 2790241477958013265
@@ -1068,27 +1358,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12903272770444007185
-    SubobjectId: 3184559885781930127
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 17525131952649568323
+  Id: 3631062850384702503
   Name: "Trigger"
   Transform {
     Location {
-      X: -6571.69629
-      Y: -8865.73926
-      Z: 128.077637
+      X: 83434.2188
+      Y: -8135.6543
+      Z: 3138.34619
     }
     Rotation {
+      Yaw: 162.9673
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 142.568
+      Y: 4.26853704
+      Z: 152.934372
     }
   }
   ParentId: 2790241477958013265
@@ -1114,27 +1405,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17525131952649568323
-    SubobjectId: 7788325500160706525
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 12583784641749445884
+  Id: 7652509906890683626
   Name: "Trigger"
   Transform {
     Location {
-      X: -6649.86914
-      Y: 6379.89551
-      Z: 128.07959
+      X: 80284.4375
+      Y: 3004.1626
+      Z: 3138.34619
     }
     Rotation {
+      Yaw: -98.9724121
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 142.568
+      Y: 4.26853704
+      Z: 152.934372
     }
   }
   ParentId: 2790241477958013265
@@ -1160,27 +1452,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12583784641749445884
-    SubobjectId: 3567663556357352290
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 2267166721066196141
+  Id: 13750682106736950983
   Name: "Trigger"
   Transform {
     Location {
-      X: 7602.33887
-      Y: 6386.15039
-      Z: 128.07959
+      X: 63043.1
+      Y: 7514.02441
+      Z: 3138.34619
     }
     Rotation {
+      Yaw: -162.298187
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 112.53186
+      Y: 4.26866
+      Z: 108.912582
     }
   }
   ParentId: 2790241477958013265
@@ -1206,27 +1499,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2267166721066196141
-    SubobjectId: 9247841055964420915
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 6491164198895693552
+  Id: 17974051874691475825
   Name: "Trigger"
   Transform {
     Location {
-      X: 7602.33887
-      Y: 1287.03076
-      Z: 128.07959
+      X: 63153.9
+      Y: 28087.5801
+      Z: 3138.34619
     }
     Rotation {
+      Yaw: 174.364517
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 97.5929642
+      Y: 4.26866531
+      Z: 78.7498245
     }
   }
   ParentId: 2790241477958013265
@@ -1252,27 +1546,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6491164198895693552
-    SubobjectId: 14210344592072354158
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 10236665020820550611
+  Id: 344192020731084882
   Name: "Trigger"
   Transform {
     Location {
-      X: 7259.60547
-      Y: -2031.37061
-      Z: 128.07959
+      X: 61731.2266
+      Y: 42385.2227
+      Z: 2670.64209
     }
     Rotation {
+      Yaw: -143.332504
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 92.2331696
+      Y: 4.26863384
+      Z: 74.5528717
     }
   }
   ParentId: 2790241477958013265
@@ -1298,27 +1593,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10236665020820550611
-    SubobjectId: 1238356814695265357
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 17532679374837505195
+  Id: 4000001834130118317
   Name: "Trigger"
   Transform {
     Location {
-      X: 1963.50537
-      Y: -2307.06885
-      Z: 128.07959
+      X: 52903.1953
+      Y: 45852.9648
+      Z: 2186.43213
     }
     Rotation {
+      Yaw: -86.5974426
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 74.7793655
+      Y: 4.26872253
+      Z: 61.852787
     }
   }
   ParentId: 2790241477958013265
@@ -1344,27 +1640,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17532679374837505195
-    SubobjectId: 7813992263737236277
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 12702783689782142470
+  Id: 871879721997204988
   Name: "Trigger"
   Transform {
     Location {
-      X: 1574.25635
-      Y: 1532.03418
-      Z: 128.077637
+      X: 45099.6797
+      Y: 39405.0078
+      Z: 1146.2616
     }
     Rotation {
+      Yaw: 1.71592021
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 78.8356323
+      Y: 4.26860857
+      Z: 67.9783478
     }
   }
   ParentId: 2790241477958013265
@@ -1390,27 +1687,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12702783689782142470
-    SubobjectId: 3416310278888071576
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 13642903602624988200
+  Id: 3293993165794458848
   Name: "Trigger"
   Transform {
     Location {
-      X: -3357.5542
-      Y: 1533.75537
-      Z: 128.077637
+      X: 45643.8594
+      Y: 21239.5332
+      Z: 1146.2616
     }
     Rotation {
+      Yaw: 1.71592045
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 73.6297913
+      Y: 4.26863384
+      Z: 62.7378845
     }
   }
   ParentId: 2790241477958013265
@@ -1436,27 +1734,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13642903602624988200
-    SubobjectId: 2482929134576632758
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 3674605611849421695
+  Id: 16609272992977841481
   Name: "Trigger"
   Transform {
     Location {
-      X: -3374.13623
-      Y: -2152.43896
-      Z: 128.077637
+      X: 41023.1
+      Y: 16209.7021
+      Z: 1556.65637
     }
     Rotation {
+      Yaw: -92.6619873
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 66.3035889
+      Y: 4.26865768
+      Z: 61.0807114
     }
   }
   ParentId: 2790241477958013265
@@ -1482,27 +1781,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3674605611849421695
-    SubobjectId: 12528631783753094369
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
 }
 Objects {
-  Id: 508878636493401165
+  Id: 13257906392601237150
   Name: "Trigger"
   Transform {
     Location {
-      X: -389.788574
-      Y: -2369.1958
-      Z: 128.077637
+      X: 28410.4219
+      Y: 16443.6777
+      Z: 1556.65637
     }
     Rotation {
+      Yaw: -94.8409729
     }
     Scale {
-      X: 20
-      Y: 20
-      Z: 20
+      X: 71.0602646
+      Y: 4.2686615
+      Z: 60.7235947
     }
   }
   ParentId: 2790241477958013265
@@ -1528,8 +1828,196 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 508878636493401165
-    SubobjectId: 10966141964227832787
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
+    InstanceId: 10931511310879323759
+    TemplateId: 6126504489360653698
+  }
+}
+Objects {
+  Id: 3980846096685607618
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 22345.8184
+      Y: 10762.9961
+      Z: 1556.65637
+    }
+    Rotation {
+      Yaw: -7.96304321
+    }
+    Scale {
+      X: 97.3363571
+      Y: 4.26865959
+      Z: 67.762146
+    }
+  }
+  ParentId: 2790241477958013265
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
+    InstanceId: 10931511310879323759
+    TemplateId: 6126504489360653698
+  }
+}
+Objects {
+  Id: 12206357675491545044
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 22345.8184
+      Y: -6064
+      Z: 1750.92029
+    }
+    Rotation {
+      Yaw: 4.91978788
+    }
+    Scale {
+      X: 86.550354
+      Y: 4.26865625
+      Z: 73.4017105
+    }
+  }
+  ParentId: 2790241477958013265
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
+    InstanceId: 10931511310879323759
+    TemplateId: 6126504489360653698
+  }
+}
+Objects {
+  Id: 5516746185995223983
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 27683.043
+      Y: -12970.7266
+      Z: 2112.1416
+    }
+    Rotation {
+      Yaw: 89.5271912
+    }
+    Scale {
+      X: 68.7566299
+      Y: 4.26865625
+      Z: 60.1621819
+    }
+  }
+  ParentId: 2790241477958013265
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
+    InstanceId: 10931511310879323759
+    TemplateId: 6126504489360653698
+  }
+}
+Objects {
+  Id: 15672925292089160503
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 38296.168
+      Y: -12970.7266
+      Z: 1808.9303
+    }
+    Rotation {
+      Yaw: 89.5271912
+    }
+    Scale {
+      X: 150.318268
+      Y: 4.26861811
+      Z: 158.208267
+    }
+  }
+  ParentId: 2790241477958013265
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3700195338491030589
+    SubobjectId: 12428187168321891235
     InstanceId: 10931511310879323759
     TemplateId: 6126504489360653698
   }
@@ -1539,16 +2027,17 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -500
-      Y: -4946.36865
-      Z: 128.077637
+      X: 48435.3359
+      Y: -13054.3965
+      Z: 1808.9303
     }
     Rotation {
+      Yaw: 89.5271912
     }
     Scale {
-      X: 27.8905029
-      Y: 0.503183246
-      Z: 20
+      X: 150.318268
+      Y: 4.26861811
+      Z: 158.208267
     }
   }
   ParentId: 2790241477958013265
@@ -1585,11 +2074,12 @@ Objects {
   Name: "Starting Positions"
   Transform {
     Location {
-      Y: -5450
-      Z: 5.00000095
+      X: 34822.0117
+      Y: -12301.7891
+      Z: 1201.63916
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 177.482224
     }
     Scale {
       X: 0.5
