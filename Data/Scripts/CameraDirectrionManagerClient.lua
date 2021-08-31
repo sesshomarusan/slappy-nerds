@@ -1,5 +1,6 @@
 local player = Game.GetLocalPlayer()
 local targetRotation = player:GetLookWorldRotation()
+local lerpSpeed = 20
 
 function Tick() 
     SlerpToTargetRotation()
@@ -8,12 +9,16 @@ end
 
 function SlerpToTargetRotation() 
     player:SetLookWorldRotation(
-        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/20):GetRotation()
+        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/lerpSpeed):GetRotation()
     )
 end
 
-function SetCameraLookRotation(rotation) 
+function SetCameraLookRotation(rotation, receivedLerpSpeed) 
+    print(rotation)
+    print(receivedLerpSpeed)
+    
     targetRotation = rotation
+    lerpSpeed = receivedLerpSpeed
 end
 
 Events.Connect("LookRotation", SetCameraLookRotation)

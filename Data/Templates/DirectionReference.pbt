@@ -10,9 +10,9 @@ Assets {
         Name: "DirectionReference"
         Transform {
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 134.262146
+            Y: 134.262146
+            Z: 134.262146
           }
         }
         ParentId: 4912727482407868828
@@ -38,17 +38,13 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            X: 1007.26324
-            Y: 106.756104
-            Z: 246.155273
           }
           Rotation {
-            Yaw: -89.999939
           }
           Scale {
-            X: 55.7810326
-            Y: 7.2422905
-            Z: 40
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 16941818904727126150
@@ -120,5 +116,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 95
+  SerializationVersion: 97
 }

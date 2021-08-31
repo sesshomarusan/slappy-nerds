@@ -120,7 +120,7 @@ function OnStartRace()
             player:SetWorldPosition(startPosition)
             player:SetWorldRotation(startRotation)
 
-            Events.BroadcastToPlayer(player, "LookRotation", startRotation)
+            Events.BroadcastToPlayer(player, "LookRotation", startRotation, 20)
 
             -- player:GetLookWorldRotation()
             -- player:SetLookWorldRotation(player:GetLookWorldRotation())
