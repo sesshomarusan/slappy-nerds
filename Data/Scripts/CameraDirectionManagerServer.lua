@@ -10,39 +10,39 @@ function Tick()
             playerDirections[player] = "None"
         end
         if playerDirections[player] == "Left" then
-            AddPulseOnPlayer(player, "Left")
-            -- AddVelocityOnPlayer(player, "Left")
+            -- AddPulseOnPlayer(player, "Left")
+            AddVelocityOnPlayer(player, "Left")
         end
         if playerDirections[player] == "Right" then
-            AddPulseOnPlayer(player, "Right")
-            -- AddVelocityOnPlayer(player, "Right")
+            -- AddPulseOnPlayer(player, "Right")
+            AddVelocityOnPlayer(player, "Right")
         end
     end
 end
 
 
-function UpdateVelocityDirection(player)
-    local currentVelocity = player:GetVelocity()
-    local velocityMagnitude = currentVelocity.size
-    local normalizedVelocity = currentVelocity:GetNormalized()
-    local currentCameraLookDirection = player:GetLookWorldRotation()
-    local normalizedLookDirection = Quaternion.New(currentCameraLookDirection):GetForwardVector()
+-- function UpdateVelocityDirection(player)
+--     local currentVelocity = player:GetVelocity()
+--     local velocityMagnitude = currentVelocity.size
+--     local normalizedVelocity = currentVelocity:GetNormalized()
+--     local currentCameraLookDirection = player:GetLookWorldRotation()
+--     local normalizedLookDirection = Quaternion.New(currentCameraLookDirection):GetForwardVector()
     
-    local currentVerticalNormalized = normalizedVelocity.z   -- 0.8
-    print(normalizedVelocity.z)
-    local currentHorizontalLeft = 1 - math.abs(currentVerticalNormalized)    --  1 - 0.8
-    local ratioMax = math.abs(normalizedLookDirection.x) + math.abs(normalizedLookDirection.y)    -- 10 + 10
-    local xRatio = normalizedLookDirection.x / ratioMax
-    local yRatio = normalizedLookDirection.y / ratioMax
-    local normalizedX = xRatio * currentHorizontalLeft  --0.7 * 0.2  *  100   =  14
-    local normalizedY = yRatio * currentHorizontalLeft  --0.3 * 0.2  *  100   =   6  + 80
+--     local currentVerticalNormalized = normalizedVelocity.z   -- 0.8
+--     print(normalizedVelocity.z)
+--     local currentHorizontalLeft = 1 - math.abs(currentVerticalNormalized)    --  1 - 0.8
+--     local ratioMax = math.abs(normalizedLookDirection.x) + math.abs(normalizedLookDirection.y)    -- 10 + 10
+--     local xRatio = normalizedLookDirection.x / ratioMax
+--     local yRatio = normalizedLookDirection.y / ratioMax
+--     local normalizedX = xRatio * currentHorizontalLeft  --0.7 * 0.2  *  100   =  14
+--     local normalizedY = yRatio * currentHorizontalLeft  --0.3 * 0.2  *  100   =   6  + 80
 
-    -- local newVelocity = Vector3.New(normalizedLookDirection.x, normalizedLookDirection.y, normalizedVelocity.z) * velocityMagnitude
-    local newVelocity = Vector3.New(normalizedX, normalizedY, normalizedVelocity.z) * velocityMagnitude
-    print(newVelocity)
+--     -- local newVelocity = Vector3.New(normalizedLookDirection.x, normalizedLookDirection.y, normalizedVelocity.z) * velocityMagnitude
+--     local newVelocity = Vector3.New(normalizedX, normalizedY, normalizedVelocity.z) * velocityMagnitude
+--     print(newVelocity)
 
-    player:SetVelocity(newVelocity)
-end
+--     player:SetVelocity(newVelocity)
+-- end
 
 function AddPulseOnPlayer(player, direction)
     local cameraRotation = player:GetLookWorldRotation()

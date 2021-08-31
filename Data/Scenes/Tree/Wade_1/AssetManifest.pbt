@@ -107,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10945309974547744497
-  Name: "Tree Sakura Hero Bare 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_sakura_hero_01_bare_ref"
-  }
-}
-Assets {
   Id: 10460612142605072783
   Name: "Rock Block 02"
   PlatformAssetType: 1
@@ -167,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_end_001_uv"
+  }
+}
+Assets {
+  Id: 6619275913427551977
+  Name: "Tree Sakura Hero 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_sakura_hero_01_ref"
   }
 }
 Assets {
