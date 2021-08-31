@@ -47,6 +47,22 @@ Objects {
   }
   ParentId: 16092898203478915014
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeedMax"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:LerpSpeedMin"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:VelocityMagnitudeMax"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:VelocityMagnitudeMin"
+      Int: 0
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
