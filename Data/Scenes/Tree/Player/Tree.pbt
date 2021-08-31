@@ -111,6 +111,16 @@ Objects {
     }
   }
   ParentId: 4569672502954648950
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PlayerJumpBoost"
+      Int: 1000
+    }
+    Overrides {
+      Name: "cs:PlayerVelocityBoost"
+      Int: 2000
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
