@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16604086087168607114
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
   Id: 16163665952175281032
   Name: "Urban Pipe Coupling 02"
   PlatformAssetType: 1
@@ -26,12 +35,39 @@ Assets {
   }
 }
 Assets {
+  Id: 15037436331956346967
+  Name: "Hill 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_001"
+  }
+}
+Assets {
   Id: 14135151109225738306
   Name: "Urban Pipe Coupline 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_coupling_003_ref"
+  }
+}
+Assets {
+  Id: 13977093364200101773
+  Name: "Fern 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_003"
+  }
+}
+Assets {
+  Id: 13957360518931418014
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
   }
 }
 Assets {
@@ -50,6 +86,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_coupling_005_ref"
+  }
+}
+Assets {
+  Id: 9057663224381510943
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 8274183933332226427
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
   }
 }
 Assets {
@@ -80,11 +134,29 @@ Assets {
   }
 }
 Assets {
+  Id: 3729200827906376498
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
   Id: 2841779215979196626
   Name: "Urban Cinderblock Debris 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_01_ref"
+  }
+}
+Assets {
+  Id: 20253322222348443
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }

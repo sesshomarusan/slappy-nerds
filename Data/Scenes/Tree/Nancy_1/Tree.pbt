@@ -2204,69 +2204,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6137450145955474502
-  Name: "Garden Planter"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11878903719356710500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 918555424174149380
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1811053337392936040
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Garden Planter"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 31059.5156
-            Y: 4607.875
-            Z: 5719.98047
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 10
-            Y: 10
-            Z: 10
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2472283193317316041
-    }
-  }
-}
-Objects {
   Id: 5026637138573820122
   Name: "Deck"
   Transform {

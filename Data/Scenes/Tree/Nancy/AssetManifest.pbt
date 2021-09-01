@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8274183933332226427
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
+  }
+}
+Assets {
   Id: 3143670554328323439
   Name: "Flower Bellflower 01"
   PlatformAssetType: 1

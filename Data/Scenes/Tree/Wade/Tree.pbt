@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       X: -45250
-      Y: 93550
+      Y: 93334.0547
       Z: 7250
     }
     Rotation {
@@ -13784,11 +13784,11 @@ Objects {
   Transform {
     Location {
       X: 24700
-      Y: 113600
+      Y: 108023.766
       Z: 6250
     }
     Rotation {
-      Yaw: 37.4999733
+      Yaw: 22.8615322
       Roll: 65
     }
     Scale {
@@ -14770,6 +14770,7 @@ Objects {
   ChildIds: 9955747476899656166
   ChildIds: 10867368489784592863
   ChildIds: 9860620059377900183
+  ChildIds: 2986971007835707222
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14782,6 +14783,66 @@ Objects {
     InstanceId: 2513252696691246183
     TemplateId: 3607049698728807173
     WasRoot: true
+  }
+}
+Objects {
+  Id: 2986971007835707222
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -1254.09741
+      Y: 211.983124
+      Z: 4.34056854
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: -0.4
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17573861838413343896
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9512869554435056534
+    SubobjectId: 10166739898675641749
+    InstanceId: 2513252696691246183
+    TemplateId: 3607049698728807173
   }
 }
 Objects {
