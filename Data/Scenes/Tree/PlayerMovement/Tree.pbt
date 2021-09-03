@@ -53,7 +53,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LerpSpeedMin"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:VelocityMagnitudeMax"

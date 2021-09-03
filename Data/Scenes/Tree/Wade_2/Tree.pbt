@@ -1,6 +1,38 @@
 Name: "Wade_2"
 RootId: 10575080760293418502
 Objects {
+  Id: 11874319831477562603
+  Name: "Code"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10575080760293418502
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Code"
+  }
+}
+Objects {
   Id: 6108581391429854104
   Name: "Dome"
   Transform {
@@ -62,7 +94,7 @@ Objects {
     Location {
       X: 188463.75
       Y: -17.1215076
-      Z: 17892.6484
+      Z: 75528.2266
     }
     Rotation {
     }
@@ -1601,7 +1633,7 @@ Objects {
     Scale {
       X: 1076
       Y: 1076
-      Z: 85.5
+      Z: 397.432
     }
   }
   ParentId: 5840608810481614715
@@ -1930,7 +1962,7 @@ Objects {
     Scale {
       X: 1076
       Y: 1076
-      Z: 85.5
+      Z: 397.432
     }
   }
   ParentId: 5840608810481614715
@@ -1985,7 +2017,7 @@ Objects {
     Scale {
       X: 1497.5
       Y: 1497.5
-      Z: 86.5
+      Z: 402.080536
     }
   }
   ParentId: 5840608810481614715
@@ -2039,7 +2071,7 @@ Objects {
     Scale {
       X: 1497.5
       Y: 1497.5
-      Z: 86.5
+      Z: 402.080536
     }
   }
   ParentId: 5840608810481614715
