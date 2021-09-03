@@ -8,4 +8,8 @@ Events.ConnectForPlayer("Flap", function (player, speed)
     player:SetVelocity(speed)
 end)
 
+Events.ConnectForPlayer("RotatePlayer", function (player, forwardVector)
+    player:SetWorldRotation(Rotation.New(forwardVector, Vector3.UP))
+end)
+
 Game.playerJoinedEvent:Connect(SetUpPlayer)

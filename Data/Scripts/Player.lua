@@ -13,5 +13,17 @@ function OnPlayerMovement(player, binding)
         finalVelocity.z = jumpHeight
         Events.BroadcastToServer("Flap", finalVelocity)
     end
+    
 end
+
+function OnRepositionPlayer(player, binding)
+    if binding == "ability_extra_30" or binding == "ability_extra_32" then
+        local lookRotation = player:GetLookWorldRotation()
+        local quaternion = Quaternion.New(lookRotation)
+        local forwardVector = quaternion.GetForwardVector(quaternion)
+        Events.BroadcastToServer("RotatePlayer", forwardVector)
+    end
+end
+
 PLAYER.bindingPressedEvent:Connect(OnPlayerMovement)
+PLAYER.bindingReleasedEvent:Connect(OnRepositionPlayer)
