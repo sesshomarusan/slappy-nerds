@@ -18,8 +18,18 @@ function SlerpToTargetRotation()
     )
 end
 
+function ClampVelocityMagnitude(value)
+    if value <= VelocityMagnitudeMin then
+        return VelocityMagnitudeMin
+    elseif value >= VelocityMagnitudeMax then
+        return VelocityMagnitudeMax
+    else
+        return value
+    end
+end
+
 function CalculateLerpSpeed() 
-    return Map(player:GetVelocity().size, VelocityMagnitudeMin, VelocityMagnitudeMax, LerpSpeedMin, LerpSpeedMax)
+    return Map(ClampVelocityMagnitude(player:GetVelocity().size), VelocityMagnitudeMin, VelocityMagnitudeMax, LerpSpeedMin, LerpSpeedMax)
 end
 
 function SetCameraLookRotation(rotation, instantTurn) 
