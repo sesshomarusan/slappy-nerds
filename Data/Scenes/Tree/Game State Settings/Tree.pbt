@@ -1899,11 +1899,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredPlayers"
-      Int: 4
+      Int: 1
     }
     Overrides {
       Name: "cs:CountdownTime"
-      Float: 8
+      Float: 30
     }
     Overrides {
       Name: "cs:RequiredPlayers:tooltip"
