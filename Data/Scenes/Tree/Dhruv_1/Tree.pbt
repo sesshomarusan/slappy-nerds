@@ -11682,7 +11682,7 @@ Objects {
   }
   ParentId: 5336922027492044880
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -11734,7 +11734,7 @@ Objects {
   }
   ParentId: 5336922027492044880
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -11786,7 +11786,7 @@ Objects {
   }
   ParentId: 5336922027492044880
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -12102,7 +12102,7 @@ Objects {
   }
   ParentId: 5336922027492044880
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -13000,7 +13000,7 @@ Objects {
   }
   ParentId: 15440913269351440248
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -13385,7 +13385,7 @@ Objects {
   }
   ParentId: 5832748120696228574
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -13437,7 +13437,7 @@ Objects {
   }
   ParentId: 5832748120696228574
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -13489,7 +13489,7 @@ Objects {
   }
   ParentId: 5832748120696228574
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -13805,7 +13805,7 @@ Objects {
   }
   ParentId: 5832748120696228574
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -14703,7 +14703,7 @@ Objects {
   }
   ParentId: 13995027795127743324
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15095,7 +15095,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15147,7 +15147,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15199,7 +15199,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15251,7 +15251,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15303,7 +15303,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15355,7 +15355,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15407,7 +15407,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15459,7 +15459,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15511,7 +15511,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15563,7 +15563,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -15879,7 +15879,7 @@ Objects {
   }
   ParentId: 9458289505668874863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -16777,7 +16777,7 @@ Objects {
   }
   ParentId: 12219023903561338795
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -19711,7 +19711,7 @@ Objects {
   }
   ParentId: 3997914725087256311
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -20460,7 +20460,7 @@ Objects {
   }
   ParentId: 1441066119262852158
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -22629,7 +22629,7 @@ Objects {
   }
   ParentId: 6760944713793019827
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -22944,7 +22944,7 @@ Objects {
   }
   ParentId: 6760944713793019827
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -24632,7 +24632,7 @@ Objects {
   }
   ParentId: 12188795318936832384
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -36816,7 +36816,7 @@ Objects {
       Z: 269.093414
     }
     Rotation {
-      Pitch: -22.2376938
+      Pitch: -22.2377014
       Yaw: 82.2078705
       Roll: 74.7842712
     }
@@ -37108,8 +37108,8 @@ Objects {
     }
     Rotation {
       Pitch: 2.69804072
-      Yaw: -99.8656693
-      Roll: -80.1541672
+      Yaw: -99.8656616
+      Roll: -80.1541748
     }
     Scale {
       X: 0.93693471
@@ -37616,7 +37616,7 @@ Objects {
     Rotation {
       Pitch: 0.912916183
       Yaw: -82.8988
-      Roll: -88.6379318
+      Roll: -88.6379395
     }
     Scale {
       X: 1.43021226
@@ -37689,7 +37689,7 @@ Objects {
     Rotation {
       Pitch: 6.93078375
       Yaw: -113.783005
-      Roll: -85.1857147
+      Roll: -85.18573
     }
     Scale {
       X: 0.830985725
@@ -37908,7 +37908,7 @@ Objects {
     Rotation {
       Pitch: 6.93078375
       Yaw: -113.783005
-      Roll: -85.1857147
+      Roll: -85.18573
     }
     Scale {
       X: 0.830985725
@@ -45368,7 +45368,7 @@ Objects {
     Rotation {
       Pitch: 0.912916183
       Yaw: -82.8988
-      Roll: -88.6379318
+      Roll: -88.6379395
     }
     Scale {
       X: 1.43021226
@@ -46449,7 +46449,7 @@ Objects {
       Z: 269.093414
     }
     Rotation {
-      Pitch: -22.2376938
+      Pitch: -22.2377014
       Yaw: 82.2078705
       Roll: 74.7842712
     }
@@ -47249,7 +47249,7 @@ Objects {
     Rotation {
       Pitch: 0.912916183
       Yaw: -82.8988
-      Roll: -88.6379318
+      Roll: -88.6379395
     }
     Scale {
       X: 1.43021226
@@ -47322,7 +47322,7 @@ Objects {
     Rotation {
       Pitch: 6.93078375
       Yaw: -113.783005
-      Roll: -85.1857147
+      Roll: -85.18573
     }
     Scale {
       X: 0.830985725
@@ -47541,7 +47541,7 @@ Objects {
     Rotation {
       Pitch: 6.93078375
       Yaw: -113.783005
-      Roll: -85.1857147
+      Roll: -85.18573
     }
     Scale {
       X: 0.830985725
@@ -117434,7 +117434,7 @@ Objects {
     Rotation {
       Pitch: 0.912916183
       Yaw: -82.8988
-      Roll: -88.6379318
+      Roll: -88.6379395
     }
     Scale {
       X: 1.43021226
@@ -130155,7 +130155,7 @@ Objects {
       Z: 271.490234
     }
     Rotation {
-      Pitch: -24.4779682
+      Pitch: -24.4779663
       Yaw: 99.7763
       Roll: 56.2435799
     }
@@ -130519,8 +130519,8 @@ Objects {
     }
     Rotation {
       Pitch: 21.8270645
-      Yaw: -94.883049
-      Roll: -79.8577957
+      Yaw: -94.8830566
+      Roll: -79.8577881
     }
     Scale {
       X: 0.681327939
@@ -130737,7 +130737,7 @@ Objects {
     Rotation {
       Pitch: 20.2955437
       Yaw: -89.6477051
-      Roll: -65.3597565
+      Roll: -65.3597412
     }
     Scale {
       X: 0.681327939
