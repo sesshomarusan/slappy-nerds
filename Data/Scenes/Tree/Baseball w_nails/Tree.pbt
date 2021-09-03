@@ -5,14 +5,14 @@ Objects {
   Name: "Baseball Bat"
   Transform {
     Location {
-      X: 1371.9259
-      Y: 708.331177
-      Z: -16.4818192
+      X: 1339.51819
+      Y: 708.133545
+      Z: -14.5988207
     }
     Rotation {
-      Pitch: 66.3987579
-      Yaw: 54.7229805
-      Roll: 56.4848938
+      Pitch: -70.2260437
+      Yaw: 72.1637497
+      Roll: -70
     }
     Scale {
       X: 0.58746922
