@@ -1,5 +1,6 @@
-local jumpSpeed = 1000
-local jumpHeight = 2000
+local jumpSpeed = script:GetCustomProperty("PlayerJumpBoost")
+local jumpHeight = script:GetCustomProperty("PlayerVelocityBoost")
+
 -- local jump = Vector3.New(jumpSpeed, 0, 500)
 
 local PLAYER = Game.GetLocalPlayer()

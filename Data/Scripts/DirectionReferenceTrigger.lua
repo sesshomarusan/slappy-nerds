@@ -6,7 +6,7 @@ function OnBeginOverlap(whichTrigger, other)
 	-- print(other)
 	if other:IsA("Player") then
 		print(other)
-		Events.BroadcastToPlayer(other, "LookRotation", direction:GetRotation(), LerpSpeed)
+		Events.BroadcastToPlayer(other, "LookRotation", direction:GetRotation(), false)
 	end
 end
 

@@ -1,6 +1,105 @@
 Name: "Jennifer"
 RootId: 9716066596724085630
 Objects {
+  Id: 13241110937719746467
+  Name: "Team Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9716066596724085630
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    IsDefault: true
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:ffa"
+      }
+    }
+  }
+}
+Objects {
+  Id: 9944045549968286912
+  Name: "Ability Display"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9716066596724085630
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1197405803885299036
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ability Display"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Binding"
+          String: "ability_extra_31"
+        }
+        Overrides {
+          Name: "cs:BindingHint"
+          String: "shift"
+        }
+        Overrides {
+          Name: "cs:ShowAbilityName"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14155720757392291425
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 11766494739858982507
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4555942156550058614
+    }
+  }
+}
+Objects {
   Id: 12485208825465402259
   Name: "Equipment"
   Transform {
@@ -16,8 +115,76 @@ Objects {
   }
   ParentId: 9716066596724085630
   ChildIds: 16767775604874333198
-  ChildIds: 58777499818412807
   ChildIds: 6723957795497316338
+  ChildIds: 11976448074664919188
+  ChildIds: 15705460080325921815
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentStance"
+      String: "2hand_sword_stance"
+    }
+    Overrides {
+      Name: "cs:PlayerImpact"
+      AssetReference {
+        Id: 307406115803496087
+      }
+    }
+    Overrides {
+      Name: "cs:ObjectImpact"
+      AssetReference {
+        Id: 16244471840856776085
+      }
+    }
+    Overrides {
+      Name: "cs:SwingSound"
+      AssetReference {
+        Id: 1970105428586059764
+      }
+    }
+    Overrides {
+      Name: "cs:HitSphereRadius"
+      Float: 175
+    }
+    Overrides {
+      Name: "cs:HitSphereOffset"
+      Vector {
+        X: 50
+        Z: 50
+      }
+    }
+    Overrides {
+      Name: "cs:ShowHitSphere"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EquipmentStance:tooltip"
+      String: "The stance animation when a player picks up the equipment."
+    }
+    Overrides {
+      Name: "cs:PlayerImpact:tooltip"
+      String: "Template that is spawned at the location where the hitbox hit the player."
+    }
+    Overrides {
+      Name: "cs:ObjectImpact:tooltip"
+      String: "Impact template spawned on damageable objects."
+    }
+    Overrides {
+      Name: "cs:SwingSound:tooltip"
+      String: "Template that is spawned at the equipment owner location when a melee ability is executed."
+    }
+    Overrides {
+      Name: "cs:HitSphereRadius:tooltip"
+      String: "Radius of hit sphere to detect players and damageable objects."
+    }
+    Overrides {
+      Name: "cs:HitSphereOffset:tooltip"
+      String: "Offset of the hit sphere from root position of equipment owner."
+    }
+    Overrides {
+      Name: "cs:ShowHitSphere:tooltip"
+      String: "Show sphere in editor when performing ability."
+    }
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -39,86 +206,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6723957795497316338
-  Name: "Ability"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12485208825465402259
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 3
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "1hand_melee_slash_left"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:extraaction_41"
-    }
-  }
-}
-Objects {
-  Id: 58777499818412807
+  Id: 15705460080325921815
   Name: "ServerContext"
   Transform {
     Location {
@@ -132,7 +220,7 @@ Objects {
     }
   }
   ParentId: 12485208825465402259
-  ChildIds: 14746808529854770297
+  ChildIds: 549562945588935314
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -151,6 +239,109 @@ Objects {
   }
 }
 Objects {
+  Id: 549562945588935314
+  Name: "EquipmentMeleeAttacksServer"
+  Transform {
+    Location {
+      X: -50
+      Y: -75
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15705460080325921815
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5082628058110625875
+    }
+  }
+}
+Objects {
+  Id: 11976448074664919188
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12485208825465402259
+  ChildIds: 14746808529854770297
+  ChildIds: 1138244256393975244
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1138244256393975244
+  Name: "EquipmentMeleeAttacksClient"
+  Transform {
+    Location {
+      X: -50
+      Y: 250
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11976448074664919188
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12971704803185333098
+    }
+  }
+}
+Objects {
   Id: 14746808529854770297
   Name: "Stop Sign"
   Transform {
@@ -164,7 +355,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 58777499818412807
+  ParentId: 11976448074664919188
   ChildIds: 15711760259262445669
   ChildIds: 3950847218117785466
   ChildIds: 12181171331242168263
@@ -456,6 +647,157 @@ Objects {
   }
 }
 Objects {
+  Id: 6723957795497316338
+  Name: "Slap"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12485208825465402259
+  ChildIds: 2674212330780298546
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Damage"
+      Float: 55
+    }
+    Overrides {
+      Name: "cs:UseHitSphere"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:SwingEffect"
+      AssetReference {
+        Id: 171090409284182791
+      }
+    }
+    Overrides {
+      Name: "cs:SwingSpawnDelay"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:SwingRotationX"
+      Float: -180
+    }
+    Overrides {
+      Name: "cs:SwingRotationY"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Damage:tooltip"
+      String: "Damage value applied to a player hit by hitbox trigger."
+    }
+    Overrides {
+      Name: "cs:UseHitSphere:tooltip"
+      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Ability {
+    IsEnabled: true
+    CastPhaseSettings {
+      Duration: 0.15
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 0.15
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      Duration: 0.1
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      Duration: 1.2
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "2hand_sword_slash_spin"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:extraaction_41"
+    }
+  }
+}
+Objects {
+  Id: 2674212330780298546
+  Name: "Slapping"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6723957795497316338
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10795015405135309603
+    }
+  }
+}
+Objects {
   Id: 16767775604874333198
   Name: "BoxTrigger"
   Transform {
@@ -508,6 +850,8 @@ Objects {
     }
   }
   ParentId: 9716066596724085630
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

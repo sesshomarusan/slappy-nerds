@@ -1,6 +1,11 @@
 local player = Game.GetLocalPlayer()
 local targetRotation = player:GetLookWorldRotation()
 local lerpSpeed = 20
+local LerpSpeedMax = script:GetCustomProperty("LerpSpeedMax")
+local LerpSpeedMin = script:GetCustomProperty("LerpSpeedMin")
+local VelocityMagnitudeMax = script:GetCustomProperty("VelocityMagnitudeMax")
+local VelocityMagnitudeMin = script:GetCustomProperty("VelocityMagnitudeMin")
+
 
 function Tick() 
     SlerpToTargetRotation()
@@ -9,16 +14,25 @@ end
 
 function SlerpToTargetRotation() 
     player:SetLookWorldRotation(
-        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/lerpSpeed):GetRotation()
+        Quaternion.Slerp(Quaternion.New(player:GetLookWorldRotation()), Quaternion.New(targetRotation), 1/CalculateLerpSpeed()):GetRotation()
     )
 end
 
-function SetCameraLookRotation(rotation, receivedLerpSpeed) 
+function CalculateLerpSpeed() 
+    return Map(player:GetVelocity().size, VelocityMagnitudeMin, VelocityMagnitudeMax, LerpSpeedMin, LerpSpeedMax)
+end
+
+function SetCameraLookRotation(rotation, instantTurn) 
     print(rotation)
-    print(receivedLerpSpeed)
-    
+    if (instantTurn) then
+        player:SetLookWorldRotation(rotation)
+    end
     targetRotation = rotation
-    lerpSpeed = receivedLerpSpeed
+    -- lerpSpeed = receivedLerpSpeed
+end
+
+function Map(x, in_min, in_max, out_min, out_max)
+    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 end
 
 Events.Connect("LookRotation", SetCameraLookRotation)
