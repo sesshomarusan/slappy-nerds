@@ -1,4 +1,13 @@
 Assets {
+  Id: 17984746574507509586
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
   Id: 17296396565760037338
   Name: "Rock 01"
   PlatformAssetType: 1
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_coral_spike_small_01"
+  }
+}
+Assets {
+  Id: 16353917461806733124
+  Name: "Ring - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_003"
   }
 }
 Assets {
@@ -125,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14054747958508024182
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
+  }
+}
+Assets {
   Id: 13957360518931418014
   Name: "Bush 02"
   PlatformAssetType: 1
@@ -152,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12657791796308583219
+  Name: "Pipe - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_003"
+  }
+}
+Assets {
   Id: 12610149741243116648
   Name: "Urban Pipe Wrap 01"
   PlatformAssetType: 1
@@ -176,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 9580245829600554801
+  Name: "Sphere - Half Slice"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_wedge_001"
   }
 }
 Assets {
@@ -269,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4004888632411082600
+  Name: "Prism - 6-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
   Id: 3955373471396065794
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
@@ -284,6 +338,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
+  Id: 3637100958317054552
+  Name: "Metal Old Beaten Gold 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_002"
   }
 }
 Assets {
@@ -329,6 +392,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_004"
+  }
+}
+Assets {
+  Id: 2275260513309488867
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
   }
 }
 Assets {
