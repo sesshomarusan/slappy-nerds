@@ -50,11 +50,13 @@ Events.Connect("LookRotation", SetCameraLookRotation)
 local PLAYER = Game.GetLocalPlayer()
 
 function OnKeyPressed(player, binding)
-    if binding == "ability_extra_30" then
-        Events.BroadcastToServer("LeftPressed")
-    end
-    if binding == "ability_extra_32" then
-        Events.BroadcastToServer("RightPressed")
+    if player.movementControlMode ~= MovementControlMode.NONE then
+        if binding == "ability_extra_30" then
+            Events.BroadcastToServer("LeftPressed")
+        end
+        if binding == "ability_extra_32" then
+            Events.BroadcastToServer("RightPressed")
+        end
     end
 end
 

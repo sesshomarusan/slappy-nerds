@@ -6,6 +6,7 @@ function OnLobbyPracticeInititate(player)
     
     player:SetResource(RESOURCE_NAME, 1)
     player:SetWorldPosition(RaceStartPosition:GetWorldPosition())
+    player:ResetVelocity()
 end
 
 

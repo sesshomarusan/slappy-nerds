@@ -119,6 +119,7 @@ function OnStartRace()
             -- Teleport mounted player to startPos
             player:SetWorldPosition(startPosition)
             player:SetWorldRotation(startRotation)
+            player:ResetVelocity()
 
             Events.BroadcastToPlayer(player, "LookRotation", startRotation, true)
 

@@ -118,10 +118,15 @@ function OnRightReleased(player)
     end
 end
 
+function OnTeleport(player, _)
+    playerDirections[player] = "None"
+end
+
 Events.ConnectForPlayer("LeftPressed", OnLeftClicked)
 Events.ConnectForPlayer("RightPressed", OnRightClicked)
 Events.ConnectForPlayer("LeftReleased", OnLeftReleased)
 Events.ConnectForPlayer("RightReleased", OnRightReleased)
+Events.ConnectForPlayer("RotatePlayer", OnTeleport)
 
 -- function OnSetVelocity(player, velocity) 
 --     player:SetVelocity(velocity)

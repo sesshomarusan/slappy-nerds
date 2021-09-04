@@ -5,15 +5,16 @@ local jumpHeight = script:GetCustomProperty("PlayerVelocityBoost")
 
 local PLAYER = Game.GetLocalPlayer()
 function OnPlayerMovement(player, binding)
-    if binding == "ability_extra_17" then
-        local lookRotation = player:GetLookWorldRotation()
-        local quaternion = Quaternion.New(lookRotation)
-        local forwardVector = quaternion.GetForwardVector(quaternion)
-        local finalVelocity = PLAYER:GetVelocity() + (forwardVector * jumpSpeed)
-        finalVelocity.z = jumpHeight
-        Events.BroadcastToServer("Flap", finalVelocity)
-    end
-    
+    if player.movementControlMode ~= MovementControlMode.NONE then
+        if binding == "ability_extra_17" then
+            local lookRotation = player:GetLookWorldRotation()
+            local quaternion = Quaternion.New(lookRotation)
+            local forwardVector = quaternion.GetForwardVector(quaternion)
+            local finalVelocity = PLAYER:GetVelocity() + (forwardVector * jumpSpeed)
+            finalVelocity.z = jumpHeight
+            Events.BroadcastToServer("Flap", finalVelocity)
+        end
+    end  
 end
 
 function OnRepositionPlayer(player, binding)

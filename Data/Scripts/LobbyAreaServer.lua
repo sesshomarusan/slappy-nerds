@@ -4,6 +4,7 @@ local currentSpawnIndex = 1
 
 function OnEnterLobbyArea(player)
     player:SetWorldPosition(SPAWN_POINTS[currentSpawnIndex]:GetWorldPosition())
+    player:ResetVelocity()
 
     currentSpawnIndex = currentSpawnIndex + 1
     if currentSpawnIndex > #SPAWN_POINTS then
