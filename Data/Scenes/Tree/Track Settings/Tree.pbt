@@ -45,8 +45,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 0.000415802
-      Y: 501.264465
+      X: 0.000417709351
+      Y: 501.264404
       Z: 901.28125
     }
     Rotation {
@@ -83,8 +83,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 0.000323295593
-      Y: 337.117676
+      X: 0.000326156616
+      Y: 337.117554
       Z: 901.28125
     }
     Rotation {
@@ -121,8 +121,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -0.000107765198
-      Y: 159.611298
+      X: -0.000108242035
+      Y: 159.611328
       Z: 901.28125
     }
     Rotation {
@@ -195,6 +195,7 @@ Objects {
   Name: "LobbyAreaServer"
   Transform {
     Location {
+      Z: 653.757812
     }
     Rotation {
     }

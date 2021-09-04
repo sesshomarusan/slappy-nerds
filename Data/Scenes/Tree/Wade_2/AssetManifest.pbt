@@ -8,6 +8,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16890205056291965690
+  Name: "Sign Bracket - Round"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_signbracket_round_001"
+  }
+}
+Assets {
+  Id: 16131503078867448818
+  Name: "Street Post Round 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_round_001"
+  }
+}
+Assets {
   Id: 16072627761572472874
   Name: "Force Field"
   PlatformAssetType: 2
@@ -23,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_ring_003"
+  }
+}
+Assets {
+  Id: 14272986521887390608
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
   }
 }
 Assets {
@@ -122,6 +149,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
+  Id: 3433416882178080463
+  Name: "Street Sign - Rectangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_rectangle_001"
   }
 }
 Assets {

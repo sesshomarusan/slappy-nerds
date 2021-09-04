@@ -4,6 +4,8 @@ local currentSpawnIndex = 1
 
 function OnEnterLobbyArea(player)
     player:SetWorldPosition(SPAWN_POINTS[currentSpawnIndex]:GetWorldPosition())
+    player:SetWorldRotation(SPAWN_POINTS[currentSpawnIndex]:GetWorldRotation())
+    player.lookControlMode = LookControlMode.RELATIVE
     player:ResetVelocity()
 
     currentSpawnIndex = currentSpawnIndex + 1

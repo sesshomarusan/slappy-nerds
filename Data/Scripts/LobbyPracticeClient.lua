@@ -2,11 +2,11 @@ local RaceStartPosition = script:GetCustomProperty("RaceStartPosition"):WaitForO
 
 local player = Game.GetLocalPlayer()
 
-function OnKeyPressed(player, binding)
-    if binding == "ability_extra_24" then
-        Events.BroadcastToServer("LobbyPracticeInitiate")
-        Events.Broadcast("LookRotation", RaceStartPosition:GetRotation(), true)
-    end
-end
+-- function OnKeyPressed(player, binding)
+--     if binding == "ability_extra_24" then
+--         Events.BroadcastToServer("LobbyPracticeInitiate")
+--         Events.Broadcast("LookRotation", RaceStartPosition:GetRotation(), true)
+--     end
+-- end
 
-player.bindingPressedEvent:Connect(OnKeyPressed)
+-- player.bindingPressedEvent:Connect(OnKeyPressed)

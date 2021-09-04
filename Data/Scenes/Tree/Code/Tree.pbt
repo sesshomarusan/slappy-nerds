@@ -1341,12 +1341,12 @@ Objects {
   Name: "Race Start Position"
   Transform {
     Location {
-      X: 5663.82031
-      Y: 999.999939
+      X: 5663.81934
+      Y: 999.999268
       Z: 95372.0391
     }
     Rotation {
-      Yaw: 90
+      Yaw: 89.9999924
     }
     Scale {
       X: 0.1766918

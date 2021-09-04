@@ -71,6 +71,7 @@ Objects {
   ChildIds: 5571584683213903464
   ChildIds: 4737688366473725888
   ChildIds: 14036401056533034431
+  ChildIds: 1439010294303850082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -85,6 +86,448 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1439010294303850082
+  Name: "Sign - One Way"
+  Transform {
+    Location {
+      X: 27495.8867
+      Z: 2604.81812
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 21.0631733
+      Y: 21.0631733
+      Z: 21.0631733
+    }
+  }
+  ParentId: 6108581391429854104
+  ChildIds: 14643191870618615928
+  ChildIds: 4546216731004859059
+  ChildIds: 6472060076831792434
+  ChildIds: 2493982784154850139
+  ChildIds: 16991510021686840569
+  ChildIds: 15800474810121668974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1439010294303850082
+    SubobjectId: 9063232952305108483
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15800474810121668974
+  Name: "ClientContext"
+  Transform {
+    Location {
+      X: -1.63998502e-05
+      Y: -122.74276
+      Z: 191.017059
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1439010294303850082
+  ChildIds: 10931077977495477071
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10931077977495477071
+  Name: "Trigger"
+  Transform {
+    Location {
+      Y: 157.566864
+    }
+    Rotation {
+    }
+    Scale {
+      X: 8.29803658
+      Y: 6.81886101
+      Z: 4.1466651
+    }
+  }
+  ParentId: 15800474810121668974
+  ChildIds: 8609250609641371442
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Enter Practice Track?"
+    TeamSettings {
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8609250609641371442
+  Name: "SignEnterPracticeArea"
+  Transform {
+    Location {
+      X: 1.39682231e-06
+      Y: -2.5881096e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0647611395
+      Y: 0.106008984
+      Z: 0.129595786
+    }
+  }
+  ParentId: 10931077977495477071
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RaceStartPosition"
+      ObjectReference {
+        SelfId: 17433784882833979064
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10363170599728003899
+    }
+  }
+}
+Objects {
+  Id: 16991510021686840569
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -11.3540039
+      Y: 9.94433594
+      Z: 274.228485
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.934312
+      Y: 0.799192548
+      Z: 0.934311867
+    }
+  }
+  ParentId: 1439010294303850082
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Text {
+    Text: "ONE WAY"
+    FontAsset {
+    }
+    Color {
+      R: 0.0100000007
+      G: 0.0088500008
+      B: 0.0088500008
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+    IsLit: true
+  }
+  InstanceHistory {
+    SelfId: 16991510021686840569
+    SubobjectId: 9651933304642663576
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
+  }
+}
+Objects {
+  Id: 2493982784154850139
+  Name: "Sign Bracket - Round"
+  Transform {
+    Location {
+      Y: 5.38378906
+      Z: 275
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1439010294303850082
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16890205056291965690
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2493982784154850139
+    SubobjectId: 5522290846426458938
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
+  }
+}
+Objects {
+  Id: 6472060076831792434
+  Name: "Decal Road Sign Symbols"
+  Transform {
+    Location {
+      Y: 8.56933594
+      Z: 273.785614
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 180
+      Roll: -90.0000305
+    }
+    Scale {
+      X: 0.208094835
+      Y: 0.219217286
+      Z: 0.00988816377
+    }
+  }
+  ParentId: 1439010294303850082
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14272986521887390608
+    }
+    DecalBP {
+    }
+  }
+  InstanceHistory {
+    SelfId: 6472060076831792434
+    SubobjectId: 4030183170582603091
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4546216731004859059
+  Name: "Street Sign - Rectangle"
+  Transform {
+    Location {
+      Y: 5.40234375
+      Z: 275
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.930712879
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1439010294303850082
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Sign_Stripe:id"
+      AssetReference {
+        Id: 3192500304828135580
+      }
+    }
+    Overrides {
+      Name: "ma:Sign_Face:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Sign_Stripe:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3433416882178080463
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4546216731004859059
+    SubobjectId: 5847957528732093138
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
+  }
+}
+Objects {
+  Id: 14643191870618615928
+  Name: "Street Post Round 01"
+  Transform {
+    Location {
+      Z: 3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1439010294303850082
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16131503078867448818
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14643191870618615928
+    SubobjectId: 11891868103094761497
+    InstanceId: 15194784921395623524
+    TemplateId: 5646232106315364511
   }
 }
 Objects {

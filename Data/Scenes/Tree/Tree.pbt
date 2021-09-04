@@ -310,7 +310,7 @@ Objects {
         Value: "mc:emovementcontrolmode:lookrelative"
       }
       LookControlMode {
-        Value: "mc:elookcontrolmode:none"
+        Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
         Value: "mc:efacingmode:faceaimwhenactive"

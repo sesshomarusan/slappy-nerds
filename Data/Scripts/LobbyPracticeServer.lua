@@ -3,7 +3,7 @@ local RaceStartPosition = script:GetCustomProperty("RaceStartPosition"):WaitForO
 local RESOURCE_NAME = "IsParticipant"
 
 function OnLobbyPracticeInititate(player)
-    
+    player.lookControlMode = LookControlMode.NONE
     player:SetResource(RESOURCE_NAME, 1)
     player:SetWorldPosition(RaceStartPosition:GetWorldPosition())
     player:ResetVelocity()
