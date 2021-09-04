@@ -300,7 +300,7 @@ Objects {
       JumpMaxCount: 10
       JumpVelocity: 1800
       GroundFriction: 8
-      GravityScale: 1.9
+      GravityScale: 2.5
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
@@ -327,6 +327,8 @@ Objects {
       HeadVisibleToSelf: true
       IsSlideEnabled: true
       IsCrouchEnabled: true
+      CanMoveForward: true
+      CanMoveBackward: true
       CanMoveLeft: true
       CanMoveRight: true
       AbilityAimMode {

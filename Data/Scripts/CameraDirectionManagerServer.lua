@@ -6,19 +6,19 @@ playerDirections = {}
 -- AAP.GetActivePlayers()
 -- GetNonActivePlayers()
 function Tick()
-    for _, player in pairs(AAP.GetNonActivePlayers()) do
-        if playerDirections[player] == nil then
-            playerDirections[player] = "None"
-        end
-        if playerDirections[player] == "Left" then
-            -- AddPulseOnPlayer(player, "Left")
-            AddVelocityOnPlayer(player, "Left")
-        end
-        if playerDirections[player] == "Right" then
-            -- AddPulseOnPlayer(player, "Right")
-            AddVelocityOnPlayer(player, "Right")
-        end
-    end
+    -- for _, player in pairs(AAP.GetNonActivePlayers()) do
+    --     if playerDirections[player] == nil then
+    --         playerDirections[player] = "None"
+    --     end
+    --     if playerDirections[player] == "Left" then
+    --         -- AddPulseOnPlayer(player, "Left")
+    --         AddVelocityOnPlayer(player, "Left")
+    --     end
+    --     if playerDirections[player] == "Right" then
+    --         -- AddPulseOnPlayer(player, "Right")
+    --         AddVelocityOnPlayer(player, "Right")
+    --     end
+    -- end
 
     for _, player in pairs(AAP.GetActivePlayers()) do
         if playerDirections[player] == nil then

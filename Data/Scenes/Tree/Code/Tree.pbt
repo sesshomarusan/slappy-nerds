@@ -1311,6 +1311,12 @@ Objects {
         SelfId: 17433784882833979064
       }
     }
+    Overrides {
+      Name: "cs:APIActivePlayers"
+      AssetReference {
+        Id: 6537610196753662918
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
