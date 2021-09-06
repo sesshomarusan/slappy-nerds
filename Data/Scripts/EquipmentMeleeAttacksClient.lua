@@ -121,7 +121,6 @@ function MeleeAttack(target, impactPosition, abilityInfo)
 
     -- Avoid hitting the same player multiple times in a single swing
     if (abilityInfo.ignoreList[target] ~= 1) then
-
         -- Spawn player or object impact vfx template
         if target:IsA("Player") then
             SpawnImpactEffect(PLAYER_IMPACT, impactPosition)

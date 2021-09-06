@@ -87,14 +87,14 @@ function DetectAndDamageInSphere(center, radius, abilityInfo)
     for index, hitResult in ipairs(hitResults) do
         local validTarget = GetValidTarget(hitResult.other)
         if validTarget then
-            MeleeAttack(validTarget, abilityInfo)
+            MeleeAttack(validTarget, abilityInfo, hitResult:GetImpactPosition(), center)
         end
     end
 end
 
 -- nil MeleeAttack(Player or Damageable Object)
 -- Detect players or damagable objects within hitbox to apply damage
-function MeleeAttack(target, abilityInfo)
+function MeleeAttack(target, abilityInfo, result, center)
     if not Object.IsValid(target) then return end
 
     local ability = abilityInfo.ability
@@ -111,7 +111,8 @@ function MeleeAttack(target, abilityInfo)
 
     -- Avoid hitting the same player or damageable object multiple times in a single swing
     if (abilityInfo.ignoreList[target] ~= 1) then
-        target:AddImpulse(Vector3.New(-100000,0,0))
+        target:AddImpulse((result - center) * 1000)
+        -- target:AddImpulse(Vector3.New(-100000,0,0))
     end
 end
 

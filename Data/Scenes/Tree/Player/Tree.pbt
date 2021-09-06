@@ -1,6 +1,52 @@
 Name: "Player"
 RootId: 5091452826757713926
 Objects {
+  Id: 12284735204225932003
+  Name: "Static Player Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5091452826757713926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16657464430720987128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Static Player Equipment"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentTemplate"
+          AssetReference {
+            Id: 6213493350134741280
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12790139961011559789
+    }
+  }
+}
+Objects {
   Id: 17571746907888095876
   Name: "ServerContext"
   Transform {
@@ -47,6 +93,8 @@ Objects {
     }
   }
   ParentId: 17571746907888095876
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
