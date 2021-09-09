@@ -2,7 +2,7 @@ Assets {
   Id: 3855722331890039010
   Name: "Custom Carpet 01_backpack"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 14587731865040033014
     ParameterOverrides {

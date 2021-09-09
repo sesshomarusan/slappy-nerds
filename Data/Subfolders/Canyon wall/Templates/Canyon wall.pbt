@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Canyon wall"
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
 }

@@ -843,6 +843,6 @@ Assets {
   Marketplace {
     Description: "A singular stick. Magnificent."
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
   DirectlyPublished: true
 }

@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "A singular stick. Magnificent."
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
 }

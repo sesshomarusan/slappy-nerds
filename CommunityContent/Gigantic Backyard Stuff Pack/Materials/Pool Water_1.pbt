@@ -2,7 +2,7 @@ Assets {
   Id: 4201181190745193853
   Name: "Pool Water"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 12280615558756174367
     ParameterOverrides {

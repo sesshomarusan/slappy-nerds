@@ -2,7 +2,7 @@ Assets {
   Id: 17985984999808954216
   Name: "Electrical Pole - Bark Oak 01"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 17278835530272632829
     ParameterOverrides {

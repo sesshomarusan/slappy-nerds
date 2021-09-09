@@ -1116,6 +1116,6 @@ Assets {
   Marketplace {
     Description: "Ready for you to use and customize."
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
   DirectlyPublished: true
 }

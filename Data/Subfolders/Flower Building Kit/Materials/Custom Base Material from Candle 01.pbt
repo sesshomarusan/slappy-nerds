@@ -2,7 +2,7 @@ Assets {
   Id: 11976418423306957687
   Name: "Custom Base Material from Candle 01"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 16717528212592089473
     ParameterOverrides {

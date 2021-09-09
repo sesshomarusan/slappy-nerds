@@ -49,5 +49,5 @@ Assets {
     Version: "1.1.0"
     Description: "A regular-looking stop sign, but it can be equipped as a melee weapon!\r\n\r\nv2.0\r\n- Updated to be compatible with NPC Kit\r\n- Fixed swing effects"
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
 }

@@ -2582,6 +2582,6 @@ Assets {
   Marketplace {
     Description: "Create your real forest."
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
   DirectlyPublished: true
 }

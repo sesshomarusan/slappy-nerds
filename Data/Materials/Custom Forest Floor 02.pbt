@@ -2,7 +2,7 @@ Assets {
   Id: 5738298151100985099
   Name: "Custom Forest Floor 02"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 15918824964045436998
     ParameterOverrides {

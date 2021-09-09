@@ -2,7 +2,7 @@ Assets {
   Id: 1721777763760885702
   Name: "Custom Composite Mask Blend_can food1"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

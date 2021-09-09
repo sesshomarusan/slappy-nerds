@@ -2,7 +2,7 @@ Assets {
   Id: 16093406981703589621
   Name: "Fence Wood"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 4050437425243511619
     ParameterOverrides {

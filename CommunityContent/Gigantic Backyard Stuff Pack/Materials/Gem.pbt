@@ -2,7 +2,7 @@ Assets {
   Id: 289951044276957813
   Name: "Gem"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 355351931580515493
     ParameterOverrides {

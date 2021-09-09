@@ -2,7 +2,7 @@ Assets {
   Id: 5821657628701092198
   Name: "Custom Base Material from Cube"
   PlatformAssetType: 13
-  SerializationVersion: 97
+  SerializationVersion: 98
   CustomMaterialAsset {
     BaseMaterialId: 8219409773031363994
     ParameterOverrides {

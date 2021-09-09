@@ -705,6 +705,6 @@ Assets {
   Marketplace {
     Description: "Simple Baseballbat with 4 Nails hammered into it.\r\n\r\nCore Baseballbat + 3d Meshed Nails "
   }
-  SerializationVersion: 97
+  SerializationVersion: 98
   DirectlyPublished: true
 }
