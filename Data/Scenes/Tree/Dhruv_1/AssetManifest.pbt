@@ -1,10 +1,28 @@
 Assets {
+  Id: 17464453360425179270
+  Name: "Horn"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_horn_001"
+  }
+}
+Assets {
   Id: 17296396565760037338
   Name: "Rock 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
+  Id: 17073572656878249838
+  Name: "Coral Table 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_table_02"
   }
 }
 Assets {
@@ -44,12 +62,48 @@ Assets {
   }
 }
 Assets {
+  Id: 16579922588741851044
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
+  }
+}
+Assets {
+  Id: 16579683373962074927
+  Name: "Smoke Puff Radial VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_smoke_puff_radial"
+  }
+}
+Assets {
+  Id: 16574130041417460355
+  Name: "Coral Spikes Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_spike_big_01"
+  }
+}
+Assets {
   Id: 16511965466906697118
   Name: "Coral Spikes Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_coral_spike_small_01"
+  }
+}
+Assets {
+  Id: 16481452830532811922
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
   }
 }
 Assets {
@@ -89,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15435506831201622955
+  Name: "Pyramid - 7-Sided Truncated Hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_7_sided_truncated_hollow_001"
+  }
+}
+Assets {
   Id: 15100306515943018207
   Name: "Ball - Tennis 01"
   PlatformAssetType: 1
@@ -125,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14319639523658202036
+  Name: "Coral Spikes Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_spike_big_01"
+  }
+}
+Assets {
   Id: 13957360518931418014
   Name: "Bush 02"
   PlatformAssetType: 1
@@ -152,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12731937929205360508
+  Name: "Heart - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_polished_001"
+  }
+}
+Assets {
   Id: 12610149741243116648
   Name: "Urban Pipe Wrap 01"
   PlatformAssetType: 1
@@ -161,12 +242,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12178102136971689092
+  Name: "Gem - Diamond 6-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_diamond_6_sided_polished_001"
+  }
+}
+Assets {
   Id: 11323924293928660312
   Name: "Coral Spikes Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_coral_spike_small_01"
+  }
+}
+Assets {
+  Id: 10333603302638640772
+  Name: "Metal Gold 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_001"
   }
 }
 Assets {
@@ -185,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_tib_01_ref"
+  }
+}
+Assets {
+  Id: 8850185211238575070
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
   }
 }
 Assets {
@@ -233,12 +341,48 @@ Assets {
   }
 }
 Assets {
+  Id: 8063868133702323256
+  Name: "Sphere - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_002"
+  }
+}
+Assets {
+  Id: 6937622142081634485
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
+  }
+}
+Assets {
   Id: 5967208035065997798
   Name: "Sand 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_sand_001_uv"
+  }
+}
+Assets {
+  Id: 5777796328519960174
+  Name: "Pipe - 45-Degree Long Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve45_006"
+  }
+}
+Assets {
+  Id: 5636529591397198560
+  Name: "Liquid Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_liquid"
   }
 }
 Assets {
@@ -257,6 +401,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
+  Id: 5316765673530735247
+  Name: "Coral Table 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_table_02"
   }
 }
 Assets {
@@ -314,6 +467,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2905751522032673006
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
   Id: 2727688967788134169
   Name: "Moss 01"
   PlatformAssetType: 2
@@ -332,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2436979131935544357
+  Name: "Wood Planks"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
   Id: 2091374951386128371
   Name: "Sphere - Half Quarter Thin"
   PlatformAssetType: 1
@@ -341,12 +512,39 @@ Assets {
   }
 }
 Assets {
+  Id: 2064493789936391994
+  Name: "Ring - Beveled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_001"
+  }
+}
+Assets {
+  Id: 1967454480797501765
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
+  }
+}
+Assets {
   Id: 1878561067824770111
   Name: "Hill 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_001"
+  }
+}
+Assets {
+  Id: 1740499025818237214
+  Name: "Metal Old Beaten Gold 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_002"
   }
 }
 Assets {
@@ -374,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
+  Id: 953555081613789427
+  Name: "Cone - Truncated Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_003"
   }
 }
 Assets {
