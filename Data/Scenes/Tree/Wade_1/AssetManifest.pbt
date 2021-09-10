@@ -1,37 +1,10 @@
 Assets {
-  Id: 16779672422305583796
-  Name: "Decal Leaves 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_leaves_002"
-  }
-}
-Assets {
-  Id: 16751224094635422494
-  Name: "Rock 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_001"
-  }
-}
-Assets {
   Id: 16604086087168607114
   Name: "Grass Short"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
-  Id: 16019652767305566077
-  Name: "Bush 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
@@ -62,30 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13710161915374590549
-  Name: "Rock 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_003"
-  }
-}
-Assets {
   Id: 13358733695721466325
   Name: "Sphere"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 13020825783896329242
-  Name: "Generic Water"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_parameter_driven_water_manual"
   }
 }
 Assets {
@@ -143,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8598528579184643409
-  Name: "Grass Short"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
   Id: 7170636433626005260
   Name: "Jungle Vine (end)"
   PlatformAssetType: 2
@@ -170,39 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5967208035065997798
-  Name: "Sand 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sand_001_uv"
-  }
-}
-Assets {
-  Id: 5079120921645786342
-  Name: "Rock Pile 002"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_002"
-  }
-}
-Assets {
   Id: 3955373471396065794
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_small_001"
-  }
-}
-Assets {
-  Id: 3723622831994450726
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
   }
 }
 Assets {
@@ -215,30 +134,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2989446419212228578
-  Name: "Rock 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
-  }
-}
-Assets {
   Id: 2732383008282177262
   Name: "Bark Redwood 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_redwood_001_uv"
-  }
-}
-Assets {
-  Id: 2500080930790731598
-  Name: "Rock Flat 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
