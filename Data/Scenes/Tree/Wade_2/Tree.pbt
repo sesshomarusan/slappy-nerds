@@ -65,8 +65,8 @@ Objects {
   ChildIds: 1729747040250574306
   ChildIds: 13962728664962446806
   ChildIds: 18392884530174502786
-  ChildIds: 11274361017004579136
   ChildIds: 6551888996490945625
+  ChildIds: 11274361017004579136
   ChildIds: 17444989175442550351
   ChildIds: 5571584683213903464
   ChildIds: 4737688366473725888
@@ -655,9 +655,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 43.5486031
-      Y: 43.5486031
-      Z: 4.05913639
+      X: 36
+      Y: 36
+      Z: 2
     }
   }
   ParentId: 6108581391429854104
@@ -744,6 +744,154 @@ Objects {
   }
 }
 Objects {
+  Id: 11274361017004579136
+  Name: "Sci-fi Wall Screen 02"
+  Transform {
+    Location {
+      X: -7561.19
+      Y: -10177.9863
+      Z: 2751.79
+    }
+    Rotation {
+      Yaw: -49.3540039
+    }
+    Scale {
+      X: 28
+      Y: 28
+      Z: 28
+    }
+  }
+  ParentId: 6108581391429854104
+  ChildIds: 16058130530969997871
+  ChildIds: 11673466363842525382
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13821745722711960151
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11673466363842525382
+  Name: "Line 1"
+  Transform {
+    Location {
+      X: -96.5825577
+      Y: 25.1015491
+      Z: 236.126068
+    }
+    Rotation {
+      Yaw: 87.9115753
+    }
+    Scale {
+      X: 0.599999964
+      Y: 0.599999964
+      Z: 0.599999964
+    }
+  }
+  ParentId: 11274361017004579136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Text {
+    Text: "Jumping is like flappin\'\r\n<SPACE> bar = higher + faster(?)\r\n\r\nWhen flying, use <A> and <D>\r\nto strafe left + right\r\n\r\nOn the ground, use <WASD> to \r\nrun (don\'t walk ;) and jump!"
+    FontAsset {
+    }
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:top"
+    }
+  }
+}
+Objects {
+  Id: 16058130530969997871
+  Name: "Hot to play"
+  Transform {
+    Location {
+      X: 0.966983795
+      Y: 19.7130032
+      Z: 293.17
+    }
+    Rotation {
+      Yaw: 87.912
+    }
+    Scale {
+      X: 1.4
+      Y: 1.4
+      Z: 1.4
+    }
+  }
+  ParentId: 11274361017004579136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Text {
+    Text: "How to play:"
+    FontAsset {
+    }
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
   Id: 6551888996490945625
   Name: "Sci-fi Wall Screen 02"
   Transform {
@@ -798,17 +946,17 @@ Objects {
   Name: "Line 1"
   Transform {
     Location {
-      X: 6.20374298
-      Y: 19.1868649
-      Z: 270.883514
+      X: -96.5489655
+      Y: 18.1756783
+      Z: 236.126068
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 1.19964659
-      Y: 0.749778926
-      Z: 0.749778926
+      X: 0.6
+      Y: 0.6
+      Z: 0.6
     }
   }
   ParentId: 6551888996490945625
@@ -822,7 +970,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "How To play"
+    Text: "First to the finish line WINS\r\nthe Slappy Nerd gold!\r\n\r\nIF.. you don\'t get slapped around\r\ntooo much!\r\n\r\nBeware: This junky yard is windy\r\nand your inset \"friends\" are on\r\nthe loose!"
     FontAsset {
     }
     Color {
@@ -834,29 +982,29 @@ Objects {
     HorizontalSize: 1
     VerticalSize: 1
     HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:right"
+      Value: "mc:ecoretexthorizontalalign:left"
     }
     VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
+      Value: "mc:ecoretextverticalalign:top"
     }
   }
 }
 Objects {
   Id: 8758005751959524595
-  Name: "Line 1"
+  Name: "Welcome"
   Transform {
     Location {
-      X: -32.5708504
-      Y: 19.1890297
-      Z: 300.082428
+      X: 1.13097811
+      Y: 16.3450718
+      Z: 293.170258
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 2.07513142
-      Y: 1.29695678
-      Z: 1.29695678
+      X: 1.4
+      Y: 1.4
+      Z: 1.4
     }
   }
   ParentId: 6551888996490945625
@@ -870,155 +1018,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "Controls"
-    FontAsset {
-    }
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    HorizontalSize: 1
-    VerticalSize: 1
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-}
-Objects {
-  Id: 11274361017004579136
-  Name: "Sci-fi Wall Screen 02"
-  Transform {
-    Location {
-      X: -7561.19
-      Y: -10177.9863
-      Z: 2751.79
-    }
-    Rotation {
-      Yaw: -49.3540039
-    }
-    Scale {
-      X: 28
-      Y: 28
-      Z: 28
-    }
-  }
-  ParentId: 6108581391429854104
-  ChildIds: 11192671606668353456
-  ChildIds: 14987535589136411144
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13821745722711960151
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 14987535589136411144
-  Name: "Line 1"
-  Transform {
-    Location {
-      X: 2.20334148
-      Y: 18.3422413
-      Z: 260.839294
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1.19964659
-      Y: 0.749778926
-      Z: 0.749778926
-    }
-  }
-  ParentId: 11274361017004579136
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Text {
-    Text: "How To play"
-    FontAsset {
-    }
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    HorizontalSize: 1
-    VerticalSize: 1
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:right"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-}
-Objects {
-  Id: 11192671606668353456
-  Name: "Line 1"
-  Transform {
-    Location {
-      X: -11.5367823
-      Y: 18.3422356
-      Z: 297.545654
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 2.07513142
-      Y: 1.29695678
-      Z: 1.29695678
-    }
-  }
-  ParentId: 11274361017004579136
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Text {
-    Text: "How To play"
+    Text: "Welcome to \r\nSlappy Valley!"
     FontAsset {
     }
     Color {
