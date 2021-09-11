@@ -17,7 +17,6 @@ Objects {
     }
   }
   ParentId: 18421671780116638433
-  ChildIds: 11597072017465749743
   ChildIds: 6940208305988635507
   ChildIds: 2345670486094794165
   ChildIds: 13835599434798620760
@@ -29,6 +28,7 @@ Objects {
   ChildIds: 13847259431615774271
   ChildIds: 2362928413186439246
   ChildIds: 10669533295238938417
+  ChildIds: 12073835554237358065
   ChildIds: 468201149943584849
   ChildIds: 8614849041304342031
   ChildIds: 9245769852333143396
@@ -131,19 +131,19 @@ Objects {
   Name: "Halfpipe - S2a"
   Transform {
     Location {
-      X: -1575
+      X: -1065
       Y: -27326.4102
       Z: -8575.93457
     }
     Rotation {
-      Pitch: -4.69763184
-      Yaw: 69.9297638
-      Roll: 91.7144699
+      Pitch: -4.78088379
+      Yaw: 72.9386063
+      Roll: 91.4657288
     }
     Scale {
       X: 151.25
       Y: 200
-      Z: 73.5
+      Z: 80.5000076
     }
   }
   ParentId: 9042946792392301865
@@ -186,12 +186,12 @@ Objects {
       Z: -8604.26367
     }
     Rotation {
-      Pitch: -3.40765381
-      Yaw: 42.89114
-      Roll: 93.6617279
+      Pitch: -3.6545105
+      Yaw: 46.8910713
+      Roll: 93.4152298
     }
     Scale {
-      X: 151.250031
+      X: 146.749985
       Y: 200
       Z: 52
     }
@@ -231,7 +231,7 @@ Objects {
   Name: "Halfpipe - S2a"
   Transform {
     Location {
-      X: -10755
+      X: -11055
       Y: -22768.8027
       Z: -8974.67383
     }
@@ -282,8 +282,8 @@ Objects {
   Transform {
     Location {
       X: -12035
-      Y: -17653.3672
-      Z: -9422.23
+      Y: -18056.8418
+      Z: -9386.91699
     }
     Rotation {
       Pitch: -1.03829956
@@ -291,9 +291,9 @@ Objects {
       Roll: 94.8919678
     }
     Scale {
-      X: 124.750008
+      X: 132.25
       Y: 200
-      Z: 52
+      Z: 60.75
     }
   }
   ParentId: 9042946792392301865
@@ -331,7 +331,7 @@ Objects {
   Name: "Halfpipe - S2"
   Transform {
     Location {
-      X: 97715
+      X: 97950
       Y: -27391.2012
       Z: -8570.36719
     }
@@ -343,7 +343,7 @@ Objects {
     Scale {
       X: 133.5
       Y: 200
-      Z: 1007.25024
+      Z: 1013.75
     }
   }
   ParentId: 9042946792392301865
@@ -381,19 +381,19 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 103995
-      Y: 4765.97852
-      Z: -11383.8145
+      X: 104056.305
+      Y: 5333.19971
+      Z: -11433.4551
     }
     Rotation {
-      Pitch: 4.19248581
-      Yaw: -123.099838
-      Roll: 87.271553
+      Pitch: 4.49354696
+      Yaw: -116.085907
+      Roll: 87.8032684
     }
     Scale {
-      X: 203.250015
-      Y: 200
-      Z: 26.5
+      X: 170.825073
+      Y: 200.000015
+      Z: 39.4365501
     }
   }
   ParentId: 9042946792392301865
@@ -432,8 +432,8 @@ Objects {
   Transform {
     Location {
       X: 107010
-      Y: -23476.2129
-      Z: -8913.04102
+      Y: -22983.0527
+      Z: -8956.1875
     }
     Rotation {
       Pitch: -4.69815063
@@ -441,7 +441,7 @@ Objects {
       Roll: 88.2845
     }
     Scale {
-      X: 159.999969
+      X: 160.750015
       Y: 200
       Z: 118.25
     }
@@ -481,9 +481,9 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 108985
-      Y: -17583.7129
-      Z: -9428.56836
+      X: 108535
+      Y: -15984.7725
+      Z: -9568.45898
     }
     Rotation {
       Pitch: -2.7940979
@@ -491,7 +491,7 @@ Objects {
       Roll: 85.8501282
     }
     Scale {
-      X: 232.249863
+      X: 204.500031
       Y: 200
       Z: 118.25
     }
@@ -531,7 +531,7 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 110675
+      X: 109715
       Y: -12433.3291
       Z: -9879.13477
     }
@@ -581,9 +581,9 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 110640
-      Y: -5987.95312
-      Z: -10442.9941
+      X: 110100
+      Y: -5684.11182
+      Z: -10469.6484
     }
     Rotation {
       Pitch: -0.435211182
@@ -593,7 +593,7 @@ Objects {
     Scale {
       X: 256.5
       Y: 200
-      Z: 83.4999619
+      Z: 104.499985
     }
   }
   ParentId: 9042946792392301865
@@ -643,7 +643,7 @@ Objects {
     Scale {
       X: 256.5
       Y: 200
-      Z: 64.4999924
+      Z: 72.9999924
     }
   }
   ParentId: 9042946792392301865
@@ -681,7 +681,7 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 108670
+      X: 107890
       Y: 3311.52124
       Z: -11256.5645
     }
@@ -693,7 +693,7 @@ Objects {
     Scale {
       X: 256.5
       Y: 200
-      Z: 64.4999924
+      Z: 76.75
     }
   }
   ParentId: 9042946792392301865
@@ -731,19 +731,19 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 104770
-      Y: 5807.00439
-      Z: -11474.9023
+      X: 105314.141
+      Y: 5550.63672
+      Z: -11452.5625
     }
     Rotation {
-      Pitch: 2.93714499
-      Yaw: -144.10379
-      Roll: 85.951149
+      Pitch: 3.8287375
+      Yaw: -130.107285
+      Roll: 86.7809143
     }
     Scale {
-      X: 218.250015
-      Y: 200
-      Z: 80.2500076
+      X: 183.431976
+      Y: 200.000015
+      Z: 95.1814728
     }
   }
   ParentId: 9042946792392301865
@@ -781,19 +781,19 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 101580
-      Y: 5876.71729
-      Z: -11481.0078
+      X: 100240
+      Y: 6075.95703
+      Z: -11498.5215
     }
     Rotation {
-      Pitch: 4.19248581
-      Yaw: -123.099808
-      Roll: 87.2715683
+      Pitch: 4.63576508
+      Yaw: -112.075623
+      Roll: 88.1224365
     }
     Scale {
-      X: 173.5
-      Y: 200
-      Z: 26.4999943
+      X: 162.000092
+      Y: 200.000015
+      Z: 65.2333908
     }
   }
   ParentId: 9042946792392301865
@@ -831,7 +831,7 @@ Objects {
   Name: "Halfpipe - W4a"
   Transform {
     Location {
-      X: 101865
+      X: 98915
       Y: 5846.84424
       Z: -11478.3672
     }
@@ -841,9 +841,9 @@ Objects {
       Roll: 88.8725052
     }
     Scale {
-      X: 115.75
+      X: 140.750031
       Y: 200
-      Z: 11.0000067
+      Z: 30.75
     }
   }
   ParentId: 9042946792392301865
@@ -893,7 +893,7 @@ Objects {
     Scale {
       X: 115.75
       Y: 200
-      Z: 209.249954
+      Z: 202.339508
     }
   }
   ParentId: 9042946792392301865
@@ -932,8 +932,8 @@ Objects {
   Transform {
     Location {
       X: 78005
-      Y: 5398.54932
-      Z: -11439.2559
+      Y: 5985.94043
+      Z: -11490.6465
     }
     Rotation {
       Pitch: 4.99801111
@@ -941,9 +941,9 @@ Objects {
       Roll: 89.9111404
     }
     Scale {
-      X: 139.249985
-      Y: 200
-      Z: 53
+      X: 132.430847
+      Y: 200.000076
+      Z: 53.0000687
     }
   }
   ParentId: 9042946792392301865
@@ -982,8 +982,8 @@ Objects {
   Transform {
     Location {
       X: 75300
-      Y: 5328.81494
-      Z: -11433.1562
+      Y: 6754.32568
+      Z: -11557.8711
     }
     Rotation {
       Pitch: 4.75360632
@@ -991,9 +991,9 @@ Objects {
       Roll: 88.4501495
     }
     Scale {
-      X: 154.500046
-      Y: 200
-      Z: 53
+      X: 133.281738
+      Y: 200.000031
+      Z: 52.9999542
     }
   }
   ParentId: 9042946792392301865
@@ -1031,9 +1031,9 @@ Objects {
   Name: "Halfpipe - W3a"
   Transform {
     Location {
-      X: 70315
-      Y: 6613.90381
-      Z: -11545.5859
+      X: 70926.6172
+      Y: 8065.40137
+      Z: -11672.5752
     }
     Rotation {
       Pitch: 4.60053492
@@ -1041,9 +1041,9 @@ Objects {
       Roll: 88.0410385
     }
     Scale {
-      X: 154.500046
-      Y: 200
-      Z: 53
+      X: 129.968506
+      Y: 200.000122
+      Z: 53.0001488
     }
   }
   ParentId: 9042946792392301865
@@ -1081,9 +1081,9 @@ Objects {
   Name: "Halfpipe - W3a"
   Transform {
     Location {
-      X: 71110
-      Y: 9856.47
-      Z: -11829.2734
+      X: 71250.7
+      Y: 10801.7129
+      Z: -11911.9727
     }
     Rotation {
       Pitch: 2.71974015
@@ -1091,9 +1091,9 @@ Objects {
       Roll: 85.8024597
     }
     Scale {
-      X: 176.249985
-      Y: 200
-      Z: 53
+      X: 159.307709
+      Y: 200.000092
+      Z: 63.8506546
     }
   }
   ParentId: 9042946792392301865
@@ -1132,8 +1132,8 @@ Objects {
   Transform {
     Location {
       X: 70235
-      Y: 13397.998
-      Z: -12139.0137
+      Y: 14373.6504
+      Z: -12224.3936
     }
     Rotation {
       Pitch: 0.952859163
@@ -1141,9 +1141,9 @@ Objects {
       Roll: 85.0914078
     }
     Scale {
-      X: 153.000015
+      X: 153.000046
       Y: 200
-      Z: 53
+      Z: 62.1509972
     }
   }
   ParentId: 9042946792392301865
@@ -1282,8 +1282,8 @@ Objects {
   Transform {
     Location {
       X: 63780
-      Y: 81930.3125
-      Z: -18134.7891
+      Y: 82663.8906
+      Z: -18198.9707
     }
     Rotation {
       Pitch: 1.62566686
@@ -1291,9 +1291,9 @@ Objects {
       Roll: 85.2709503
     }
     Scale {
-      X: 163.750061
-      Y: 200
-      Z: 114.500008
+      X: 150.954529
+      Y: 200.000198
+      Z: 122.428619
     }
   }
   ParentId: 9042946792392301865
@@ -1391,9 +1391,9 @@ Objects {
       Roll: 87.1989288
     }
     Scale {
-      X: 128.25
+      X: 135.01857
       Y: 200
-      Z: 41.5
+      Z: 41.4999657
     }
   }
   ParentId: 9042946792392301865
@@ -1432,8 +1432,8 @@ Objects {
   Transform {
     Location {
       X: 57855
-      Y: 87659.2266
-      Z: -18636.0039
+      Y: 87820.2734
+      Z: -18650.0938
     }
     Rotation {
       Pitch: 4.45267534
@@ -1441,9 +1441,9 @@ Objects {
       Roll: 87.7253494
     }
     Scale {
-      X: 111.75
-      Y: 200
-      Z: 41.5
+      X: 120.090958
+      Y: 200.000015
+      Z: 47.1314621
     }
   }
   ParentId: 9042946792392301865
@@ -1481,7 +1481,7 @@ Objects {
   Name: "Halfpipe - N3a"
   Transform {
     Location {
-      X: 44870
+      X: 44603.2539
       Y: 91006.3
       Z: -18928.8359
     }
@@ -1491,9 +1491,9 @@ Objects {
       Roll: 90.4369888
     }
     Scale {
-      X: 111.75
+      X: 111.749863
       Y: 200
-      Z: 38.5000076
+      Z: 44.3518944
     }
   }
   ParentId: 9042946792392301865
@@ -1541,9 +1541,9 @@ Objects {
       Roll: 88.3686676
     }
     Scale {
-      X: 111.75
-      Y: 200
-      Z: 114.499992
+      X: 111.749985
+      Y: 200.000046
+      Z: 122.825226
     }
   }
   ParentId: 9042946792392301865
@@ -1594,6 +1594,56 @@ Objects {
       X: 111.75
       Y: 200
       Z: 130.25
+    }
+  }
+  ParentId: 9042946792392301865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4691692031683937777
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12073835554237358065
+  Name: "Halfpipe - N1a"
+  Transform {
+    Location {
+      X: 31683.9102
+      Y: 67986.7109
+      Z: -21615.9473
+    }
+    Rotation {
+      Pitch: 2.12683892
+      Yaw: 6.04957056
+      Roll: 70.6959457
+    }
+    Scale {
+      X: 117.911385
+      Y: 200.000122
+      Z: 146.273209
     }
   }
   ParentId: 9042946792392301865
@@ -1681,9 +1731,9 @@ Objects {
   Name: "Halfpipe - E2a"
   Transform {
     Location {
-      X: 32965
-      Y: 35548.4336
-      Z: -14076.7725
+      X: 32284.9062
+      Y: 34625.2812
+      Z: -13996.0059
     }
     Rotation {
       Pitch: 2.34560299
@@ -1691,9 +1741,9 @@ Objects {
       Roll: 94.4166183
     }
     Scale {
-      X: 118.25
-      Y: 200
-      Z: 54.9999847
+      X: 118.250092
+      Y: 200.000015
+      Z: 67.5615845
     }
   }
   ParentId: 9042946792392301865
@@ -1731,9 +1781,9 @@ Objects {
   Name: "Halfpipe - E2a"
   Transform {
     Location {
-      X: 29450
-      Y: 31867.4863
-      Z: -13754.7324
+      X: 29107.3086
+      Y: 31405.8105
+      Z: -13714.3398
     }
     Rotation {
       Pitch: 3.40831876
@@ -1741,9 +1791,9 @@ Objects {
       Roll: 93.6605835
     }
     Scale {
-      X: 118.25
-      Y: 200
-      Z: 54.9999847
+      X: 118.249985
+      Y: 200.000015
+      Z: 60.511322
     }
   }
   ParentId: 9042946792392301865
@@ -1781,7 +1831,7 @@ Objects {
   Name: "Halfpipe - E2a"
   Transform {
     Location {
-      X: 25065
+      X: 24277.8535
       Y: 30163.9727
       Z: -13605.6934
     }
@@ -1791,9 +1841,9 @@ Objects {
       Roll: 92.1174088
     }
     Scale {
-      X: 118.25
-      Y: 200
-      Z: 54.9999847
+      X: 118.250015
+      Y: 200.000031
+      Z: 66.0230331
     }
   }
   ParentId: 9042946792392301865
@@ -1832,8 +1882,8 @@ Objects {
   Transform {
     Location {
       X: 34470
-      Y: 36499.5352
-      Z: -13070.8789
+      Y: 36548.5938
+      Z: -12510.0684
     }
     Rotation {
       Pitch: 15.2200441
@@ -1841,9 +1891,9 @@ Objects {
       Roll: 120.775467
     }
     Scale {
-      X: 118.25
-      Y: 200
-      Z: 169.749969
+      X: 118.250046
+      Y: 200.000046
+      Z: 183.562546
     }
   }
   ParentId: 9042946792392301865
@@ -1981,9 +2031,9 @@ Objects {
   Name: "Halfpipe - E1a"
   Transform {
     Location {
-      X: -11795
-      Y: 29765.5391
-      Z: -13570.833
+      X: -12593.6826
+      Y: 29354.7441
+      Z: -13534.8936
     }
     Rotation {
       Pitch: 4.66788769
@@ -1991,9 +2041,9 @@ Objects {
       Roll: 91.796196
     }
     Scale {
-      X: 111.75
-      Y: 200
-      Z: 47.9999771
+      X: 111.750107
+      Y: 200.000015
+      Z: 61.97752
     }
   }
   ParentId: 9042946792392301865
@@ -2041,9 +2091,9 @@ Objects {
       Roll: 94.757164
     }
     Scale {
-      X: 111.75
-      Y: 200
-      Z: 47.9999771
+      X: 111.750069
+      Y: 200.000046
+      Z: 58.4366875
     }
   }
   ParentId: 9042946792392301865
@@ -2132,8 +2182,8 @@ Objects {
   Transform {
     Location {
       X: -13130
-      Y: -12179.2939
-      Z: -9901.19922
+      Y: -13892.7402
+      Z: -9751.24512
     }
     Rotation {
       Pitch: -0.261352539
@@ -2143,7 +2193,7 @@ Objects {
     Scale {
       X: 111.75
       Y: 200
-      Z: 372.999939
+      Z: 401.000122
     }
   }
   ParentId: 9042946792392301865
@@ -2162,52 +2212,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 4691692031683937777
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 11597072017465749743
-  Name: "Corner - Smoothed Thin - 01"
-  Transform {
-    Location {
-      X: -15965
-    }
-    Rotation {
-      Roll: 95
-    }
-    Scale {
-      X: 10
-      Y: 10
-      Z: 10
-    }
-  }
-  ParentId: 9042946792392301865
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2592608571862776785
     }
     Teams {
       IsTeamCollisionEnabled: true
