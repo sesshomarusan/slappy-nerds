@@ -1,9 +1,18 @@
 Assets {
-  Id: 12089054537073120658
-  Name: "Crescent 02 - Large"
+  Id: 4691692031683937777
+  Name: "Pipe - Half Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_lg_002_ref"
+    AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
+  Id: 2592608571862776785
+  Name: "Corner - Smoothed Thin - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corner_smooth_thin_001_ref"
   }
 }
