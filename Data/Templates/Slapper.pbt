@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 9716066596724085630
-        ChildIds: 10890505429177945339
         ChildIds: 2584919767397948654
         ChildIds: 6989391550824198880
         ChildIds: 8299039046959503372
@@ -103,45 +102,7 @@ Assets {
         Equipment {
           SocketName: "right_prop"
           PickupTrigger {
-            SubObjectId: 10890505429177945339
-          }
-        }
-      }
-      Objects {
-        Id: 10890505429177945339
-        Name: "BoxTrigger"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4605985385072530509
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
+            SelfId: 841534158063459245
           }
         }
       }
@@ -258,7 +219,7 @@ Assets {
           }
           Animation: "2hand_sword_slash_spin"
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_41"
+            Value: "mc:egameaction:extraaction_04"
           }
         }
       }
@@ -277,6 +238,8 @@ Assets {
           }
         }
         ParentId: 2584919767397948654
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -724,6 +687,12 @@ Assets {
         }
         ParentId: 8299039046959503372
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:StreetSignOctagon"
+            ObjectReference {
+              SubObjectId: 2028891534106239526
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
