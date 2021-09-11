@@ -90,7 +90,7 @@ Objects {
       Y: -1113.51074
     }
     Rotation {
-      Yaw: 1.19039583
+      Yaw: 11.8765202
     }
     Scale {
       X: 1
@@ -128,12 +128,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 609.208374
+      Y: -2122.80786
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 11.8138676
     }
     Scale {
       X: 21.6284409
@@ -229,7 +229,7 @@ Objects {
       Y: -3364.41553
     }
     Rotation {
-      Yaw: 22.7106724
+      Yaw: 30.3963451
     }
     Scale {
       X: 1
@@ -267,12 +267,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 719.489
+      Y: -2088.00903
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.8143787
     }
     Scale {
       X: 21.6284409
@@ -368,7 +368,7 @@ Objects {
       Y: -5370.81
     }
     Rotation {
-      Yaw: 46.5162621
+      Yaw: 57.8622704
     }
     Scale {
       X: 1
@@ -406,12 +406,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 855.654846
-      Y: -1819.66064
+      X: 480.944641
+      Y: -1952.43494
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 11.1540537
     }
     Scale {
       X: 21.6284409
@@ -507,7 +507,7 @@ Objects {
       Y: -6512.80322
     }
     Rotation {
-      Yaw: 67.8358536
+      Yaw: 76.2249908
     }
     Scale {
       X: 1
@@ -545,12 +545,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 693.799438
+      Y: -2096.68604
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.1108952
     }
     Scale {
       X: 21.6284409
@@ -646,7 +646,7 @@ Objects {
       Y: -6468.53125
     }
     Rotation {
-      Yaw: 92.6936874
+      Yaw: 101.578735
     }
     Scale {
       X: 1
@@ -684,12 +684,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 675.626221
+      Y: -2102.61108
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 13.614953
     }
     Scale {
       X: 21.6284409
@@ -785,7 +785,7 @@ Objects {
       Y: -5739.22754
     }
     Rotation {
-      Yaw: 114.213913
+      Yaw: 121.227341
     }
     Scale {
       X: 1
@@ -823,12 +823,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 743.937256
+      Y: -2079.42432
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 15.4866161
     }
     Scale {
       X: 21.6284409
@@ -924,7 +924,7 @@ Objects {
       Y: -4087.96484
     }
     Rotation {
-      Yaw: 138.019272
+      Yaw: 144.205887
     }
     Scale {
       X: 1
@@ -962,12 +962,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 855.654846
-      Y: -1819.66064
+      X: 654.572754
+      Y: -1901.27478
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 16.3134022
     }
     Scale {
       X: 21.6284409
@@ -1063,7 +1063,7 @@ Objects {
       Y: -2273.6333
     }
     Rotation {
-      Yaw: 159.338882
+      Yaw: 167.285828
     }
     Scale {
       X: 1
@@ -1101,12 +1101,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 709.960205
+      Y: -2091.26904
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.5531073
     }
     Scale {
       X: 21.6284409
@@ -1202,7 +1202,7 @@ Objects {
       Y: 916.177246
     }
     Rotation {
-      Yaw: -178.315811
+      Yaw: -170.600662
     }
     Scale {
       X: 1
@@ -1240,12 +1240,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 718.415039
+      Y: -2088.37891
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.7848778
     }
     Scale {
       X: 21.6284409
@@ -1341,7 +1341,7 @@ Objects {
       Y: 3161.23218
     }
     Rotation {
-      Yaw: -156.795242
+      Yaw: -148.33757
     }
     Scale {
       X: 1
@@ -1379,12 +1379,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 691.289795
+      Y: -2097.51221
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.0424347
     }
     Scale {
       X: 21.6284409
@@ -1480,7 +1480,7 @@ Objects {
       Y: 5153.78711
     }
     Rotation {
-      Yaw: -132.990555
+      Yaw: -125.231842
     }
     Scale {
       X: 1
@@ -1518,12 +1518,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 855.654846
-      Y: -1819.66064
+      X: 602.165283
+      Y: -1918.51758
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.7413387
     }
     Scale {
       X: 21.6284409
@@ -1619,7 +1619,7 @@ Objects {
       Y: 6280.38
     }
     Rotation {
-      Yaw: -111.670959
+      Yaw: -102.568298
     }
     Scale {
       X: 1
@@ -1657,12 +1657,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 667.635742
+      Y: -2105.16284
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 13.3973742
     }
     Scale {
       X: 21.6284409
@@ -1758,7 +1758,7 @@ Objects {
       Y: 6868.51
     }
     Rotation {
-      Yaw: -89.2020264
+      Yaw: -81.1931152
     }
     Scale {
       X: 1
@@ -1796,12 +1796,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 707.698303
+      Y: -2092.03467
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 14.4910822
     }
     Scale {
       X: 21.6284409
@@ -1897,7 +1897,7 @@ Objects {
       Y: 6213.46533
     }
     Rotation {
-      Yaw: -67.6806
+      Yaw: -61.0920715
     }
     Scale {
       X: 1
@@ -1935,12 +1935,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 759.337219
+      Y: -2073.85034
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 15.911478
     }
     Scale {
       X: 21.6284409
@@ -2036,7 +2036,7 @@ Objects {
       Y: 4628.06934
     }
     Rotation {
-      Yaw: -43.8769836
+      Yaw: -31.9907532
     }
     Scale {
       X: 1
@@ -2074,12 +2074,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 855.654846
-      Y: -1819.66064
+      X: 462.514648
+      Y: -1956.88318
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 10.6138172
     }
     Scale {
       X: 21.6284409
@@ -2175,7 +2175,7 @@ Objects {
       Y: 2850.94946
     }
     Rotation {
-      Yaw: -22.5575867
+      Yaw: -13.0704346
     }
     Scale {
       X: 1
@@ -2213,12 +2213,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 992.272644
-      Y: -1973.02869
+      X: 653.493591
+      Y: -2109.59521
       Z: 889.648438
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 13.0128889
     }
     Scale {
       X: 21.6284409

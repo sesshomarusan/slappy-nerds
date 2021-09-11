@@ -32,6 +32,9 @@ function Tick()
             -- AddPulseOnPlayer(player, "Right")
             AddVelocityOnPlayer(player, "Right")
         end
+        if playerDirections[player] == "None" then
+            player:SetWorldRotation(Rotation.New(Quaternion.New(player:GetLookWorldRotation()):GetForwardVector(), Vector3.UP))
+        end
     end
 end
 
