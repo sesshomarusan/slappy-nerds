@@ -1,6 +1,39 @@
 Name: "Player"
 RootId: 5091452826757713926
 Objects {
+  Id: 17929051194849027273
+  Name: "JumpEffect"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5091452826757713926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9302083945602656217
+    }
+  }
+}
+Objects {
   Id: 12284735204225932003
   Name: "Static Player Equipment"
   Transform {
@@ -94,6 +127,12 @@ Objects {
   }
   ParentId: 17571746907888095876
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:Flap"
+      AssetReference {
+        Id: 9883012404158970446
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -167,6 +206,18 @@ Objects {
     Overrides {
       Name: "cs:PlayerVelocityBoost"
       Int: 2000
+    }
+    Overrides {
+      Name: "cs:Flap"
+      AssetReference {
+        Id: 9883012404158970446
+      }
+    }
+    Overrides {
+      Name: "cs:Flap2"
+      AssetReference {
+        Id: 841534158063459245
+      }
     }
   }
   Collidable_v2 {
