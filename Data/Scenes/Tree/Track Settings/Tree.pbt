@@ -474,6 +474,9 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 11423365099598106998
+  ChildIds: 11795918983967825626
+  ChildIds: 2291344428954397899
+  ChildIds: 9540457101319998061
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -488,6 +491,426 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9540457101319998061
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 82205.25
+      Y: 2484.86646
+      Z: 1659.06396
+    }
+    Rotation {
+      Yaw: -63.7706
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12139745472243136624
+  ChildIds: 16307381409180165019
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16307381409180165019
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -4565.39941
+      Y: -5456.28809
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -30.7331543
+    }
+    Scale {
+      X: 128.267349
+      Y: 3.66447616
+      Z: 122.656502
+    }
+  }
+  ParentId: 9540457101319998061
+  ChildIds: 15656017992501503492
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 15656017992501503492
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 16307381409180165019
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 2291344428954397899
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 84279.3594
+      Y: -5431.68066
+      Z: 1659.06396
+    }
+    Rotation {
+      Yaw: -98.21521
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12139745472243136624
+  ChildIds: 6305314130085651567
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6305314130085651567
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -6868.35156
+      Y: -2807.05957
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -40.6624756
+    }
+    Scale {
+      X: 128.267349
+      Y: 3.66447616
+      Z: 122.656502
+    }
+  }
+  ParentId: 2291344428954397899
+  ChildIds: 1181340295895437866
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 1181340295895437866
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 6305314130085651567
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 11795918983967825626
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 80528.0156
+      Y: -11646.9531
+      Z: 1659.06396
+    }
+    Rotation {
+      Yaw: -139.599472
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12139745472243136624
+  ChildIds: 11402567411977185043
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11402567411977185043
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -6744.36035
+      Y: -2440.09961
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -44.9725952
+    }
+    Scale {
+      X: 128.267349
+      Y: 3.66447616
+      Z: 122.656502
+    }
+  }
+  ParentId: 11795918983967825626
+  ChildIds: 13577656041613001126
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 13577656041613001126
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 11402567411977185043
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -538,12 +961,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -7706.51904
-      Y: -15496.7168
+      X: -8301.08398
+      Y: -1534.63293
       Z: 0.00390625
     }
     Rotation {
-      Yaw: 79.9416428
+      Yaw: -57.1087952
     }
     Scale {
       X: 128.267349
@@ -646,6 +1069,7 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 597575704412140266
+  ChildIds: 16059902854593965022
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -660,6 +1084,146 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 16059902854593965022
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 66132.5859
+      Y: 4797.26904
+      Z: 1659.06396
+    }
+    Rotation {
+      Yaw: -46.3060913
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16218626790565280703
+  ChildIds: 12303220259711787386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 12303220259711787386
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -5592.73486
+      Y: 2056.99829
+      Z: 0.0078125
+    }
+    Rotation {
+      Yaw: -129.550705
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 16059902854593965022
+  ChildIds: 985196362916275967
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 985196362916275967
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 12303220259711787386
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -710,12 +1274,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -6135.95947
-      Y: 8059.46484
-      Z: 0.005859375
+      X: -2247.63525
+      Y: 1642.65051
+      Z: 0.009765625
     }
     Rotation {
-      Yaw: -178.614258
+      Yaw: -134.411072
     }
     Scale {
       X: 108.139603
@@ -818,6 +1382,9 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 11640768879368483022
+  ChildIds: 2447768153379726981
+  ChildIds: 3466853920235086342
+  ChildIds: 13974358940601554294
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -832,6 +1399,426 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 13974358940601554294
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 46569.0703
+      Y: 41959.3164
+      Z: 1659.05811
+    }
+    Rotation {
+      Yaw: 37.4905777
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5305566637659764727
+  ChildIds: 17214419691667380152
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 17214419691667380152
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -5671.16943
+      Y: -3772.51196
+      Z: 0.009765625
+    }
+    Rotation {
+      Yaw: -34.4796753
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 13974358940601554294
+  ChildIds: 16132064854711769384
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 16132064854711769384
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 17214419691667380152
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 3466853920235086342
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 52043.8359
+      Y: 45997.3203
+      Z: 1659.05811
+    }
+    Rotation {
+      Yaw: -0.877563477
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5305566637659764727
+  ChildIds: 6572481586855984362
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6572481586855984362
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -5671.16943
+      Y: -3772.51196
+      Z: 0.009765625
+    }
+    Rotation {
+      Yaw: -31.7371826
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 3466853920235086342
+  ChildIds: 9063033795191570046
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 9063033795191570046
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 6572481586855984362
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 2447768153379726981
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 59445.9805
+      Y: 44744.8047
+      Z: 1659.06201
+    }
+    Rotation {
+      Yaw: -31.3693542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5305566637659764727
+  ChildIds: 13173662482253722164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 13173662482253722164
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -7349.96631
+      Y: -2984.09814
+      Z: 0.005859375
+    }
+    Rotation {
+      Yaw: -46.1849976
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 2447768153379726981
+  ChildIds: 12124028321140845393
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 12124028321140845393
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 13173662482253722164
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -882,12 +1869,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -4147.46
-      Y: -16835.5273
-      Z: 0.009765625
+      X: -8084.49
+      Y: -3475.35229
+      Z: 0.005859375
     }
     Rotation {
-      Yaw: 87.8468781
+      Yaw: -32.0638733
     }
     Scale {
       X: 108.139603
@@ -990,6 +1977,7 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 18382575659158985495
+  ChildIds: 10517031631348001250
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1004,6 +1992,146 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10517031631348001250
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 46848.2109
+      Y: 18704.2812
+      Z: 1659.06689
+    }
+    Rotation {
+      Yaw: 50.9572792
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5421195194549029844
+  ChildIds: 11640476366440876594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11640476366440876594
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -6735.13867
+      Y: 3871.72412
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -137.273224
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 10517031631348001250
+  ChildIds: 16213561649772669478
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 16213561649772669478
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 11640476366440876594
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -1054,12 +2182,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -7018.41211
-      Y: 8504.79297
+      X: -5176.10742
+      Y: 380.949219
       Z: 0.00390625
     }
     Rotation {
-      Yaw: 172.81778
+      Yaw: -137.273224
     }
     Scale {
       X: 108.139603
@@ -1165,6 +2293,7 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 15142236121108532708
+  ChildIds: 17053287426563443151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1179,6 +2308,145 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17053287426563443151
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: -832.496094
+      Y: 387.333984
+    }
+    Rotation {
+      Yaw: 37.8264809
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.00000012
+    }
+  }
+  ParentId: 17527816390882646283
+  ChildIds: 5910978768458163970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 5910978768458163970
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -3766.47046
+      Y: -2636.28
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -36.0551147
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 17053287426563443151
+  ChildIds: 4374636504131145697
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 4374636504131145697
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 5910978768458163970
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -1229,12 +2497,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -5210.93506
-      Y: -6319.49805
+      X: -5395.26416
+      Y: -2048.18188
       Z: 0.00390625
     }
     Rotation {
-      Yaw: 3.67346382
+      Yaw: -36.0551147
     }
     Scale {
       X: 108.139603
@@ -1340,6 +2608,7 @@ Objects {
   }
   ParentId: 4912727482407868828
   ChildIds: 6185180290509781608
+  ChildIds: 10589093892839434552
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1354,6 +2623,145 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10589093892839434552
+  Name: "DirectionReference"
+  Transform {
+    Location {
+      X: 769.541
+      Y: -658.051758
+    }
+    Rotation {
+      Yaw: 133.33107
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.00000012
+    }
+  }
+  ParentId: 10496451806581967944
+  ChildIds: 602874946603684672
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12293224109361371820
+    SubobjectId: 16941818904727126150
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 602874946603684672
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -4795.75879
+      Y: -1497.57959
+      Z: 0.00390625
+    }
+    Rotation {
+      Yaw: -41.7489624
+    }
+    Scale {
+      X: 108.139603
+      Y: 3.66449189
+      Z: 122.656502
+    }
+  }
+  ParentId: 10589093892839434552
+  ChildIds: 12591848333059268711
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15706810344232292037
+    SubobjectId: 10988480121742497007
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
+  }
+}
+Objects {
+  Id: 12591848333059268711
+  Name: "DirectionReferenceTrigger"
+  Transform {
+    Location {
+      X: 1.91382802
+      Y: -1000.89117
+      Z: -6.15388203
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 0.0179272499
+      Y: 0.993673801
+      Z: 0.025
+    }
+  }
+  ParentId: 602874946603684672
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LerpSpeed"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7877915732409072687
+    }
+  }
+  InstanceHistory {
+    SelfId: 1283450619159242446
+    SubobjectId: 5785044353802009828
+    InstanceId: 13223300962191876281
+    TemplateId: 630574988887766525
   }
 }
 Objects {
@@ -1404,12 +2812,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -6272.26318
-      Y: -5809.64
+      X: -4795.75879
+      Y: -1497.57959
       Z: 0.00390625
     }
     Rotation {
-      Yaw: -3.42211914
+      Yaw: -41.7489624
     }
     Scale {
       X: 108.139603

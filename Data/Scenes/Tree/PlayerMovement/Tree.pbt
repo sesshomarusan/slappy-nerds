@@ -49,11 +49,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LerpSpeedMax"
-      Int: 100
+      Int: 70
     }
     Overrides {
       Name: "cs:LerpSpeedMin"
-      Int: 500
+      Int: 300
     }
     Overrides {
       Name: "cs:VelocityMagnitudeMax"
