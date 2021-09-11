@@ -1,6 +1,2408 @@
 Name: "Wade_1"
 RootId: 3531066226293617798
 Objects {
+  Id: 6923995683668436708
+  Name: "Flower Wild Lily 01"
+  Transform {
+    Location {
+      X: 112750
+      Y: -48950
+      Z: 3200
+    }
+    Rotation {
+      Yaw: 32
+    }
+    Scale {
+      X: 284.75
+      Y: 284.75
+      Z: 284.75
+    }
+  }
+  ParentId: 3531066226293617798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10241439001263725146
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8827604033308843737
+  Name: "Flower Wild Lily 01"
+  Transform {
+    Location {
+      X: 69500
+      Y: -88850
+      Z: 3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 284.75
+      Y: 284.75
+      Z: 284.75
+    }
+  }
+  ParentId: 3531066226293617798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10241439001263725146
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11116058833554726489
+  Name: "KCs_LushGrass_HQ"
+  Transform {
+    Location {
+      X: 130400
+      Y: -98300
+      Z: 5699.99219
+    }
+    Rotation {
+      Yaw: 48
+    }
+    Scale {
+      X: 149.750046
+      Y: 149.750046
+      Z: 149.750046
+    }
+  }
+  ParentId: 3531066226293617798
+  ChildIds: 133837506968276835
+  ChildIds: 11554119535728646870
+  ChildIds: 12709860957265589438
+  ChildIds: 16377837536128419372
+  ChildIds: 5226451248176281341
+  ChildIds: 14129099437245086241
+  ChildIds: 11791568619947507532
+  ChildIds: 13488066522200917495
+  ChildIds: 6912559726904171285
+  ChildIds: 3838440941391476921
+  ChildIds: 18257178938629223415
+  ChildIds: 17354772190096710606
+  ChildIds: 9747605628249768186
+  ChildIds: 14483733216064818399
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9689238591296909271
+    SubobjectId: 4954585853130349306
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14483733216064818399
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: 6.25995922
+      Y: 196.136688
+    }
+    Rotation {
+      Yaw: -0.000152587891
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 9747605628249768186
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -86.051506
+      Y: 370.014587
+    }
+    Rotation {
+      Yaw: -0.000122070312
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 17354772190096710606
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: 200.619171
+      Y: 146.94133
+    }
+    Rotation {
+      Yaw: -9.15527344e-05
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 18257178938629223415
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: 53.9219742
+      Y: 31.9277248
+    }
+    Rotation {
+      Yaw: -6.10351562e-05
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 3838440941391476921
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: 347.04364
+      Y: 261.26004
+    }
+    Rotation {
+      Yaw: -3.05175781e-05
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 6912559726904171285
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -197.799194
+      Y: 361.74826
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 13488066522200917495
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -259.799469
+      Y: 382.817383
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 11791568619947507532
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -829.026062
+      Y: 191.531494
+      Z: -38.0633736
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.00534223532
+      Y: 0.00534223532
+      Z: 0.00667779427
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14129099437245086241
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -246.076721
+      Y: 418.3638
+    }
+    Rotation {
+      Yaw: 34.9999504
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 24003618924814045
+    SubobjectId: 14042339733390420976
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 5226451248176281341
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -141.235352
+      Y: 338.230194
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16833584838268081681
+    SubobjectId: 3110235289627288380
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 16377837536128419372
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -117.863068
+      Y: 264.440643
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9221954
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 12709860957265589438
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -29.0629902
+      Y: 117.605148
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 11554119535728646870
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -322.871338
+      Y: 409.014801
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 0.7
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5738336543737284792
+    SubobjectId: 10166739898675641749
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 133837506968276835
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: 228.113708
+      Y: 274.58548
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 11116058833554726489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 377302191662733537
+  Name: "KCs_LushGrass_HQ"
+  Transform {
+    Location {
+      X: 149650
+      Y: -113050
+      Z: 5699.99219
+    }
+    Rotation {
+    }
+    Scale {
+      X: 149.750046
+      Y: 149.750046
+      Z: 149.750046
+    }
+  }
+  ParentId: 3531066226293617798
+  ChildIds: 2339596548172605130
+  ChildIds: 16597844702502048247
+  ChildIds: 17986913009645414227
+  ChildIds: 7947719934970235593
+  ChildIds: 2883330009896875396
+  ChildIds: 12708336273852411365
+  ChildIds: 9326146370084508076
+  ChildIds: 10335134708361599744
+  ChildIds: 8101976508872821485
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9689238591296909271
+    SubobjectId: 4954585853130349306
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 8101976508872821485
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -197.799194
+      Y: 361.74826
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 10335134708361599744
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -259.799469
+      Y: 382.817383
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 9326146370084508076
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -829.026062
+      Y: 191.531494
+      Z: -38.0633736
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.00534223532
+      Y: 0.00534223532
+      Z: 0.00667779427
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12708336273852411365
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -246.076721
+      Y: 418.3638
+    }
+    Rotation {
+      Yaw: 34.9999504
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 24003618924814045
+    SubobjectId: 14042339733390420976
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 2883330009896875396
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -141.235352
+      Y: 338.230194
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16833584838268081681
+    SubobjectId: 3110235289627288380
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 7947719934970235593
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -117.863068
+      Y: 264.440643
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9221954
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 17986913009645414227
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -331.552429
+      Y: 164.607635
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 16597844702502048247
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -322.871338
+      Y: 409.014801
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 0.7
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5738336543737284792
+    SubobjectId: 10166739898675641749
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 2339596548172605130
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -248.080063
+      Y: 252.754517
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 377302191662733537
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 9004381931413033882
+  Name: "KCs_LushGrass_HQ"
+  Transform {
+    Location {
+      X: 112400
+      Y: -105700
+      Z: 5699.99219
+    }
+    Rotation {
+    }
+    Scale {
+      X: 149.750046
+      Y: 149.750046
+      Z: 149.750046
+    }
+  }
+  ParentId: 3531066226293617798
+  ChildIds: 9321426713580776893
+  ChildIds: 1736205535595985253
+  ChildIds: 5253700482344940599
+  ChildIds: 16833091570639955259
+  ChildIds: 17606620515905714845
+  ChildIds: 11606064348015261577
+  ChildIds: 13344158042056911214
+  ChildIds: 12515979545101466891
+  ChildIds: 12339173357808448446
+  ChildIds: 18207348348036497542
+  ChildIds: 10833340267081652805
+  ChildIds: 9835963577721641772
+  ChildIds: 3650094844171059329
+  ChildIds: 11987842108615998707
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9689238591296909271
+    SubobjectId: 4954585853130349306
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11987842108615998707
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -231.719467
+      Y: 285.809631
+      Z: 5.21702677e-05
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 3650094844171059329
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -345.242
+      Y: 244.07338
+      Z: 5.21702677e-05
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 9835963577721641772
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -472.120056
+      Y: 116.861397
+      Z: 5.21702677e-05
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 10833340267081652805
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -552.587463
+      Y: 66.1101608
+      Z: 5.21702677e-05
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 18207348348036497542
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -378.964783
+      Y: 198.33049
+      Z: 5.21702677e-05
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 12339173357808448446
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -197.799194
+      Y: 361.74826
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 12515979545101466891
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -259.799469
+      Y: 382.817383
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9222
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 13344158042056911214
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -829.026062
+      Y: 191.531494
+      Z: -38.0633736
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.00534223532
+      Y: 0.00534223532
+      Z: 0.00667779427
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11606064348015261577
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -246.076721
+      Y: 418.3638
+    }
+    Rotation {
+      Yaw: 34.9999504
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 24003618924814045
+    SubobjectId: 14042339733390420976
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 17606620515905714845
+  Name: "Grass Tall"
+  Transform {
+    Location {
+      X: -141.235352
+      Y: 338.230194
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9057663224381510943
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16833584838268081681
+    SubobjectId: 3110235289627288380
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 16833091570639955259
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -117.863068
+      Y: 264.440643
+      Z: 1.30425669e-05
+    }
+    Rotation {
+      Yaw: 69.9221954
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15036606776898385069
+    SubobjectId: 1304333664934609280
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 5253700482344940599
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -331.552429
+      Y: 164.607635
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 0.6
+      Y: 0.75
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18380870386999113423
+    SubobjectId: 4440785110527411170
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 1736205535595985253
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -322.871338
+      Y: 409.014801
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 0.7
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5738336543737284792
+    SubobjectId: 10166739898675641749
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
+  Id: 9321426713580776893
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -248.080063
+      Y: 252.754517
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 1
+    }
+  }
+  ParentId: 9004381931413033882
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.0364238359
+        G: 0.110000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16604086087168607114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11785483021723561569
+    SubobjectId: 7006295767740209996
+    InstanceId: 9457758425622851260
+    TemplateId: 3607049698728807173
+  }
+}
+Objects {
   Id: 679195482076352044
   Name: "Rock Block 02"
   Transform {
