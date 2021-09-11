@@ -171,15 +171,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -5.73994766e-05
-      Y: -95.3576431
+      X: 0.0272893514
+      Y: -9264.13
+      Z: 1489.88098
     }
     Rotation {
     }
     Scale {
-      X: 8.25
-      Y: 6.75
-      Z: 5.75000048
+      X: 187.719528
+      Y: 196.470947
+      Z: 63.8348427
     }
   }
   ParentId: 15800474810121668974
@@ -2047,6 +2048,11 @@ Objects {
   ChildIds: 6411993319096753438
   ChildIds: 10353578115861983809
   ChildIds: 15859761073329331290
+  ChildIds: 8620797433056009895
+  ChildIds: 17859684334413641602
+  ChildIds: 17344372877439687371
+  ChildIds: 8117335633998166819
+  ChildIds: 6346188900384322682
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2061,6 +2067,239 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6346188900384322682
+  Name: "BlockingHolesOnWalls"
+  Transform {
+    Location {
+      X: 76826.3438
+      Y: -5890.07031
+      Z: 23055.1504
+    }
+    Rotation {
+    }
+    Scale {
+      X: 181.446411
+      Y: 181.446411
+      Z: 335.230164
+    }
+  }
+  ParentId: 5840608810481614715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8117335633998166819
+  Name: "BlockingHolesOnWalls"
+  Transform {
+    Location {
+      X: 44288.8438
+      Y: -5890.07031
+      Z: 23055.1504
+    }
+    Rotation {
+    }
+    Scale {
+      X: 181.446411
+      Y: 181.446411
+      Z: 335.230164
+    }
+  }
+  ParentId: 5840608810481614715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17344372877439687371
+  Name: "BlockingHolesOnWalls"
+  Transform {
+    Location {
+      X: -76292.8047
+      Y: -5890.07031
+      Z: 23055.1504
+    }
+    Rotation {
+    }
+    Scale {
+      X: 181.446411
+      Y: 181.446411
+      Z: 335.230164
+    }
+  }
+  ParentId: 5840608810481614715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17859684334413641602
+  Name: "BlockingHolesOnWalls"
+  Transform {
+    Location {
+      X: -43755.2461
+      Y: -5890.07031
+      Z: 23055.1504
+    }
+    Rotation {
+    }
+    Scale {
+      X: 181.446411
+      Y: 181.446411
+      Z: 335.230164
+    }
+  }
+  ParentId: 5840608810481614715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8620797433056009895
+  Name: "Ceiling"
+  Transform {
+    Location {
+      Z: 127132.961
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1790.16504
+      Y: 1790.16504
+      Z: 1790.16504
+    }
+  }
+  ParentId: 5840608810481614715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {

@@ -8,7 +8,7 @@ local VelocityMagnitudeMin = script:GetCustomProperty("VelocityMagnitudeMin")
 
 
 function Tick() 
-    if player.movementControlMode == MovementControlMode.NONE then
+    if player.lookControlMode == LookControlMode.NONE then
         print("Lerping")
         SlerpToTargetRotation()
         -- UpdateVelocityDirection()
