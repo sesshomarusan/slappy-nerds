@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16632531781380756588
+  Name: "Glitchy Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_hologram"
+  }
+}
+Assets {
   Id: 16604086087168607114
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -170,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14915086818063761917
+  Name: "Cliff Desert Wind Eroded 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_cliff_desert_eroded_001_uv_ref"
+  }
+}
+Assets {
   Id: 14571283389854751959
   Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
@@ -275,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 8919871824294249785
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -476,12 +503,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2865146233424229172
+  Name: "Animated Neon Sign "
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_NeonSign_All"
+  }
+}
+Assets {
   Id: 2727688967788134169
   Name: "Moss 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_moss_001_uv"
+  }
+}
+Assets {
+  Id: 2723099570882874761
+  Name: "Volumetric Fog Injector Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_volumetric_fog_injector"
   }
 }
 Assets {

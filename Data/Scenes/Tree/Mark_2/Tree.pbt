@@ -5,14 +5,14 @@ Objects {
   Name: "Spotlight"
   Transform {
     Location {
-      X: -950.460205
-      Y: -117.366272
-      Z: 95945.3594
+      X: -661.061
+      Y: -141.109665
+      Z: 96184.125
     }
     Rotation {
       Pitch: -45.3894043
-      Yaw: 143.424179
-      Roll: 46.2227631
+      Yaw: 161.077042
+      Roll: 46.2228661
     }
     Scale {
       X: 0.8
@@ -34,7 +34,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Light {
-    Intensity: 30
+    Intensity: 100
     Color {
       R: 0.776666641
       G: 0.927527487
@@ -70,14 +70,14 @@ Objects {
   Name: "Spotlight"
   Transform {
     Location {
-      X: -1037.77832
-      Y: 218.436859
-      Z: 96694.9531
+      X: -782.994446
+      Y: 202.512543
+      Z: 97181.6875
     }
     Rotation {
-      Pitch: -45.3894348
-      Yaw: -145.700134
-      Roll: 46.2225838
+      Pitch: -31.1918945
+      Yaw: -161.695312
+      Roll: 52.9240341
     }
     Scale {
       X: 0.8
@@ -135,16 +135,16 @@ Objects {
   Name: "Flare Billboard"
   Transform {
     Location {
-      X: -1112.15735
-      Y: -56.8271675
-      Z: 96326.9766
+      X: -1113.20312
+      Y: -64.0399704
+      Z: 96728.5625
     }
     Rotation {
     }
     Scale {
-      X: 0.4
-      Y: 0.4
-      Z: 0.4
+      X: 2
+      Y: 2
+      Z: 2
     }
   }
   ParentId: 17834454887365518886
@@ -193,17 +193,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -9.70742321
+            X: -5.39718819
             Y: 16.0335732
-            Z: -8.3971386
+            Z: -21.0728588
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 38.4300728
-            Yaw: 23.7155476
-            Roll: 15.2555952
+            Pitch: 19.8525524
+            Yaw: -65.4185486
+            Roll: -36.5073853
           }
         }
       }
@@ -218,9 +218,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.08307147
-            Y: 2.08307147
-            Z: 2.08307147
+            X: 4.08491564
+            Y: 4.08491564
+            Z: 4.08491564
           }
         }
         Overrides {
@@ -228,13 +228,42 @@ Objects {
           Vector {
             X: -1141.27563
             Y: -1.00195312
-            Z: 96319.4062
+            Z: 96570.2812
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: 139.139465
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14049318215201433146
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6.98337412
+            Y: -29.6971741
+            Z: -21.4773674
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 31.3058147
+            Yaw: 77.7305679
+            Roll: 41.6645546
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
       }
@@ -259,6 +288,26 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15847597530432122430
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.99432373
+            Y: -6.49194336
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -20.259491
+            Yaw: 73.283783
+            Roll: 122.455681
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8074589453260366930
     }
@@ -271,14 +320,14 @@ Objects {
     Location {
       X: -1152.97046
       Y: -1.00195312
-      Z: 96152.7188
+      Z: 96333.8672
     }
     Rotation {
     }
     Scale {
-      X: 1.2
-      Y: 1.2
-      Z: 1.4
+      X: 2
+      Y: 2
+      Z: 2
     }
   }
   ParentId: 17834454887365518886
@@ -299,7 +348,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 4
+      Float: 8
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -368,6 +417,18 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 12441022913264343631
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5
+            Z: 250
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16991934233467064371
       value {
         Overrides {
@@ -377,9 +438,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
         Overrides {
@@ -387,7 +448,7 @@ Objects {
           Vector {
             X: -1152.97046
             Y: -1.00195312
-            Z: 96319.4062
+            Z: 96548.8281
           }
         }
         Overrides {

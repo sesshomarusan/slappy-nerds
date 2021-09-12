@@ -6889,7 +6889,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 10859679785656387792
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -7136,7 +7136,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 10278685658552178343
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -7383,7 +7383,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 7583807676357963863
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -7630,7 +7630,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 17534083940301769957
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -7877,7 +7877,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 11361034224775618118
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -27734,7 +27734,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 12971397353794270685
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -27989,7 +27989,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 13037088070417471195
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -28244,7 +28244,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 5191790555277182136
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -32662,7 +32662,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 10030901641929115414
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -32909,7 +32909,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 14934829626491731685
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -33156,7 +33156,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 11170739789152577872
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -33403,7 +33403,7 @@ Objects {
   ParentId: 6483774210255347865
   ChildIds: 11212255424256202186
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"

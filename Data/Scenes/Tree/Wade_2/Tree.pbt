@@ -603,14 +603,14 @@ Objects {
     Location {
       X: -13027.1914
       Y: -17.1215057
-      Z: 2782.01562
+      Z: 2782.03345
     }
     Rotation {
     }
     Scale {
-      X: 28.7109241
-      Y: 28.7109241
-      Z: 20.1977806
+      X: 50
+      Y: 50
+      Z: 20
     }
   }
   ParentId: 6108581391429854104
@@ -650,14 +650,14 @@ Objects {
     Location {
       X: -13027.1914
       Y: -17.1215057
-      Z: 8462.125
+      Z: 8061.26465
     }
     Rotation {
     }
     Scale {
-      X: 36
-      Y: 36
-      Z: 2
+      X: 50.0868378
+      Y: 50.0868378
+      Z: 5
     }
   }
   ParentId: 6108581391429854104
@@ -718,9 +718,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 20.1941776
-            Y: 20.1941776
-            Z: 20.1941776
+            X: 30
+            Y: 30
+            Z: 30
           }
         }
         Overrides {
@@ -802,7 +802,7 @@ Objects {
     Location {
       X: -96.5825577
       Y: 25.1015491
-      Z: 236.126068
+      Z: 264.398651
     }
     Rotation {
       Yaw: 87.9115753
@@ -824,7 +824,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "Jumping is like flappin\'\r\n<SPACE> bar = higher + faster(?)\r\n\r\nWhen flying, use <A> and <D>\r\nto strafe left + right\r\n\r\nOn the ground, use <WASD> to \r\nrun (don\'t walk ;) and jump!"
+    Text: "Jumping is like flappin\'\r\n<SPACE> bar = higher + faster(?)\r\n\r\nWhen flying, use <A> and <D>\r\nto strafe left + right\r\n\r\nOn the ground, use <WASD> to \r\nrun (don\'t walk ;) and jump up!\r\n\r\nOh, yeah, and <SHIFT> to SLAP\r\nyour opponents silly!"
     FontAsset {
     }
     Color {
@@ -845,7 +845,7 @@ Objects {
 }
 Objects {
   Id: 16058130530969997871
-  Name: "Hot to play"
+  Name: "How to play"
   Transform {
     Location {
       X: 0.966983795
@@ -947,8 +947,8 @@ Objects {
   Transform {
     Location {
       X: -96.5489655
-      Y: 18.1756783
-      Z: 236.126068
+      Y: 18.1756897
+      Z: 247.388367
     }
     Rotation {
       Yaw: 90
