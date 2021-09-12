@@ -1,6 +1,41 @@
 Name: "Mark_2"
 RootId: 17834454887365518886
 Objects {
+  Id: 1656786311471779137
+  Name: "Leaderboard Text"
+  Transform {
+    Location {
+      X: -2852.17847
+      Y: 1106.32544
+      Z: 95742.9141
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Leaderboard Text"
+  }
+}
+Objects {
   Id: 12089988133036345339
   Name: "Leaderboard Geo"
   Transform {
