@@ -3,9 +3,7 @@ local direction = script.parent.parent
 local LerpSpeed = script:GetCustomProperty("LerpSpeed")
 
 function OnBeginOverlap(whichTrigger, other)
-	-- print(other)
 	if other:IsA("Player") then
-		print(other)
 		Events.BroadcastToPlayer(other, "LookRotation", direction:GetRotation(), false)
 	end
 end

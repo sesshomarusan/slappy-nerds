@@ -9,7 +9,6 @@ local VelocityMagnitudeMin = script:GetCustomProperty("VelocityMagnitudeMin")
 
 function Tick() 
     if player.lookControlMode == LookControlMode.NONE then
-        print("Lerping")
         SlerpToTargetRotation()
         -- UpdateVelocityDirection()
     end
@@ -36,7 +35,6 @@ function CalculateLerpSpeed()
 end
 
 function SetCameraLookRotation(rotation, instantTurn) 
-    print(rotation)
     if (instantTurn) then
         player:SetLookWorldRotation(rotation)
     end

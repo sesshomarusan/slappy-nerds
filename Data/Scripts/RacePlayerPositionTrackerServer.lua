@@ -219,13 +219,11 @@ function OnEndOverlap(trigger, other)
                         local advancedNodes = (prevWayPointIndex - wayPointIndex)
                         if advancedNodes > #GetWayPoints()/2 then
                             currentLap = currentLap-1
-                            print(currentLap)
                         end
                     end
                 else
                     if wayPointIndex == #GetWayPoints() then
                         currentLap = currentLap-1
-                        print ("Lost a lap as we left the trigger")
                     end
                 end
             end
