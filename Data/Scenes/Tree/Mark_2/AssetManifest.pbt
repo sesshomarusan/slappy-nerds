@@ -1,4 +1,22 @@
 Assets {
+  Id: 16600644595050509204
+  Name: "Sign Font 1 Bulbs: R"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_017"
+  }
+}
+Assets {
+  Id: 15667504508698753733
+  Name: "Sign Font 1 Bulbs: $"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_040"
+  }
+}
+Assets {
   Id: 14936697181904877666
   Name: "Flare Billboard"
   PlatformAssetType: 6
@@ -8,11 +26,83 @@ Assets {
   }
 }
 Assets {
+  Id: 14606976788985359398
+  Name: "Sign Font 1 Bulbs: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_002"
+  }
+}
+Assets {
+  Id: 13852451989627112155
+  Name: "Sign Font 1 Bulbs: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_014"
+  }
+}
+Assets {
+  Id: 7351062403602555720
+  Name: "Sign Font 1 Bulbs: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_037"
+  }
+}
+Assets {
+  Id: 5401591542312314291
+  Name: "Sign Font 1 Bulbs: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeBulb_01_Text_004"
+  }
+}
+Assets {
+  Id: 2905751522032673006
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 2436979131935544357
+  Name: "Wood Planks"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
+  Id: 1967454480797501765
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
+  }
+}
+Assets {
   Id: 1138204240967467036
   Name: "Basic Sparks"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_basic_sparks"
+  }
+}
+Assets {
+  Id: 497013978211109168
+  Name: "Sign Neon Arrow Outline: Single Line Basic Pointed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_004"
   }
 }
