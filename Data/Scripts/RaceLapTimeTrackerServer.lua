@@ -135,8 +135,10 @@ function OnPlayerFinishedRace(player)
 
     API.SetPlayerTotalRaceTimeSeconds(player, data.raceTime)
 
+    Events.Broadcast("FinishRaceScoreboard", player, data.raceTime)
     -- Broadcast to the client
-    Events.BroadcastToPlayer(player, "RaceFinalLapFinished", lapTime, data.raceTime)
+    Events.BroadcastToPlayer(player, "RaceFinalLapFinished", lapTime, data.raceTime, data.bestLapTime)
+
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

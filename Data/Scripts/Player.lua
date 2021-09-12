@@ -5,22 +5,31 @@ local propFlapWingCircle = script:GetCustomProperty("FlapWingCircle")
 
 local PLAYER = Game.GetLocalPlayer()
 
+-- local effect = World.SpawnAsset(propFlapWingCircle, {position = PLAYER:GetWorldPosition()})
+-- effect:AttachToPlayer(PLAYER, "lower_spine")
+
 function OnPlayerMovement(player, binding)
     if player.movementControlMode ~= MovementControlMode.NONE then
         if binding == "ability_extra_17" then
+            local effect = World.SpawnAsset(propFlapWingCircle, {position = PLAYER:GetWorldPosition()})
+            effect:AttachToPlayer(PLAYER, "lower_spine")
             -- for _, v in ipairs(player:GetAttachedObjects()) do
             --     if v.name == "Flap" then
             --         v:Play()
             --     end
             -- end
-            local effect = World.SpawnAsset(propFlapWingCircle, {position = PLAYER:GetWorldPosition()})
-            effect:AttachToPlayer(PLAYER, "lower_spine")
             local lookRotation = player:GetLookWorldRotation()
             local quaternion = Quaternion.New(lookRotation)
             local forwardVector = quaternion.GetForwardVector(quaternion)
             local finalVelocity = PLAYER:GetVelocity() + (forwardVector * jumpSpeed)
             finalVelocity.z = jumpHeight
             Events.BroadcastToServer("Flap", finalVelocity)
+            -- for _, v in ipairs(player:GetAttachedObjects()) do
+            --     if v.name == "Flap" then
+            --         Task.Wait(1)
+            --         v:Stop()
+            --     end
+            -- end
         end
     end  
 end
