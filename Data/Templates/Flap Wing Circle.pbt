@@ -151,6 +151,7 @@ Assets {
             Float: 30
           }
         }
+        Lifespan: 0.5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
