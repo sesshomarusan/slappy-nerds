@@ -130,7 +130,7 @@ Objects {
     Overrides {
       Name: "cs:Flap"
       AssetReference {
-        Id: 9883012404158970446
+        Id: 841534158063459245
       }
     }
   }
@@ -210,7 +210,7 @@ Objects {
     Overrides {
       Name: "cs:Flap"
       AssetReference {
-        Id: 9883012404158970446
+        Id: 841534158063459245
       }
     }
     Overrides {

@@ -1,6 +1,6 @@
 Assets {
-  Id: 9986970181224705005
-  Name: "Magic Circle Animation Example"
+  Id: 10754509889210360559
+  Name: "Flap Wing Circle"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -188,8 +188,8 @@ Assets {
       }
     }
     PrimaryAssetId {
-      AssetType: "TemplateAssetRef"
-      AssetId: "Magic_Circle_Animation_Example"
+      AssetType: "None"
+      AssetId: "None"
     }
   }
   SerializationVersion: 98
