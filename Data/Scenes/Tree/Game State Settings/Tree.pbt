@@ -392,7 +392,7 @@ Objects {
     AudioAsset {
       Id: 15389360778299114997
     }
-    Volume: 1
+    Volume: 3
     Falloff: -1
     Radius: -1
   }
@@ -448,7 +448,7 @@ Objects {
     TeamSettings {
     }
     AudioBP {
-      Volume: 1
+      Volume: 2
       Falloff: 3600
       Radius: 400
     }
@@ -505,7 +505,7 @@ Objects {
     TeamSettings {
     }
     AudioBP {
-      Volume: 1
+      Volume: 2
       Falloff: 3600
       Radius: 400
     }
@@ -562,7 +562,7 @@ Objects {
     TeamSettings {
     }
     AudioBP {
-      Volume: 1
+      Volume: 2
       Falloff: 3600
       Radius: 400
     }

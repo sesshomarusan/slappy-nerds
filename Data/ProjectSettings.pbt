@@ -1,2 +1,2 @@
-MaxPlayers: 4
+MaxPlayers: 8
 MainScene: "Main"
