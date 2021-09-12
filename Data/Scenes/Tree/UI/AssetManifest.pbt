@@ -34,3 +34,12 @@ Assets {
     AssetId: "TekoLight_ref"
   }
 }
+Assets {
+  Id: 6145963262670495219
+  Name: "Anton"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "AntonRegular_ref"
+  }
+}
