@@ -389,12 +389,87 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 11251882608701336077
+      value {
+        Overrides {
+          Name: "Label"
+          String: "Slap!"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14155720757392291425
       value {
         Overrides {
           Name: "Image"
           AssetReference {
             Id: 11766494739858982507
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 8
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 4
+        }
+        Overrides {
+          Name: "UIRotationAngle"
+          Float: 15
+        }
+        Overrides {
+          Name: "Width"
+          Int: 80
+        }
+        Overrides {
+          Name: "Height"
+          Int: 80
+        }
+        Overrides {
+          Name: "ShadowOffset"
+          Vector2 {
+            X: -5
+            Y: -5
+          }
+        }
+        Overrides {
+          Name: "ShadowColor"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 0.5
+          }
+        }
+        Overrides {
+          Name: "ClipToSize"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14205979149624788755
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 11766494739858982507
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            A: 0.6
           }
         }
       }
