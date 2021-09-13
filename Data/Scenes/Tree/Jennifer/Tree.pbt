@@ -1,8 +1,6 @@
 Name: "Jennifer"
 RootId: 9716066596724085630
 Objects {
-<<<<<<< HEAD
-=======
   Id: 7441022750116201160
   Name: "Flap - Original"
   Transform {
@@ -142,7 +140,6 @@ Objects {
   }
 }
 Objects {
->>>>>>> feature/leaderboards-improvements
   Id: 805097218261435812
   Name: "Drag"
   Transform {
@@ -360,6 +357,50 @@ Objects {
     }
     TemplateAsset {
       Id: 4555942156550058614
+    }
+  }
+}
+Objects {
+  Id: 823886821798738255
+  Name: "Slapper"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9716066596724085630
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4605985385072530509
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Slapper"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 147.751053
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6213493350134741280
     }
   }
 }
