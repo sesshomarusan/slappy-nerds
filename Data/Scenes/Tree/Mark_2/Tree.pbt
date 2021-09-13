@@ -1,6 +1,382 @@
 Name: "Mark_2"
 RootId: 17834454887365518886
 Objects {
+  Id: 10302557690387306257
+  Name: "Practice Track Obstacles"
+  Transform {
+    Location {
+      X: -70
+      Y: -60
+      Z: 95175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17834454887365518886
+  ChildIds: 15235589063340872960
+  ChildIds: 9897787648298715876
+  ChildIds: 8172591224466832209
+  ChildIds: 12973959624343876616
+  ChildIds: 2332036209333114132
+  ChildIds: 6643444960003233691
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6643444960003233691
+  Name: "Collider"
+  Transform {
+    Location {
+      X: 16394.6328
+      Y: -11451.7734
+      Z: 1122.63281
+    }
+    Rotation {
+      Roll: 180
+    }
+    Scale {
+      X: 22
+      Y: 22
+      Z: 22
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4823328179425091510
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2332036209333114132
+  Name: "Space Bug Range"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15111991301506368169
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Space Bug Range"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 16343.3008
+            Y: -11612.1328
+            Z: 367.84375
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 11
+            Y: 11
+            Z: 11
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5300873245664081567
+    }
+  }
+}
+Objects {
+  Id: 12973959624343876616
+  Name: "Collider"
+  Transform {
+    Location {
+      X: 27430.7656
+      Y: 2042.6499
+      Z: 2782.45312
+    }
+    Rotation {
+      Pitch: -97.0128784
+      Yaw: -37.918396
+    }
+    Scale {
+      X: 55
+      Y: 55
+      Z: 55
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6267872452811520383
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8172591224466832209
+  Name: "Space Bug Melee"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15220247888022354668
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Space Bug Melee"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 29056.4688
+            Y: 398.474121
+            Z: 1705.48438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -51.3060303
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 26
+            Y: 26
+            Z: 26
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16157246843864606792
+    }
+  }
+}
+Objects {
+  Id: 9897787648298715876
+  Name: "Collider"
+  Transform {
+    Location {
+      X: 7229.36475
+      Y: 5477.85156
+      Z: 5288.84375
+    }
+    Rotation {
+      Yaw: -42.8851929
+    }
+    Scale {
+      X: 44
+      Y: 44
+      Z: 44
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14058856011711977067
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15235589063340872960
+  Name: "Space Bug Horn"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10302557690387306257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12266002725413404794
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Space Bug Horn"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 14
+            Y: 14
+            Z: 14
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7328.07715
+            Y: 4698.94141
+            Z: 5006.70312
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 8.86083126
+            Yaw: 50.7217064
+            Roll: 77.2350616
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14388914412828207737
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49.1791496
+            Y: -1.99509752
+            Z: -31.0552959
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+            Roll: -88.8085632
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.35611665
+            Y: 1.58730185
+            Z: 1.35611665
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15171599458934515322
+    }
+  }
+}
+Objects {
   Id: 1656786311471779137
   Name: "Leaderboard Text"
   Transform {
@@ -34,41 +410,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Leaderboard Text"
-  }
-}
-Objects {
-  Id: 12089988133036345339
-  Name: "Leaderboard Geo"
-  Transform {
-    Location {
-      X: -2852.17847
-      Y: 1106.32544
-      Z: 95742.9141
-    }
-    Rotation {
-      Yaw: -111.686371
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17834454887365518886
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {

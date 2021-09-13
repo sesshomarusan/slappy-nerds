@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14058856011711977067
+  Name: "Basic Bean 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_bean_001_ref"
+  }
+}
+Assets {
   Id: 13852451989627112155
   Name: "Sign Font 1 Bulbs: O"
   PlatformAssetType: 1
@@ -53,12 +62,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6267872452811520383
+  Name: "Basic Bean 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_bean_002_ref"
+  }
+}
+Assets {
   Id: 5401591542312314291
   Name: "Sign Font 1 Bulbs: E"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "CollegeBulb_01_Text_004"
+  }
+}
+Assets {
+  Id: 4823328179425091510
+  Name: "Basic Pepper 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_pepper_002_ref"
   }
 }
 Assets {
