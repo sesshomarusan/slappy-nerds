@@ -458,6 +458,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4974383483439378321
+  Name: "Large Dirt Impact VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_mil_dirt_impact_large"
+  }
+}
+Assets {
   Id: 3955373471396065794
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
@@ -557,6 +566,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2138312167456827439
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
+  }
+}
+Assets {
   Id: 2091374951386128371
   Name: "Sphere - Half Quarter Thin"
   PlatformAssetType: 1
@@ -626,6 +644,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_clear-coat_001_chevron_uv1"
+  }
+}
+Assets {
+  Id: 1112362594294700643
+  Name: "Gibs Explosion VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_bloody_explosion"
   }
 }
 Assets {
