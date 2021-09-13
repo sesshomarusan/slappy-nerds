@@ -656,6 +656,20 @@ Objects {
     }
   }
   ParentId: 8371982932555810437
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SnowTrailVolumeVFX"
+      AssetReference {
+        Id: 305155351867141679
+      }
+    }
+    Overrides {
+      Name: "cs:DistortionWakeTrail"
+      AssetReference {
+        Id: 12646356810501393833
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

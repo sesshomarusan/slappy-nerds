@@ -1,39 +1,6 @@
 Name: "Player"
 RootId: 5091452826757713926
 Objects {
-  Id: 17929051194849027273
-  Name: "JumpEffect"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5091452826757713926
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 9302083945602656217
-    }
-  }
-}
-Objects {
   Id: 12284735204225932003
   Name: "Static Player Equipment"
   Transform {
@@ -213,6 +180,18 @@ Objects {
         Id: 10754509889210360559
       }
     }
+    Overrides {
+      Name: "cs:WispyFogVolumeVFX"
+      AssetReference {
+        Id: 12646356810501393833
+      }
+    }
+    Overrides {
+      Name: "cs:SnowTrailVolumeVFX"
+      AssetReference {
+        Id: 305155351867141679
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -230,5 +209,39 @@ Objects {
     ScriptAsset {
       Id: 1592987028857687011
     }
+  }
+}
+Objects {
+  Id: 15987415992539549671
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: -160.893127
+      Z: 187.104111
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5091452826757713926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
   }
 }
