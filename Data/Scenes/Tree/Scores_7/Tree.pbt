@@ -2,7 +2,7 @@ Name: "Scores_7"
 RootId: 15108686278425476068
 Objects {
   Id: 16957191873180963700
-  Name: "3"
+  Name: "TGS3"
   Transform {
     Location {
       Y: -250
@@ -17,6 +17,7 @@ Objects {
     }
   }
   ParentId: 15108686278425476068
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,7 +52,7 @@ Objects {
 }
 Objects {
   Id: 8351923935527797830
-  Name: "2"
+  Name: "TGS2"
   Transform {
     Location {
       Y: -250
@@ -66,6 +67,7 @@ Objects {
     }
   }
   ParentId: 15108686278425476068
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,7 +102,7 @@ Objects {
 }
 Objects {
   Id: 16932582548872348612
-  Name: "1"
+  Name: "TGS1"
   Transform {
     Location {
       Y: -250
@@ -114,6 +116,7 @@ Objects {
     }
   }
   ParentId: 15108686278425476068
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

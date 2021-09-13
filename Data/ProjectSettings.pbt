@@ -9,8 +9,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Fastest Race"
-    Id: "672A967A1AE01DBB"
+    Name: "Lap Time"
+    Id: "88518E5F41EB78D4"
     EntryLimit: 10
   }
   Config {
@@ -23,8 +23,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Lap TIme"
-    Id: "AC44FF7EA7A65B47"
+    Name: "FastestRace"
+    Id: "5E6D912D6D9EB69F"
     EntryLimit: 10
   }
 }

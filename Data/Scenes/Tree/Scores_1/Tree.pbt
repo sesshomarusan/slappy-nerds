@@ -2,7 +2,7 @@ Name: "Scores_1"
 RootId: 1737213782724359420
 Objects {
   Id: 6121564689568317255
-  Name: "3"
+  Name: "LWS3"
   Transform {
     Location {
       Y: -250
@@ -17,6 +17,7 @@ Objects {
     }
   }
   ParentId: 1737213782724359420
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,7 +52,7 @@ Objects {
 }
 Objects {
   Id: 17661232107700093044
-  Name: "2"
+  Name: "LWS2"
   Transform {
     Location {
       Y: -250
@@ -66,6 +67,7 @@ Objects {
     }
   }
   ParentId: 1737213782724359420
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,7 +102,7 @@ Objects {
 }
 Objects {
   Id: 14067455027303829368
-  Name: "1"
+  Name: "LWS1"
   Transform {
     Location {
       Y: -250
@@ -114,6 +116,7 @@ Objects {
     }
   }
   ParentId: 1737213782724359420
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

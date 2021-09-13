@@ -135,9 +135,9 @@ function OnPlayerFinishedRace(player)
 
     API.SetPlayerTotalRaceTimeSeconds(player, data.raceTime)
 
-    Events.Broadcast("FinishRaceScoreboard", player, data.raceTime)
+    Events.Broadcast("FinishRaceScoreboard", player, data.raceTime, data.bestLapTime)
     -- Broadcast to the client
-    Events.BroadcastToPlayer(player, "RaceFinalLapFinished", lapTime, data.raceTime, data.bestLapTime)
+    Events.BroadcastToPlayer(player, "RaceFinalLapFinished", lapTime, data.raceTime)
 
 end
 

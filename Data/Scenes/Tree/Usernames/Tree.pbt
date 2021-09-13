@@ -2,7 +2,7 @@ Name: "Usernames"
 RootId: 7232540441604976465
 Objects {
   Id: 15965929681519819144
-  Name: "3"
+  Name: "LDU3"
   Transform {
     Location {
       Y: -50
@@ -17,6 +17,7 @@ Objects {
     }
   }
   ParentId: 7232540441604976465
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,7 +52,7 @@ Objects {
 }
 Objects {
   Id: 9739924558692434241
-  Name: "2"
+  Name: "LDU2"
   Transform {
     Location {
       Y: -50
@@ -66,6 +67,7 @@ Objects {
     }
   }
   ParentId: 7232540441604976465
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,7 +102,7 @@ Objects {
 }
 Objects {
   Id: 15950885646968214221
-  Name: "1"
+  Name: "LDU1"
   Transform {
     Location {
       Y: -50
@@ -114,6 +116,7 @@ Objects {
     }
   }
   ParentId: 7232540441604976465
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
