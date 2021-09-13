@@ -4,16 +4,18 @@ function OnBeginOverlap(theTrigger, player)
     print("something entered trigger")
     if player and player:IsA("Player") then
         player.brakingDecelerationFalling = 3000
-        print("player entered trigger and is slowing down")
+        Events.BroadcastToPlayer(player, "BreakEffect", player)
     end
 end
 
 function OnEndOverlap(theTrigger, player)
     if player and player:IsA("Player") then
         player.brakingDecelerationFalling = 0
-        print("player entered trigger and stoped slowing down")
+        Events.BroadcastToPlayer(player, "SpeedEffect", player)
     end
 end
+
+
 
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
 trigger.endOverlapEvent:Connect(OnEndOverlap)
