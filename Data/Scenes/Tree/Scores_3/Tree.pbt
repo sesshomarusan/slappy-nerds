@@ -5,8 +5,9 @@ Objects {
   Name: "LGS3"
   Transform {
     Location {
-      Y: -250
-      Z: -100
+      X: -1.01725263e-05
+      Y: -249.999985
+      Z: -20
     }
     Rotation {
     }
@@ -55,8 +56,8 @@ Objects {
   Name: "LGS2"
   Transform {
     Location {
-      Y: -250
-      Z: -50
+      X: -1.01725263e-05
+      Y: -249.999985
     }
     Rotation {
     }
@@ -105,7 +106,8 @@ Objects {
   Name: "LGS1"
   Transform {
     Location {
-      Y: -250
+      Y: -250.000061
+      Z: 20
     }
     Rotation {
     }

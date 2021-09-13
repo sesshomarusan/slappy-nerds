@@ -5,10 +5,12 @@ Objects {
   Name: "TWS3"
   Transform {
     Location {
-      Y: -250
-      Z: -100
+      X: -4.45048045e-06
+      Y: -250.000061
+      Z: -20
     }
     Rotation {
+      Yaw: 1.70754738e-05
     }
     Scale {
       X: 1
@@ -55,10 +57,11 @@ Objects {
   Name: "TWS2"
   Transform {
     Location {
-      Y: -250
-      Z: -50
+      X: -4.45048045e-06
+      Y: -250.000061
     }
     Rotation {
+      Yaw: 1.70754738e-05
     }
     Scale {
       X: 1
@@ -105,9 +108,12 @@ Objects {
   Name: "TWS1"
   Transform {
     Location {
-      Y: -250
+      X: -4.45048045e-06
+      Y: -250.000061
+      Z: 20
     }
     Rotation {
+      Yaw: 1.70754738e-05
     }
     Scale {
       X: 1

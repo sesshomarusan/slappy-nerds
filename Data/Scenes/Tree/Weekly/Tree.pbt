@@ -77,9 +77,9 @@ Objects {
   Name: "Place"
   Transform {
     Location {
-      X: -2.89925146
-      Y: 25.3523369
-      Z: -100
+      X: -2.89925528
+      Y: 25.3523331
+      Z: -20
     }
     Rotation {
       Yaw: -13.5568848
@@ -130,9 +130,8 @@ Objects {
   Name: "Place"
   Transform {
     Location {
-      X: -2.89925146
-      Y: 25.3523369
-      Z: -50
+      X: -2.89925528
+      Y: 25.3523331
     }
     Rotation {
       Yaw: -13.5568848
@@ -183,8 +182,9 @@ Objects {
   Name: "Place"
   Transform {
     Location {
-      X: -2.89925146
-      Y: 25.3523369
+      X: -2.89925528
+      Y: 25.3523331
+      Z: 20
     }
     Rotation {
       Yaw: -13.5568848
@@ -262,7 +262,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "Track 1 | Best Laps This Week"
+    Text: "Best Laps This Week"
     FontAsset {
       Id: 2492320938769372116
     }
@@ -278,66 +278,6 @@ Objects {
     }
     VerticalAlignment {
       Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-}
-Objects {
-  Id: 165492815606373408
-  Name: "Primitive Neon: Rectangle"
-  Transform {
-    Location {
-      X: -104.967773
-      Y: -110.31102
-      Z: -48.640625
-    }
-    Rotation {
-      Yaw: -104.389847
-    }
-    Scale {
-      X: 2.073
-      Y: 5
-      Z: 1.74686754
-    }
-  }
-  ParentId: 15064654162060821012
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font_Neon:color"
-      Color {
-        R: 0.00999999
-        G: 0.757416844
-        B: 1
-        A: 1
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4026365357673878375
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
     }
   }
 }

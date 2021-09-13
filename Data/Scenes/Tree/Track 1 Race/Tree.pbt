@@ -5,9 +5,12 @@ Objects {
   Name: "Daily"
   Transform {
     Location {
-      Y: -3000
+      X: 1420.59106
+      Y: 1528.63916
+      Z: -350
     }
     Rotation {
+      Yaw: -42.8888855
     }
     Scale {
       X: 3
@@ -39,9 +42,11 @@ Objects {
   Name: "Weekly"
   Transform {
     Location {
-      Y: -2000
+      X: 1420.59106
+      Y: 1528.63916
     }
     Rotation {
+      Yaw: -42.8888855
     }
     Scale {
       X: 3
@@ -73,9 +78,12 @@ Objects {
   Name: "Monthly"
   Transform {
     Location {
-      Y: -1000
+      X: 2486.31982
+      Y: 1798.86694
+      Z: -350
     }
     Rotation {
+      Yaw: -64.1038208
     }
     Scale {
       X: 3
@@ -107,8 +115,11 @@ Objects {
   Name: "Global"
   Transform {
     Location {
+      X: 2486.31982
+      Y: 1798.86694
     }
     Rotation {
+      Yaw: -64.1038208
     }
     Scale {
       X: 3

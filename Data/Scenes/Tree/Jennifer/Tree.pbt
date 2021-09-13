@@ -124,7 +124,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -1138.98071
-            Z: 95667.5859
+            Z: 95349.7812
           }
         }
         Overrides {
@@ -262,6 +262,19 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Slap!"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13280367607995188053
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 56
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -56
         }
       }
     }

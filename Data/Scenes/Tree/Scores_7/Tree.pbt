@@ -5,10 +5,11 @@ Objects {
   Name: "TGS3"
   Transform {
     Location {
-      Y: -250
-      Z: -100
+      X: -2.03450527e-05
+      Y: -249.999939
     }
     Rotation {
+      Yaw: 2.39056608e-05
     }
     Scale {
       X: 1
@@ -55,10 +56,12 @@ Objects {
   Name: "TGS2"
   Transform {
     Location {
-      Y: -250
-      Z: -50
+      X: -2.03450527e-05
+      Y: -249.999939
+      Z: -20
     }
     Rotation {
+      Yaw: 2.39056608e-05
     }
     Scale {
       X: 1
@@ -105,9 +108,12 @@ Objects {
   Name: "TGS1"
   Transform {
     Location {
-      Y: -250
+      X: -2.03450527e-05
+      Y: -249.999939
+      Z: 20
     }
     Rotation {
+      Yaw: 2.39056608e-05
     }
     Scale {
       X: 1

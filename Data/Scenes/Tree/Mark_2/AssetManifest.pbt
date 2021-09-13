@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15518102265405548550
+  Name: "Sign Neon Arrow Outline: Directional No Tabs"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_050"
+  }
+}
+Assets {
   Id: 14936697181904877666
   Name: "Flare Billboard"
   PlatformAssetType: 6
@@ -53,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7351062403602555720
-  Name: "Sign Font 1 Bulbs: !"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_037"
-  }
-}
-Assets {
   Id: 6267872452811520383
   Name: "Basic Bean 02"
   PlatformAssetType: 1
@@ -89,12 +89,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4026365357673878375
+  Name: "Primitive Neon: Rectangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonPrimitives_01_005"
+  }
+}
+Assets {
   Id: 2905751522032673006
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 2492320938769372116
+  Name: "Londrina Solid Black"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "LondrinaSolidBlack_ref"
   }
 }
 Assets {

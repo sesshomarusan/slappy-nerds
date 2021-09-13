@@ -5,10 +5,11 @@ Objects {
   Name: "TMU3"
   Transform {
     Location {
-      Y: -50
-      Z: -100
+      X: -4.32332381e-05
+      Y: -49.9999771
     }
     Rotation {
+      Yaw: -1.36603776e-05
     }
     Scale {
       X: 1
@@ -55,10 +56,12 @@ Objects {
   Name: "TMU2"
   Transform {
     Location {
-      Y: -50
-      Z: -50
+      X: -4.32332381e-05
+      Y: -49.9999771
+      Z: -20
     }
     Rotation {
+      Yaw: -1.36603776e-05
     }
     Scale {
       X: 1
@@ -105,9 +108,12 @@ Objects {
   Name: "TMU1"
   Transform {
     Location {
-      Y: -50
+      X: -4.32332381e-05
+      Y: -49.9999771
+      Z: 20
     }
     Rotation {
+      Yaw: -1.36603776e-05
     }
     Scale {
       X: 1

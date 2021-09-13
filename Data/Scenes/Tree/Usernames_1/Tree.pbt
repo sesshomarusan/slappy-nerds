@@ -5,8 +5,9 @@ Objects {
   Name: "LWU3"
   Transform {
     Location {
-      Y: -50
-      Z: -100
+      X: -1.27156582e-05
+      Y: -49.9999809
+      Z: -20
     }
     Rotation {
     }
@@ -55,8 +56,8 @@ Objects {
   Name: "LWU2"
   Transform {
     Location {
-      Y: -50
-      Z: -50
+      X: -7.62939453e-06
+      Y: -49.9999847
     }
     Rotation {
     }
@@ -105,7 +106,9 @@ Objects {
   Name: "LWU1"
   Transform {
     Location {
-      Y: -50
+      X: -1.27156582e-05
+      Y: -49.9999809
+      Z: 20
     }
     Rotation {
     }

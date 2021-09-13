@@ -5,8 +5,9 @@ Objects {
   Name: "LDS3"
   Transform {
     Location {
+      X: -4.06901054e-05
       Y: -250
-      Z: -100
+      Z: -20
     }
     Rotation {
     }
@@ -55,8 +56,8 @@ Objects {
   Name: "LDS2"
   Transform {
     Location {
+      X: -4.06901054e-05
       Y: -250
-      Z: -50
     }
     Rotation {
     }
@@ -105,7 +106,9 @@ Objects {
   Name: "LDS1"
   Transform {
     Location {
-      Y: -250
+      X: -6.10351562e-05
+      Y: -249.999969
+      Z: 20
     }
     Rotation {
     }
