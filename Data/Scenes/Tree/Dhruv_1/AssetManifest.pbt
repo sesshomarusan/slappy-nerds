@@ -188,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14859272313803043145
+  Name: "Gel Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_gel"
+  }
+}
+Assets {
   Id: 14571283389854751959
   Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_coral_spike_small_01"
+  }
+}
+Assets {
+  Id: 10474556679727516466
+  Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_spiral_wall_001_strt"
   }
 }
 Assets {
