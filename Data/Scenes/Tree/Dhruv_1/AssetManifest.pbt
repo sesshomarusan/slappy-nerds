@@ -467,6 +467,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4823328179425091510
+  Name: "Basic Pepper 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_pepper_002_ref"
+  }
+}
+Assets {
   Id: 3955373471396065794
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
@@ -689,5 +698,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "dirt_001"
+  }
+}
+Assets {
+  Id: 1989793106067751
+  Name: "Basic Avocado"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_org_avocado_001_ref"
   }
 }

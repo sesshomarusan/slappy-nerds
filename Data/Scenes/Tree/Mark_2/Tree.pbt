@@ -754,7 +754,6 @@ Objects {
     }
   }
   ParentId: 7730786262613780255
-  ChildIds: 10731194246527149227
   ChildIds: 10007406209222385908
   ChildIds: 13371908203331232852
   Collidable_v2 {
@@ -888,17 +887,15 @@ Objects {
   }
 }
 Objects {
-  Id: 10731194246527149227
-  Name: "Arrow"
+  Id: 11960824586978183467
+  Name: "Scores - Lap"
   Transform {
     Location {
-      X: 577.779358
-      Y: -488.512543
-      Z: 145.921875
+      X: 2973.75977
+      Y: 2752.87744
     }
     Rotation {
-      Pitch: -90
-      Yaw: 180
+      Yaw: 86.3236847
     }
     Scale {
       X: 1
@@ -906,7 +903,50 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4962852580827107173
+  ParentId: 7730786262613780255
+  ChildIds: 11200297995634820790
+  ChildIds: 7016854896050794780
+  ChildIds: 8986571517566051180
+  ChildIds: 14603062647052075948
+  ChildIds: 5626498731894769264
+  ChildIds: 11832763430032861670
+  ChildIds: 9196506264929230546
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9196506264929230546
+  Name: "Arrow"
+  Transform {
+    Location {
+      X: 50.3367767
+      Y: -54.354454
+      Z: 56.3984375
+    }
+    Rotation {
+      Yaw: -179.529404
+      Roll: -179.999985
+    }
+    Scale {
+      X: 3.38235664
+      Y: 11
+      Z: 0.404535145
+    }
+  }
+  ParentId: 11960824586978183467
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:color"
@@ -945,46 +985,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-}
-Objects {
-  Id: 11960824586978183467
-  Name: "Scores - Lap"
-  Transform {
-    Location {
-      X: 2973.75977
-      Y: 2752.87744
-    }
-    Rotation {
-      Yaw: 86.3236847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7730786262613780255
-  ChildIds: 11200297995634820790
-  ChildIds: 7016854896050794780
-  ChildIds: 8986571517566051180
-  ChildIds: 14603062647052075948
-  ChildIds: 5626498731894769264
-  ChildIds: 11832763430032861670
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {
@@ -1288,6 +1288,7 @@ Objects {
   ChildIds: 7634021647088010563
   ChildIds: 13158164479340049830
   ChildIds: 12976213251642545601
+  ChildIds: 10731194246527149227
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1302,6 +1303,67 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10731194246527149227
+  Name: "Arrow"
+  Transform {
+    Location {
+      X: 50.3367767
+      Y: -54.354454
+      Z: 56.3984375
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: -179.529404
+      Roll: -179.999985
+    }
+    Scale {
+      X: 3.38235664
+      Y: 11
+      Z: 0.404535145
+    }
+  }
+  ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:color"
+      Color {
+        R: 0.0833332539
+        G: 0.848233581
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15518102265405548550
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -1322,6 +1384,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1368,6 +1441,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1414,6 +1498,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1460,6 +1555,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1506,6 +1612,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1552,6 +1669,17 @@ Objects {
     }
   }
   ParentId: 12488570330724396154
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Bulbs:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
