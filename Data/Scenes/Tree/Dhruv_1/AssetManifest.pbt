@@ -188,15 +188,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14859272313803043145
-  Name: "Gel Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_gel"
-  }
-}
-Assets {
   Id: 14571283389854751959
   Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
@@ -626,6 +617,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_coral_branch_small_01"
+  }
+}
+Assets {
+  Id: 1290671460441666185
+  Name: "Animated Digital Racing Screen"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_clear-coat_001_chevron_uv1"
   }
 }
 Assets {
