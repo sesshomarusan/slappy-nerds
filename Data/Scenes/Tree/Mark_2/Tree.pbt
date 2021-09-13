@@ -5,19 +5,19 @@ Objects {
   Name: "Signpost"
   Transform {
     Location {
-      X: 6437.61328
-      Y: 1324.79907
+      X: 6063.8623
+      Y: 1755.75146
       Z: 95142.4062
     }
     Rotation {
       Pitch: -3.48284912
-      Yaw: -42.8718872
-      Roll: 9.05084
+      Yaw: -39.3573608
+      Roll: 9.05108929
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2
+      Y: 2
+      Z: 2
     }
   }
   ParentId: 17834454887365518886
@@ -226,7 +226,7 @@ Objects {
   Name: "Spotlight - One way sign"
   Transform {
     Location {
-      X: 4613.95068
+      X: 4282.7124
       Y: -47.2481575
       Z: 96420.7
     }
@@ -255,27 +255,27 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Light {
-    Intensity: 30
+    Intensity: 20
     Color {
       R: 1
       G: 1
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
+    VolumetricIntensity: 100
     TeamSettings {
     }
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 1000
+        AttenuationRadius: 1629.61707
         SpotLight {
           SourceRadius: 20
           SoftSourceRadius: 20
           FallOffExponent: 8
           UseFallOffExponent: true
           InnerConeAngle: 30
-          OuterConeAngle: 40
+          OuterConeAngle: 29.0589314
           Profile {
             Value: "mc:espotlightprofile:basicspotlight"
           }
@@ -448,13 +448,13 @@ Objects {
   }
   ParentId: 10302557690387306257
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
@@ -719,7 +719,6 @@ Objects {
   ParentId: 17834454887365518886
   ChildIds: 12488570330724396154
   ChildIds: 11960824586978183467
-  ChildIds: 4962852580827107173
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -734,156 +733,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 4962852580827107173
-  Name: "Neon Borders"
-  Transform {
-    Location {
-      X: -2440.89111
-      Y: 1141.62646
-      Z: -483.226562
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7730786262613780255
-  ChildIds: 10007406209222385908
-  ChildIds: 13371908203331232852
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13371908203331232852
-  Name: "Box - Lap"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -52.7107201
-    }
-    Scale {
-      X: 6.219
-      Y: 15
-      Z: 5.24060249
-    }
-  }
-  ParentId: 4962852580827107173
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font_Neon:color"
-      Color {
-        R: 0.00999999
-        G: 0.757416844
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4026365357673878375
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 10007406209222385908
-  Name: "Box - Race"
-  Transform {
-    Location {
-      X: -0.000814586063
-      Y: 0.00072700897
-    }
-    Rotation {
-      Yaw: -52.7107353
-    }
-    Scale {
-      X: 6.219
-      Y: 15
-      Z: 5.24060249
-    }
-  }
-  ParentId: 4962852580827107173
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font_Neon:color"
-      Color {
-        R: 0.00999999
-        G: 0.757416844
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4026365357673878375
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
   }
 }
 Objects {

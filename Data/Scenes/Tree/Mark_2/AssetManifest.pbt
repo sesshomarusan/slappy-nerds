@@ -89,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4026365357673878375
-  Name: "Primitive Neon: Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonPrimitives_01_005"
-  }
-}
-Assets {
   Id: 2905751522032673006
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1

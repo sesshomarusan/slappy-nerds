@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14272986521887390608
-  Name: "Decal Road Sign Symbols"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_roadsigns_001"
-  }
-}
-Assets {
   Id: 13833837077937424268
   Name: "Cylinder - Large"
   PlatformAssetType: 1
@@ -176,5 +167,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_painted_metal_basic_001"
+  }
+}
+Assets {
+  Id: 497013978211109168
+  Name: "Sign Neon Arrow Outline: Single Line Basic Pointed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_004"
   }
 }

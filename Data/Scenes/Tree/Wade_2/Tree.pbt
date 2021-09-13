@@ -71,6 +71,7 @@ Objects {
   ChildIds: 5571584683213903464
   ChildIds: 4737688366473725888
   ChildIds: 14036401056533034431
+  ChildIds: 15800474810121668974
   ChildIds: 1439010294303850082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -109,10 +110,9 @@ Objects {
   ParentId: 6108581391429854104
   ChildIds: 14643191870618615928
   ChildIds: 4546216731004859059
-  ChildIds: 6472060076831792434
   ChildIds: 2493982784154850139
   ChildIds: 16991510021686840569
-  ChildIds: 15800474810121668974
+  ChildIds: 2843660467367438220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -134,102 +134,32 @@ Objects {
   }
 }
 Objects {
-  Id: 15800474810121668974
-  Name: "ClientContext"
+  Id: 2843660467367438220
+  Name: "Sign Neon Arrow Outline: Single Line Basic Pointed"
   Transform {
     Location {
-      X: -1.63998502e-05
-      Y: -122.74276
-      Z: 191.017059
+      X: -4.64274708e-05
+      Y: 8.27975368
+      Z: 261.072327
     }
     Rotation {
+      Pitch: -90
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.16238299
+      Y: 0.16238299
+      Z: 0.16238299
     }
   }
   ParentId: 1439010294303850082
-  ChildIds: 10931077977495477071
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 10931077977495477071
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 0.0272893514
-      Y: -9264.13
-      Z: 1489.88098
-    }
-    Rotation {
-    }
-    Scale {
-      X: 187.719528
-      Y: 196.470947
-      Z: 63.8348427
-    }
-  }
-  ParentId: 15800474810121668974
-  ChildIds: 8609250609641371442
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Enter Practice Track?"
-    TeamSettings {
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 8609250609641371442
-  Name: "SignEnterPracticeArea"
-  Transform {
-    Location {
-      X: 1.39682231e-06
-      Y: -2.5881096e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.0647611395
-      Y: 0.106008984
-      Z: 0.129595786
-    }
-  }
-  ParentId: 10931077977495477071
   UnregisteredParameters {
     Overrides {
-      Name: "cs:RaceStartPosition"
-      ObjectReference {
-        SelfId: 17433784882833979064
+      Name: "ma:Font_Neon:color"
+      Color {
+        R: 0.0500000119
+        G: 0.578476548
+        B: 1
+        A: 1
       }
     }
   }
@@ -245,9 +175,20 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Script {
-    ScriptAsset {
-      Id: 10363170599728003899
+  CoreMesh {
+    MeshAsset {
+      Id: 497013978211109168
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
 }
@@ -256,17 +197,17 @@ Objects {
   Name: "World Text"
   Transform {
     Location {
-      X: -11.3540039
-      Y: 9.94433594
-      Z: 274.228485
+      X: -0.311393082
+      Y: 9.94436
+      Z: 294.210968
     }
     Rotation {
       Yaw: 89.9999542
     }
     Scale {
-      X: 0.934312
-      Y: 0.799192548
-      Z: 0.934311867
+      X: 1.29887807
+      Y: 1.11103594
+      Z: 1.29887807
     }
   }
   ParentId: 1439010294303850082
@@ -284,9 +225,9 @@ Objects {
     FontAsset {
     }
     Color {
-      R: 0.0100000007
-      G: 0.0088500008
-      B: 0.0088500008
+      R: 1
+      G: 1
+      B: 1
       A: 1
     }
     HorizontalSize: 1
@@ -355,80 +296,19 @@ Objects {
   }
 }
 Objects {
-  Id: 6472060076831792434
-  Name: "Decal Road Sign Symbols"
-  Transform {
-    Location {
-      Y: 8.56933594
-      Z: 273.785614
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 180
-      Roll: -90.0000305
-    }
-    Scale {
-      X: 0.208094835
-      Y: 0.219217286
-      Z: 0.00988816377
-    }
-  }
-  ParentId: 1439010294303850082
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14272986521887390608
-    }
-    DecalBP {
-    }
-  }
-  InstanceHistory {
-    SelfId: 6472060076831792434
-    SubobjectId: 4030183170582603091
-    InstanceId: 15194784921395623524
-    TemplateId: 5646232106315364511
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 4546216731004859059
   Name: "Street Sign - Rectangle"
   Transform {
     Location {
-      Y: 5.40234375
-      Z: 275
+      Y: 5.40231609
+      Z: 274.999969
     }
     Rotation {
     }
     Scale {
       X: 0.930712879
       Y: 1
-      Z: 1
+      Z: 1.48203158
     }
   }
   ParentId: 1439010294303850082
@@ -531,6 +411,122 @@ Objects {
     SubobjectId: 11891868103094761497
     InstanceId: 15194784921395623524
     TemplateId: 5646232106315364511
+  }
+}
+Objects {
+  Id: 15800474810121668974
+  Name: "Practice Track Trigger (client)"
+  Transform {
+    Location {
+      X: 63176.2266
+      Y: -353.169434
+      Z: 10776.7979
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 42.7815437
+      Y: 42.7815437
+      Z: 42.7815437
+    }
+  }
+  ParentId: 6108581391429854104
+  ChildIds: 10931077977495477071
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10931077977495477071
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 0.034235213
+      Y: 1024.40247
+      Z: 665.057129
+    }
+    Rotation {
+    }
+    Scale {
+      X: 21.5631046
+      Y: 28.2348843
+      Z: 20.1379185
+    }
+  }
+  ParentId: 15800474810121668974
+  ChildIds: 8609250609641371442
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Enter Practice Track?"
+    TeamSettings {
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8609250609641371442
+  Name: "SignEnterPracticeArea"
+  Transform {
+    Location {
+      X: 1.39682231e-06
+      Y: -2.5881096e-05
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 10931077977495477071
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RaceStartPosition"
+      ObjectReference {
+        SelfId: 17433784882833979064
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10363170599728003899
+    }
   }
 }
 Objects {
