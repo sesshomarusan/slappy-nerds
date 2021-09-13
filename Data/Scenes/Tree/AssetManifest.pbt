@@ -1,10 +1,19 @@
 Assets {
-  Id: 11726279465731565334
-  Name: "Advanced Muzzleflash VFX"
+  Id: 4974383483439378321
+  Name: "Large Dirt Impact VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_muzzleflash_alt"
+    AssetId: "fxbp_mil_dirt_impact_large"
+  }
+}
+Assets {
+  Id: 2138312167456827439
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
   }
 }
 Assets {

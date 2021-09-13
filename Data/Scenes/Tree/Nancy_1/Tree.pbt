@@ -1,6 +1,128 @@
 Name: "Nancy_1"
 RootId: 11878903719356710500
 Objects {
+  Id: 13821529818532722180
+  Name: "Barbeque"
+  Transform {
+    Location {
+      X: -216138.719
+      Y: 437984.312
+      Z: 7950.5752
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 35
+      Y: 35
+      Z: 35
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10032257227474600602
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Barbeque"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 93610.2344
+            Y: -280687.469
+            Z: 16567.9941
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 177.500122
+            Y: 177.500122
+            Z: 177.500122
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8636811877479856776
+    }
+  }
+}
+Objects {
+  Id: 6859360250299264991
+  Name: "Patio Table 1"
+  Transform {
+    Location {
+      X: -243086.672
+      Y: 404464.781
+      Z: 8010.94238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 35
+      Y: 35
+      Z: 35
+    }
+  }
+  ParentId: 11878903719356710500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15869284536841269367
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Patio Table 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 73934.4375
+            Y: -377520.969
+            Z: 16304.0859
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 175.071899
+            Y: 175.071899
+            Z: 175.071899
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3177866405097168505
+    }
+  }
+}
+Objects {
   Id: 4550222880013336821
   Name: "Sprinkler Head"
   Transform {

@@ -188,15 +188,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14859272313803043145
-  Name: "Gel Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_gel"
-  }
-}
-Assets {
   Id: 14571283389854751959
   Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
