@@ -19,6 +19,8 @@ Objects {
   ChildIds: 2470757819339974563
   ChildIds: 11471538778038788490
   ChildIds: 1463022901629502589
+  ChildIds: 12874496525988715847
+  ChildIds: 2991937712082313397
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,103 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2991937712082313397
+  Name: "Gibs Explosion VFX"
+  Transform {
+    Location {
+      X: 69990.9609
+      Y: 25695.2578
+      Z: 2254.40454
+    }
+    Rotation {
+    }
+    Scale {
+      X: 16.3292236
+      Y: 9.92808342
+      Z: 24.0222
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.62
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1112362594294700643
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 12874496525988715847
+  Name: "Advanced Muzzleflash VFX"
+  Transform {
+    Location {
+      X: 69017.9688
+      Y: 26231.8398
+      Z: 1301.14795
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11726279465731565334
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {

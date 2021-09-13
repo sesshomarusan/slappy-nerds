@@ -629,6 +629,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1290671460441666185
+  Name: "Animated Digital Racing Screen"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_clear-coat_001_chevron_uv1"
+  }
+}
+Assets {
   Id: 990911385634647100
   Name: "Rock Pile 002"
   PlatformAssetType: 1
