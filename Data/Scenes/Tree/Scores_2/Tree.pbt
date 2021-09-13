@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       Y: -250
-      Z: -100
+      Z: -20
     }
     Rotation {
     }
@@ -56,7 +56,6 @@ Objects {
   Transform {
     Location {
       Y: -250
-      Z: -50
     }
     Rotation {
     }
@@ -106,6 +105,7 @@ Objects {
   Transform {
     Location {
       Y: -250
+      Z: 20
     }
     Rotation {
     }

@@ -5,8 +5,9 @@ Objects {
   Name: "LDU3"
   Transform {
     Location {
-      Y: -50
-      Z: -100
+      X: -2.54313159e-06
+      Y: -49.9999924
+      Z: -20
     }
     Rotation {
     }
@@ -55,8 +56,8 @@ Objects {
   Name: "LDU2"
   Transform {
     Location {
-      Y: -50
-      Z: -50
+      X: -2.54313159e-06
+      Y: -49.9999924
     }
     Rotation {
     }
@@ -105,7 +106,9 @@ Objects {
   Name: "LDU1"
   Transform {
     Location {
-      Y: -50
+      X: -2.54313159e-06
+      Y: -49.9999924
+      Z: 20
     }
     Rotation {
     }

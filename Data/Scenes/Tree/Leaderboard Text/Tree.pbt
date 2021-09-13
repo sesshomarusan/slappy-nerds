@@ -5,11 +5,8 @@ Objects {
   Name: "Track 1 Lap"
   Transform {
     Location {
-      X: 444.021729
-      Y: -2101.98242
     }
     Rotation {
-      Yaw: 74.3686905
     }
     Scale {
       X: 1
@@ -41,11 +38,8 @@ Objects {
   Name: "Track 1 Race"
   Transform {
     Location {
-      X: 2406.83105
-      Y: 1562.26465
     }
     Rotation {
-      Yaw: -27.0072632
     }
     Scale {
       X: 1
@@ -82,6 +76,7 @@ Objects {
       Z: -95742.9141
     }
     Rotation {
+      Yaw: -1.53679248e-05
     }
     Scale {
       X: 1

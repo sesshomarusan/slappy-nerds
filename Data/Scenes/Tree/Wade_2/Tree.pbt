@@ -611,7 +611,7 @@ Objects {
     Scale {
       X: 50
       Y: 50
-      Z: 20
+      Z: 6.4081254
     }
   }
   ParentId: 6108581391429854104
@@ -651,14 +651,14 @@ Objects {
     Location {
       X: -13027.1914
       Y: -17.1215057
-      Z: 8061.26465
+      Z: 3865.93
     }
     Rotation {
     }
     Scale {
       X: 50.0868378
       Y: 50.0868378
-      Z: 5
+      Z: 1.60203123
     }
   }
   ParentId: 6108581391429854104
@@ -729,7 +729,7 @@ Objects {
           Vector {
             X: -13027.1914
             Y: -17.1215057
-            Z: 9994.875
+            Z: 5253.58643
           }
         }
         Overrides {
@@ -825,7 +825,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "Jumping is like flappin\'\r\n<SPACE> bar = higher + faster(?)\r\n\r\nWhen flying, use <A> and <D>\r\nto strafe left + right\r\n\r\nOn the ground, use <WASD> to \r\nrun (don\'t walk ;) and jump up!\r\n\r\nOh, yeah, and <SHIFT> to SLAP\r\nyour opponents silly!"
+    Text: "Mash <SPACE> to fly, go higher,\r\nand faster\r\n\r\nUse <A> and <D> keys to strafe\r\nand move left and right\r\n\r\nUse LEFT <SHIFT> to SLAP\r\nyour opponents silly!\r\n\r\nUse <WASD> on the ground to \r\nrun and get back in the race"
     FontAsset {
     }
     Color {
@@ -873,7 +873,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "How to play:"
+    Text: "Controls:"
     FontAsset {
     }
     Color {
@@ -971,7 +971,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "First to the finish line WINS\r\nthe Slappy Nerd gold!\r\n\r\nIF.. you don\'t get slapped around\r\ntooo much!\r\n\r\nBeware: This junky yard is windy\r\nand your inset \"friends\" are on\r\nthe loose!"
+    Text: "Race to place first and WIN!\r\n\r\nUse your plastic slappy shovel\r\nto knock other player around!\r\n\r\nBeware: This junky yard is windy\r\nand obstacles are everywhere,\r\nalong with not-so-flappy friends!\r\n\r\nGood luck!"
     FontAsset {
     }
     Color {
@@ -1019,7 +1019,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Text {
-    Text: "Welcome to \r\nSlappy Valley!"
+    Text: "Welcome\r\nSlappy Nerds!"
     FontAsset {
     }
     Color {
