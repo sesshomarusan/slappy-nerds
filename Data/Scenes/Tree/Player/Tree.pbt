@@ -130,7 +130,7 @@ Objects {
     Overrides {
       Name: "cs:Flap"
       AssetReference {
-        Id: 9883012404158970446
+        Id: 841534158063459245
       }
     }
   }
@@ -208,15 +208,9 @@ Objects {
       Int: 2000
     }
     Overrides {
-      Name: "cs:Flap"
+      Name: "cs:FlapWingCircle"
       AssetReference {
-        Id: 9883012404158970446
-      }
-    }
-    Overrides {
-      Name: "cs:Flap2"
-      AssetReference {
-        Id: 841534158063459245
+        Id: 10754509889210360559
       }
     }
   }

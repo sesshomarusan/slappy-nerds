@@ -1,8 +1,103 @@
 Name: "Jennifer"
 RootId: 9716066596724085630
 Objects {
-  Id: 7935364511304527929
-  Name: "Flap"
+  Id: 7441022750116201160
+  Name: "Flap - Original"
+  Transform {
+    Location {
+      X: 499.503662
+      Z: 95447.1328
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9716066596724085630
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 0.85935986
+        B: 0.0766666532
+        A: 0.54
+      }
+    }
+    Overrides {
+      Name: "bp:Secondary Color"
+      Color {
+        R: 1
+        G: 0.941390812
+        B: 0.0166666508
+        A: 0.75
+      }
+    }
+    Overrides {
+      Name: "bp:Smoke Color"
+      Color {
+        R: 0.13
+        G: 0.13
+        B: 1
+        A: 0.997000039
+      }
+    }
+    Overrides {
+      Name: "bp:Looping"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Life"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Local Space"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Particle Scale"
+      Float: 0.75
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15124694546646197242
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 4867793479835437890
+  Name: "Flap Wing Circle"
   Transform {
     Scale {
       X: 1
@@ -19,17 +114,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12452421071836467506
+      key: 5931974932564433033
       value {
         Overrides {
           Name: "Name"
-          String: "Flap - Original"
+          String: "Flap Wing Circle"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 499.503662
-            Z: 95447.1328
+            X: -1138.98071
+            Z: 95667.5859
           }
         }
         Overrides {
@@ -37,238 +132,11 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "bp:Emissive Boost"
-          Float: 1
-        }
-        Overrides {
-          Name: "bp:Life"
-          Float: 0.5
-        }
-        Overrides {
-          Name: "bp:Smoke Color"
-          Color {
-            R: 0.13
-            G: 0.13
-            B: 1
-            A: 0.997000039
-          }
-        }
-        Overrides {
-          Name: "bp:Secondary Color"
-          Color {
-            R: 1
-            G: 0.941390812
-            B: 0.0166666508
-            A: 0.75
-          }
-        }
-        Overrides {
-          Name: "bp:Color"
-          Color {
-            R: 1
-            G: 0.85935986
-            B: 0.0766666532
-            A: 0.54
-          }
-        }
-        Overrides {
-          Name: "bp:Density"
-          Float: 0.5
-        }
-        Overrides {
-          Name: "bp:Particle Scale"
-          Float: 0.75
-        }
       }
     }
     TemplateAsset {
-      Id: 9883012404158970446
+      Id: 10754509889210360559
     }
-  }
-}
-Objects {
-  Id: 1417994495234448500
-  Name: "Flap Wing Circle"
-  Transform {
-    Location {
-      X: -1138.98071
-      Z: 95667.5859
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 9716066596724085630
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Element Rotation Axis"
-      Enum {
-        Value: "mc:emcrotationaxis:2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element Rotation Animation Axis"
-      Vector {
-        X: 1
-        Y: 0.2
-      }
-    }
-    Overrides {
-      Name: "bp:Use Element Local Orientation"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element Rotation Speed"
-      Float: -30
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 9
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 12
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Speed"
-      Float: 12
-    }
-    Overrides {
-      Name: "bp:Center Element Pivot"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Width"
-      Float: 2
-    }
-    Overrides {
-      Name: "bp:Rotation Speed"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Color Offset Middle"
-      Float: 0.107327901
-    }
-    Overrides {
-      Name: "bp:Color Offset Bottom"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Color Offset Top"
-      Float: 0.208157048
-    }
-    Overrides {
-      Name: "bp:Middle Color"
-      Color {
-        R: 0.629139423
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions U"
-      Float: 2
-    }
-    Overrides {
-      Name: "bp:Height"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Alpha Blending"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Top Color"
-      Color {
-        R: 0.99666667
-        G: 0.910861
-        A: 0.237000018
-      }
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 4.24607134
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions V"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Element A Offset U"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element A Offset V"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Scroll Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Reset On Stop"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Play"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Update Rate"
-      Float: 30
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 8885159064337377681
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 1417994495234448500
-    SubobjectId: 5931974932564433033
-    InstanceId: 13109632157335101886
-    TemplateId: 9986970181224705005
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -389,12 +257,87 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 11251882608701336077
+      value {
+        Overrides {
+          Name: "Label"
+          String: "Slap!"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14155720757392291425
       value {
         Overrides {
           Name: "Image"
           AssetReference {
             Id: 11766494739858982507
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 8
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 4
+        }
+        Overrides {
+          Name: "UIRotationAngle"
+          Float: 15
+        }
+        Overrides {
+          Name: "Width"
+          Int: 80
+        }
+        Overrides {
+          Name: "Height"
+          Int: 80
+        }
+        Overrides {
+          Name: "ShadowOffset"
+          Vector2 {
+            X: -5
+            Y: -5
+          }
+        }
+        Overrides {
+          Name: "ShadowColor"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 0.5
+          }
+        }
+        Overrides {
+          Name: "ClipToSize"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14205979149624788755
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 11766494739858982507
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            A: 0.6
           }
         }
       }
@@ -431,17 +374,73 @@ Objects {
           String: "Slapper"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            Z: 147.751053
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
       Id: 6213493350134741280
+    }
+  }
+}
+Objects {
+  Id: 5169723528399817689
+  Name: "LeaderBoard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9716066596724085630
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:FastestRace"
+      NetReference {
+        Key: "672A967A1AE01DBB"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LapTIme"
+      NetReference {
+        Key: "AC44FF7EA7A65B47"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17503691622145566191
     }
   }
 }
