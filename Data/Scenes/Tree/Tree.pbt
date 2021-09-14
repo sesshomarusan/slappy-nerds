@@ -382,7 +382,7 @@ Objects {
       }
       MountedMaxAcceleration: 2000
       MountedWalkSpeed: 6000
-      MountedJumpMaxCount: 10
+      MountedJumpMaxCount: 1000
       MountedJumpVelocity: 1800
       HeadVisibleToSelf: true
       IsSlideEnabled: true
