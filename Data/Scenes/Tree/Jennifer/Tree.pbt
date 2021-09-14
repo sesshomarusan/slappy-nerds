@@ -1,101 +1,6 @@
 Name: "Jennifer"
 RootId: 9716066596724085630
 Objects {
-  Id: 7441022750116201160
-  Name: "Flap - Original"
-  Transform {
-    Location {
-      X: 499.503662
-      Z: 95447.1328
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9716066596724085630
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        G: 0.85935986
-        B: 0.0766666532
-        A: 0.54
-      }
-    }
-    Overrides {
-      Name: "bp:Secondary Color"
-      Color {
-        R: 1
-        G: 0.941390812
-        B: 0.0166666508
-        A: 0.75
-      }
-    }
-    Overrides {
-      Name: "bp:Smoke Color"
-      Color {
-        R: 0.13
-        G: 0.13
-        B: 1
-        A: 0.997000039
-      }
-    }
-    Overrides {
-      Name: "bp:Looping"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Life"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Local Space"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Density"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Particle Scale"
-      Float: 0.75
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15124694546646197242
-    }
-    TeamSettings {
-    }
-    Vfx {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
   Id: 4867793479835437890
   Name: "Flap Wing Circle"
   Transform {
@@ -266,15 +171,48 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 12623046227839449278
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13280367607995188053
       value {
         Overrides {
           Name: "UIX"
-          Float: 56
+          Float: 54.2791443
         }
         Overrides {
           Name: "UIY"
-          Float: -56
+          Float: -56.5734863
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "ClipChildren"
+          Bool: false
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
         }
       }
     }
