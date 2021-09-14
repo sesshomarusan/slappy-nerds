@@ -32,7 +32,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -82,7 +82,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -132,7 +132,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {

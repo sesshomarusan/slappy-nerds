@@ -32,7 +32,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 3"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -82,7 +82,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 2"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -133,7 +133,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 1"
+    Text: "-"
     FontAsset {
     }
     Color {

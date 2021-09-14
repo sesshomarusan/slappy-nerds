@@ -33,7 +33,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -84,7 +84,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -108,12 +108,12 @@ Objects {
   Name: "TWS1"
   Transform {
     Location {
-      X: -4.45048045e-06
-      Y: -250.000061
+      X: 1.01725263e-05
+      Y: -250.000092
       Z: 20
     }
     Rotation {
-      Yaw: 1.70754738e-05
+      Yaw: 1.7075472e-05
     }
     Scale {
       X: 1
@@ -136,7 +136,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "9m99s"
+    Text: "-"
     FontAsset {
     }
     Color {
