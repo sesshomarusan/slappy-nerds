@@ -338,9 +338,9 @@ Assets {
         Name: "Toy Shovel"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.75
+            Y: 0.75
+            Z: 0.75
           }
         }
         ParentId: 16546124468903401959
@@ -418,13 +418,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -480,13 +481,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -542,13 +544,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -604,13 +607,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -666,13 +670,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -727,13 +732,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -826,13 +832,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -888,13 +895,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -950,13 +958,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1012,13 +1021,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1074,13 +1084,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1136,13 +1147,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1198,13 +1210,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1260,13 +1273,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
+              R: 1
+              G: 1
               B: 1
               A: 1
             }
@@ -1322,7 +1336,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18133699642558591580
+              Id: 2197817192819564849
             }
           }
           Overrides {
@@ -1511,12 +1525,12 @@ Assets {
       }
     }
     Assets {
-      Id: 18133699642558591580
-      Name: "Plastic Shiny"
+      Id: 2197817192819564849
+      Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "plastic_shiny_001"
+        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {

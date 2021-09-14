@@ -380,6 +380,34 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4138672055875847410
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4426349209135778948
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4605985385072530509
       value {
         Overrides {
@@ -395,6 +423,201 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6461354092725299111
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6669603182928315264
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6786152686953415819
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7224205353350349809
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7612959707503016640
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8618784472112297468
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8653524794102420550
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11439471162427496034
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14748323739453185635
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15027776862499333815
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15550565759234439572
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15980769998041526528
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16083802363020088145
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16841277746263799676
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.960066259
+            B: 0.329999983
+            A: 1
           }
         }
       }
