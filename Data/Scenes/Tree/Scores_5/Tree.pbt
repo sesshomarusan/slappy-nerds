@@ -57,11 +57,11 @@ Objects {
   Name: "TWS2"
   Transform {
     Location {
-      X: -4.45048045e-06
-      Y: -250.000061
+      X: 1.01725263e-05
+      Y: -250.000092
     }
     Rotation {
-      Yaw: 1.70754738e-05
+      Yaw: 1.7075472e-05
     }
     Scale {
       X: 1

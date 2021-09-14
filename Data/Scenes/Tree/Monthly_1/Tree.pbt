@@ -77,8 +77,9 @@ Objects {
   Name: "Place"
   Transform {
     Location {
-      X: -2.89927387
-      Y: 25.3523674
+      X: -2.8992691
+      Y: 25.3523693
+      Z: -20
     }
     Rotation {
       Yaw: -13.5568848
@@ -129,12 +130,11 @@ Objects {
   Name: "Place"
   Transform {
     Location {
-      X: -2.89927387
-      Y: 25.3523674
-      Z: -20
+      X: -2.8991878
+      Y: 25.3523483
     }
     Rotation {
-      Yaw: -13.5568848
+      Yaw: -13.5569057
     }
     Scale {
       X: 1

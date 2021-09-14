@@ -57,11 +57,11 @@ Objects {
   Name: "TWU2"
   Transform {
     Location {
-      X: -3.51270064e-05
-      Y: -49.9999809
+      X: -7.12076871e-05
+      Y: -49.9999771
     }
     Rotation {
-      Yaw: 1.70754738e-05
+      Yaw: 1.7075472e-05
     }
     Scale {
       X: 1
