@@ -60,7 +60,7 @@ Assets {
           Overrides {
             Name: "cs:HitSound"
             AssetReference {
-              Id: 16051351473350962503
+              Id: 310718743742920011
             }
           }
           Overrides {
@@ -344,9 +344,9 @@ Assets {
         Name: "Toy Shovel"
         Transform {
           Scale {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 16546124468903401959
@@ -431,8 +431,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -494,8 +494,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -557,8 +557,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -620,8 +620,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -683,8 +683,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -745,8 +745,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -845,8 +845,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -908,8 +908,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -971,8 +971,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1034,8 +1034,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1097,8 +1097,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1160,8 +1160,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1223,8 +1223,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1286,8 +1286,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
@@ -1348,8 +1348,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.125
-              B: 1
+              R: 1
+              G: 0.960066259
+              B: 0.329999983
               A: 1
             }
           }
