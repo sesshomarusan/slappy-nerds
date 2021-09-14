@@ -1,6 +1,451 @@
 Name: "Mark_2"
 RootId: 17834454887365518886
 Objects {
+  Id: 17725279297370089555
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -2485.29639
+      Y: 1788.90308
+      Z: 95545.8438
+    }
+    Rotation {
+      Yaw: 138.081207
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2670.229
+            Y: 1496.65
+            Z: 95361.8438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 155.441254
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 8108523117546859761
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -3001.15552
+      Y: 812.397156
+      Z: 95445.4375
+    }
+    Rotation {
+      Yaw: 165.85965
+    }
+    Scale {
+      X: 0.3
+      Y: 0.3
+      Z: 0.3
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.2
+            Y: 0.2
+            Z: 0.2
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2485.29639
+            Y: 1788.90308
+            Z: 95545.8438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 138.081223
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 17977662016313896382
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -2976.93677
+      Y: -1235.08374
+      Z: 95224.1
+    }
+    Rotation {
+      Yaw: -177.767349
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8335632326771392325
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 300
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2549.00757
+            Y: -1687.41138
+            Z: 95651.0781
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -152.76944
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 7742367732382435757
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -3081.27466
+      Y: -21.2187042
+      Z: 95746
+    }
+    Rotation {
+      Yaw: -177.767349
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2813.74438
+            Y: -1224.73975
+            Z: 95224.1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 3.13978314
+            Yaw: 16.8351173
+            Roll: -7.53237915
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 11628819347236731884
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -3081.27466
+      Y: -21.2187042
+      Z: 95746
+    }
+    Rotation {
+      Yaw: -177.767349
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.3
+            Y: 0.3
+            Z: 0.3
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3001.15552
+            Y: 812.397156
+            Z: 95445.4375
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 165.859665
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 12994581663844031008
+  Name: "Pixel Art Cloud"
+  Transform {
+    Location {
+      X: -3081.27466
+      Y: -21.2187042
+      Z: 95746
+    }
+    Rotation {
+      Yaw: -177.767349
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3028.52075
+            Y: -693.39325
+            Z: 95577.2
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -177.767349
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
+  Id: 3021130152249785422
+  Name: "Pixel Art Cloud"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17834454887365518886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13434740297658810686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Pixel Art Cloud"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3081.27466
+            Y: -21.2187042
+            Z: 95746
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -177.767349
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12567570171603351200
+    }
+  }
+}
+Objects {
   Id: 3366844094099622260
   Name: "Signpost"
   Transform {
