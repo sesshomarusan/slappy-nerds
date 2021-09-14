@@ -112,6 +112,11 @@ function MeleeAttack(target, abilityInfo, result, center)
     -- Avoid hitting the same player or damageable object multiple times in a single swing
     if (abilityInfo.ignoreList[target] ~= 1) then
         target:AddImpulse((result - center) * 1000)
+        if target:IsA("Player") then
+            Events.BroadcastToPlayer(target, "HitSound", result)
+            Events.BroadcastToPlayer(ability.owner, "HitSound", result)
+        end
+        abilityInfo.ignoreList[target] = 1
         -- target:AddImpulse(Vector3.New(-100000,0,0))
     end
 end

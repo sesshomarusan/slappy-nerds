@@ -58,6 +58,12 @@ Assets {
             Bool: true
           }
           Overrides {
+            Name: "cs:HitSound"
+            AssetReference {
+              Id: 16051351473350962503
+            }
+          }
+          Overrides {
             Name: "cs:EquipmentStance:tooltip"
             String: "The stance animation when a player picks up the equipment."
           }

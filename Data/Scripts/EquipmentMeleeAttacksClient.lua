@@ -32,6 +32,7 @@ local OBJECT_IMPACT = EQUIPMENT:GetCustomProperty("ObjectImpact")
 local SWING_SOUND = EQUIPMENT:GetCustomProperty("SwingSound")
 local HIT_SPHERE_RADIUS = EQUIPMENT:GetCustomProperty("HitSphereRadius")
 local HIT_SPHERE_OFFSET = EQUIPMENT:GetCustomProperty("HitSphereOffset")
+local propHitSound = EQUIPMENT:GetCustomProperty("HitSound")
 
 -- Constants
 local DEFAULT_LIFE_SPAN = 2
@@ -203,7 +204,9 @@ function ResetMelee(ability)
         end
     end
 end
-
+function HitSound(impactPosition)
+    World.SpawnAsset(propHitSound, {position = impactPosition})
+end
 -- Initialize
 -- Find all abilities with melee related custom properties
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
@@ -230,3 +233,4 @@ end
 
 -- Initialize
 EQUIPMENT.unequippedEvent:Connect(ResetMelee)
+Events.Connect("HitSound", HitSound)
