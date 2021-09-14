@@ -36,7 +36,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Element Rotation Speed"
-            Float: -30
+            Float: -10
           }
           Overrides {
             Name: "bp:Element A Shape"
@@ -44,7 +44,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Count"
-            Int: 12
+            Int: 4
           }
           Overrides {
             Name: "bp:Circle Rotation Speed"
@@ -98,7 +98,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Height"
-            Float: 1.5
+            Float: 2
           }
           Overrides {
             Name: "bp:Element A Theme"
