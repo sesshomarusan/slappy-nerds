@@ -5,11 +5,12 @@ Objects {
   Name: "TMU3"
   Transform {
     Location {
-      X: -4.32332381e-05
-      Y: -49.9999771
+      X: -2.79744472e-05
+      Y: -49.999939
+      Z: -20
     }
     Rotation {
-      Yaw: -1.36603776e-05
+      Yaw: -1.36603794e-05
     }
     Scale {
       X: 1
@@ -18,6 +19,8 @@ Objects {
     }
   }
   ParentId: 13749002801680097928
+  ChildIds: 2657922068273597320
+  ChildIds: 7876807339917372355
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -32,7 +35,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 3"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -56,12 +59,12 @@ Objects {
   Name: "TMU2"
   Transform {
     Location {
-      X: -4.32332381e-05
-      Y: -49.9999771
-      Z: -20
+      X: 0.000150305088
+      Y: -7.45320576e-05
+      Z: 20
     }
     Rotation {
-      Yaw: -1.36603776e-05
+      Yaw: 1.36603794e-05
     }
     Scale {
       X: 1
@@ -69,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13749002801680097928
+  ParentId: 2089845596459988727
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -84,7 +87,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 2"
+    Text: "-"
     FontAsset {
     }
     Color {
@@ -108,12 +111,11 @@ Objects {
   Name: "TMU1"
   Transform {
     Location {
-      X: -4.32332381e-05
-      Y: -49.9999771
-      Z: 20
+      X: 6.64570689e-05
+      Y: -7.70161714e-05
+      Z: 40
     }
     Rotation {
-      Yaw: -1.36603776e-05
     }
     Scale {
       X: 1
@@ -121,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13749002801680097928
+  ParentId: 2089845596459988727
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -136,7 +138,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Text {
-    Text: "My name is 1"
+    Text: "-"
     FontAsset {
     }
     Color {

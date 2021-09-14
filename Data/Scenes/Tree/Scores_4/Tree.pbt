@@ -56,7 +56,7 @@ Objects {
   Name: "TDS2"
   Transform {
     Location {
-      X: 2.77856452e-05
+      X: 3.05175781e-05
       Y: -249.999908
     }
     Rotation {
