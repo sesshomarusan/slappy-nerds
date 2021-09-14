@@ -74,18 +74,15 @@ end
 function SetUpOneScoreBoard(entryU1, entryS1,  entryU2, entryS2, entryU3, entryS3, table)
     if table[1] ~= nil then
         entryU1.text = table[1].name
-        entryS1.text = tostring(table[1].score)
-        print("print first place name " .. table[1].name)
+        entryS1.text = DecimalsToTime(table[1].score)
     end
     if table[2] ~= nil then
         entryU2.text = table[2].name
-        entryS2.text = tostring(table[2].score)
-        print("print second place name " .. table[2].name)
+        entryS2.text = DecimalsToTime(table[2].score)
     end
     if table[3] ~= nil then
         entryU3.text = table[3].name
-        entryS3.text = tostring(table[3].score)
-        print("print third place name " .. table[3].name)
+        entryS3.text = DecimalsToTime(table[3].score)
     end
 end
 function ShowLapTimeLeaderboard()
@@ -94,6 +91,11 @@ function ShowLapTimeLeaderboard()
     SetUpOneScoreBoard(propLMU1, propLMS1, propLMU2, propLMS2, propLMU3, propLMS3, Leaderboards.GetLeaderboard(propLapTime, LeaderboardType.MONTHLY))
     SetUpOneScoreBoard(propLWU1, propLWS1, propLWU2, propLWS2, propLWU3, propLWS3, Leaderboards.GetLeaderboard(propLapTime, LeaderboardType.WEEKLY))
     SetUpOneScoreBoard(propLDU1, propLDS1, propLDU2, propLDS2, propLDU3, propLDS3, Leaderboards.GetLeaderboard(propLapTime, LeaderboardType.DAILY))
+end
+
+function DecimalsToTime(dec)
+    local ms = tonumber(dec)
+    return math.floor(ms/60).. "m" .. math.floor(ms % 60) .. "s"
 end
 
 -- example function for any event that would create a score for the Leaderboard
