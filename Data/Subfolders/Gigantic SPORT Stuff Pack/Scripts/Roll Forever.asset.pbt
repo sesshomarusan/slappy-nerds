@@ -10,5 +10,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
 }

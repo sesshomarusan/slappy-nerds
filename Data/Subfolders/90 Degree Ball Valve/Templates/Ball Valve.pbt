@@ -1603,6 +1603,6 @@ Assets {
   Marketplace {
     Description: "A 90 Degree Ball Valve. The handle can be rotated by selecting the \"Moving Handle\" object, and rotating it to the desired location."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
   DirectlyPublished: true
 }

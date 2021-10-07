@@ -1179,6 +1179,6 @@ Assets {
   Marketplace {
     Description: "A simple Tree Trunk with some foliage."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
   DirectlyPublished: true
 }

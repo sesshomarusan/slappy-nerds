@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "Yeah self explanatory. Just a model."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
 }

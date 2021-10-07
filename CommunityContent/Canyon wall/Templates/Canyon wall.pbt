@@ -9480,6 +9480,6 @@ Assets {
   Marketplace {
     Description: "Canyon wall"
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
   DirectlyPublished: true
 }

@@ -471,6 +471,6 @@ Assets {
   Marketplace {
     Description: "Yeah self explanatory. Just a model."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
   DirectlyPublished: true
 }

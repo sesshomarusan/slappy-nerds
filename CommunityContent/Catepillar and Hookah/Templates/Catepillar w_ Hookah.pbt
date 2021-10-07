@@ -7073,6 +7073,6 @@ Assets {
   Marketplace {
     Description: "My take on the catepillar, leaning more on a factual creature, with bases from the hawk moth, monarch, and death\'s head catepillars for influence."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
   DirectlyPublished: true
 }

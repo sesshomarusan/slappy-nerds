@@ -2,7 +2,7 @@ Assets {
   Id: 12366127595283392202
   Name: "Custom Food Watermelon 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 4338592646651934955
     ParameterOverrides {

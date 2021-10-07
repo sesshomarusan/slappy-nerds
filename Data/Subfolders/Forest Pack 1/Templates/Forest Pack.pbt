@@ -52,5 +52,5 @@ Assets {
     Version: "1.4.0"
     Description: "Create your real forest."
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
 }

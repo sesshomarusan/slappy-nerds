@@ -2,7 +2,7 @@ Assets {
   Id: 8495308376680685781
   Name: "Electrical Poles Metal Corrugated 03"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 15007490093890018590
     ParameterOverrides {

@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Pixel Art Cloud"
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
 }

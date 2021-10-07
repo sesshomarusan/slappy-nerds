@@ -2,7 +2,7 @@ Assets {
   Id: 12792988928386392335
   Name: "Custom Fabric Burlap Old 01_cloth"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 18229748280274717528
     ParameterOverrides {

@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Simple Baseballbat with 4 Nails hammered into it.\r\n\r\nCore Baseballbat + 3d Meshed Nails "
   }
-  SerializationVersion: 98
+  SerializationVersion: 100
 }
