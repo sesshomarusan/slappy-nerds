@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "MovingArrow to indicate where the player need to move"
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
 }

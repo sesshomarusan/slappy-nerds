@@ -2,7 +2,7 @@ Assets {
   Id: 10643791788949377513
   Name: "Monster"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

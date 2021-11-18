@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "A simple Tree Trunk with some foliage."
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
 }

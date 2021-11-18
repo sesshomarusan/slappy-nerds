@@ -2,7 +2,7 @@ Assets {
   Id: 17332794456297799143
   Name: "Metal Painted Old Rusted"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

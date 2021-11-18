@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "Giant cards to build maps and buildings with or just to litter your landscape."
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
 }

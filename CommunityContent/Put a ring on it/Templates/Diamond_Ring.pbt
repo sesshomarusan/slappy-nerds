@@ -345,6 +345,6 @@ Assets {
   Marketplace {
     Description: "A Diamond ring for a very special occassion! "
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
   DirectlyPublished: true
 }

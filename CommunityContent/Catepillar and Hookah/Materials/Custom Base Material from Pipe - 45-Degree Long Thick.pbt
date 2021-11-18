@@ -2,7 +2,7 @@ Assets {
   Id: 5985941773097547072
   Name: "Custom Base Material from Pipe - 45-Degree Long Thick"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8063097081065540592
     ParameterOverrides {

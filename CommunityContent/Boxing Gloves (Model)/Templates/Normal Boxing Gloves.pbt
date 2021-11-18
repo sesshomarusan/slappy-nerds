@@ -1344,6 +1344,6 @@ Assets {
   Marketplace {
     Description: "Just some Boxing Gloves to boop people around with."
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
   DirectlyPublished: true
 }

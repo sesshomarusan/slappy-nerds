@@ -168,11 +168,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PlayerJumpBoost"
-      Int: 1000
+      Int: 500
     }
     Overrides {
       Name: "cs:PlayerVelocityBoost"
-      Int: 2000
+      Int: 6000
     }
     Overrides {
       Name: "cs:FlapWingCircle"

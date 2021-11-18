@@ -8631,6 +8631,6 @@ Assets {
   Marketplace {
     Description: "Little pixelart of flappy bird"
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
   DirectlyPublished: true
 }

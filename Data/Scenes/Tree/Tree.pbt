@@ -298,9 +298,9 @@ Objects {
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
       JumpMaxCount: 1000
-      JumpVelocity: 1800
+      JumpVelocity: 3600
       GroundFriction: 8
-      GravityScale: 2.5
+      GravityScale: 20
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
@@ -320,8 +320,8 @@ Objects {
       LookAtCursorProjectionPlane {
         Value: "mc:eprojectionplane:xy"
       }
-      MountedMaxAcceleration: 2000
-      MountedWalkSpeed: 6000
+      MountedMaxAcceleration: 20
+      MountedWalkSpeed: 60
       MountedJumpMaxCount: 1000
       MountedJumpVelocity: 1800
       HeadVisibleToSelf: true
@@ -445,6 +445,9 @@ Objects {
       }
       PlayerInteractDistance: 500
       PlayerInteractAngleDeg: 50
+      PlayerStorageMode {
+        Value: "mc:eplayerstoragemode:none"
+      }
     }
   }
 }

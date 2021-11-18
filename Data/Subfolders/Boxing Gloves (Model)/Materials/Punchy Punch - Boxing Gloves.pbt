@@ -2,7 +2,7 @@ Assets {
   Id: 8200738118989884067
   Name: "Punchy Punch - Boxing Gloves"
   PlatformAssetType: 13
-  SerializationVersion: 98
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 132672053610873933
     ParameterOverrides {

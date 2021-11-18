@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "A toy bucket and shovel for playing in the sand :)"
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
 }

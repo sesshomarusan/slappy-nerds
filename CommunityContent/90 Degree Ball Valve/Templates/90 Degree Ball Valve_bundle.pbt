@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "A 90 Degree Ball Valve. The handle can be rotated by selecting the \"Moving Handle\" object, and rotating it to the desired location."
   }
-  SerializationVersion: 98
+  SerializationVersion: 101
 }
