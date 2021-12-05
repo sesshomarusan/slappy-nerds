@@ -2,7 +2,7 @@ Assets {
   Id: 15959255917611524949
   Name: "Go Kart Tire Material"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 10248053243854205466
     ParameterOverrides {

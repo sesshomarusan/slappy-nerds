@@ -296,11 +296,11 @@ Objects {
     PlayerMovementSettings {
       WalkSpeed: 640
       MaxAcceleration: 1800
-      WalkableFloorAngle: 44
+      BrakingDecelerationFalling: 1
+      WalkableFloorAngle: 60
       JumpMaxCount: 1000
       JumpVelocity: 1800
-      GroundFriction: 8
-      GravityScale: 2.5
+      GravityScale: 1
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1

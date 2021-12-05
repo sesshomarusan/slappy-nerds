@@ -1229,6 +1229,6 @@ Assets {
   Marketplace {
     Description: "two mushrooms with stone finish"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

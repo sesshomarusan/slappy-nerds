@@ -72,7 +72,7 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
-    PlayerScaleMultiplier: 1
+    PlayerScaleMultiplier: 2
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
@@ -110,7 +110,7 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
-    PlayerScaleMultiplier: 1
+    PlayerScaleMultiplier: 2
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
@@ -148,7 +148,7 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
-    PlayerScaleMultiplier: 1
+    PlayerScaleMultiplier: 2
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
@@ -184,7 +184,7 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
-    PlayerScaleMultiplier: 1
+    PlayerScaleMultiplier: 2
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

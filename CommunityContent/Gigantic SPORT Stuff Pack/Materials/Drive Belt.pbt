@@ -2,7 +2,7 @@ Assets {
   Id: 4433437242030407973
   Name: "Drive Belt"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8788977342336057348
     ParameterOverrides {

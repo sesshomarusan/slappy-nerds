@@ -2,7 +2,7 @@ Assets {
   Id: 4141517872562202201
   Name: "Custom Bricks Layered Stone Floor 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 11643426228904370913
     ParameterOverrides {

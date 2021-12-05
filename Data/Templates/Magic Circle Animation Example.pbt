@@ -192,5 +192,5 @@ Assets {
       AssetId: "Magic_Circle_Animation_Example"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

@@ -399,6 +399,6 @@ Assets {
   Marketplace {
     Description: "A simple wooden signpost with 5 editable lines of text. Feel free to add more, adjust your size, change the sign material, etc!"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

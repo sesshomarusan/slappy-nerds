@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "Just some Boxing Gloves to boop people around with."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

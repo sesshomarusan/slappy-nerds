@@ -2,7 +2,7 @@ Assets {
   Id: 11824424275890120212
   Name: "Vehicle Truck Car Reverse Light Glow Material"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8919871824294249785
     ParameterOverrides {

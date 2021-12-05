@@ -49,5 +49,5 @@ Assets {
     Version: "1.0.0"
     Description: "A Diamond ring for a very special occassion! "
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

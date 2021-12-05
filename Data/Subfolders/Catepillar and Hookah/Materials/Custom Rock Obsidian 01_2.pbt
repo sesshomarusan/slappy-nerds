@@ -2,7 +2,7 @@ Assets {
   Id: 631271771639860364
   Name: "Custom Rock Obsidian 01_2"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 4907659294261197936
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 7449209312213535936
   Name: "Custom Base Material from Awning 01 Mainstreet_cloth"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 14698361118776676393
     ParameterOverrides {

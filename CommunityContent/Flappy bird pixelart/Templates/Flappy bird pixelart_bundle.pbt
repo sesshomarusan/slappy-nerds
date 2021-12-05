@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Little pixelart of flappy bird"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

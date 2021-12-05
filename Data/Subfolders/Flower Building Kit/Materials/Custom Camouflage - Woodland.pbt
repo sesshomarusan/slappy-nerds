@@ -2,7 +2,7 @@ Assets {
   Id: 16126229190238218518
   Name: "Custom Camouflage - Woodland"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15201812315066840560
     ParameterOverrides {

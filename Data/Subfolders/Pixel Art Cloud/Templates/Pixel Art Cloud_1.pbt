@@ -8089,6 +8089,6 @@ Assets {
   Marketplace {
     Description: "Pixel Art Cloud"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

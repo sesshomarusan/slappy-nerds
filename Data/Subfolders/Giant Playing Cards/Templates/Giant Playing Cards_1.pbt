@@ -40631,6 +40631,6 @@ Assets {
   Marketplace {
     Description: "Giant cards to build maps and buildings with or just to litter your landscape."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

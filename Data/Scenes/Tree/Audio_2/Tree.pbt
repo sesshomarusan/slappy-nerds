@@ -20,7 +20,7 @@ Objects {
     Overrides {
       Name: "bp:Type"
       Enum {
-        Value: "mc:emx_electronicmusic:54"
+        Value: "mc:emx_electronicmusic:55"
       }
     }
   }

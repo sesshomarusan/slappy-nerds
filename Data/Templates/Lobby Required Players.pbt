@@ -98,5 +98,5 @@ Assets {
       AssetId: "Lobby_Required_Players"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }
